@@ -1,0 +1,7 @@
+wp.blocks.registerBlockVariation('core/group', {
+  name: 'fullwidth',
+  title: 'Fullwidth',
+  attributes: {"metadata":{"categories":["text"],"patternName":"ng1-base\/core-group-section","name":"Section full Width"},"align":"full","className":"is-style-section-style1 variation-core-group-fullwidth","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2","layout":{"type":"constrained"}},
+  innerBlocks: [["core\/paragraph",{"placeholder":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"}]],
+  scope: ['inserter'],
+});

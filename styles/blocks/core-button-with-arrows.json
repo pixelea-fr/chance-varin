@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "avec flèche",
+	"slug": "core-button-with-arrows",
+	"blockTypes": ["core/button"],
+    "styles": {
+        "color":{
+            "text": "var(--wp--preset--color--accent)"
+        },
+        "border": {
+            "color": "transparent!important"
+        },
+        "spacing": {
+            "padding": {
+                "left": "0",
+                "right": "0"
+            }
+        },
+        "elements": {
+            "button": {
+                ":hover": {
+                   "color":{
+                     "background": "transparent !important",
+                     "text": "var(--wp--preset--color--contrast)!important"
+                   }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.is-style-with-arrow .wp-block-button__link,
+span.is-style-with-arrow,
+a.is-style-with-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    transition: gap 0.4s;
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.is-style-with-arrow .wp-block-button__link:hover,
+span.is-style-with-arrow:hover,
+a.is-style-with-arrow:hover {
+    gap: 0.5em;
+}
+.is-style-section-style2 .wp-block-button.is-style-with-arrow .wp-block-button__link:hover,
+.is-style-section-style2 span.is-style-with-arrow:hover,
+.is-style-section-style2 a.is-style-with-arrow:hover {
+    color: white !important;
+}
+.wp-block-button.is-style-with-arrow .wp-block-button__link:after,
+span.is-style-with-arrow:after,
+a.is-style-with-arrow:after {
+    content: "";
+    background: currentColor;
+    -webkit-mask-image: url(assets/images/arrow.svg);
+    mask-image: url(assets/images/arrow.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
