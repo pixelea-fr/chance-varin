@@ -1,1 +1,1 @@
-# ICI on dépose les fichier lotties au format json 5
+# ICI on dépose les fichier lotties au format json 

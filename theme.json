@@ -147,10 +147,8 @@
                             "fontFamily": "variable-sample",
                              "fontStyle": "auto",
                             "fontWeight": "100 900",
-                            "fontDisplay": "swap",
-                            "src": [
-                                "file:./assets/fonts/variable-sample/variable-sample-variable.woff2"
-                            ]
+                            "fontDisplay": "swap"
+
                         }
                     ]
                 },
@@ -163,10 +161,7 @@
                             "fontFamily": "variable-sample",
                             "fontStyle": "auto",
                             "fontWeight": "100 900",
-                            "fontDisplay": "swap",
-                            "src": [
-                                "file:./assets/fonts/variable-sample/variable-sample-variable.woff2"
-                            ]
+                            "fontDisplay": "swap"
                         }
                     ]
                 }

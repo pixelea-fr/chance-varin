@@ -1,8 +1,8 @@
 {
     "$schema": "https:\/\/schemas.wp.org\/trunk\/theme.json",
     "version": 3,
-    "slug": "style1",
-    "title": "style1",
+    "slug": "style4",
+    "title": "style4",
     "blockTypes": [
         "core\/group",
         "core\/columns",
@@ -11,14 +11,14 @@
     ],
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--base)",
-            "text": "var(--wp--preset--color--accent-3)"
+            "background": "var(--wp--preset--color--base-4)",
+            "text": "var(--wp--preset--color--base)"
         },
         "blocks": {
             "core/button":{
                 "color": {
                     "background": "transparent",
-                    "text": "var(--wp--preset--color--base-4)"
+                    "text": "var(--wp--preset--color--base)"
                 },
                 "border": {
                     "color": "currentColor"
@@ -29,26 +29,26 @@
             "button": {
                 ":hover":{
                     "color": {
-                        "background": "var(--wp--preset--color--base-4) !important",
+                        "background": "var(--wp--preset--color--base-2) !important",
                         "text": "var(--wp--preset--color--base) !important"
                     },
                     "border": {
-                        "color": "var(--wp--preset--color--base-4) !important"
+                        "color": "var(--wp--preset--color--base-2) !important"
                     }
                 }
             },
             "heading": {
                 "color": {
-                    "text": "var(--wp--preset--color--base-4)"
+                    "text": "var(--wp--preset--color--base-3)"
                 }
             },
             "link":{
                 "color": {
-                    "text": "var(--wp--preset--color--base-4)"
+                    "text": "red"
                 },
                 ":hover":{
                     "color": {
-                        "text": "var(--wp--preset--color--base-4)"
+                        "text": "red"
                     }
                 },
                 "typography": {

@@ -1,0 +1,31 @@
+.navigation-logo-centered {
+  gap: 4.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  /* logo centré */
+  .wp-block-navigation-item:has(.wp-block-site-logo) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+
+  /* 1 seul « last before » et 1 seul « first after » */
+  @for $n from 1 through 15 {
+    &[data-nb-elements="#{$n}"] {
+      $mid: ceil($n / 2);
+
+      /* dernier avant le logo */
+      .wp-block-navigation-item:nth-of-type(#{$mid - 1}) {
+        margin-right: auto;
+      }
+
+      /* premier après le logo */
+      .wp-block-navigation-item:nth-of-type(#{$mid + 1}) {
+        margin-left: auto;
+      }
+    }
+  }
+}
