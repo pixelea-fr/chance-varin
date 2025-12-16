@@ -1,0 +1,7 @@
+@use '../../index' as *;
+
+@include m(600){
+    .is-style-section{
+       color: currentColor;
+    }
+}
