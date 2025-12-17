@@ -188,3 +188,26 @@ Text Domain: ng1-base
 .navigation-logo-centered[data-nb-elements="15"] .wp-block-navigation-item:nth-of-type(9) {
   margin-left: auto;
 }
+
+.media-text-decale {
+  --padding-text:7.5rem;
+  --btn-height:36px;
+  margin-right: auto;
+  margin-left: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+.media-text-decale__txt {
+  width: 60%;
+  padding: var(--padding-text);
+}
+.media-text-decale__media {
+  position: relative;
+  bottom: 0;
+  transform: translateX(-30%);
+}
+.media-text-decale__media img {
+  width: 120%;
+  max-width: 120%;
+}

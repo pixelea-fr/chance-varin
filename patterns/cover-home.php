@@ -6,8 +6,8 @@
  * Block Types: ["core/cover"]
  */
 ?>
-<!-- wp:cover {"url":"https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4","id":140,"dimRatio":50,"customOverlayColor":"#FFF","isUserOverlayColor":false,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","isDark":false,"sizeSlug":"full","metadata":{"name":"Bannière Accueil"},"align":"full","className":"is-style-style5","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull is-light is-style-style5" style="min-height:100vh"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4" data-object-fit="cover"></video><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center"} -->
+<!-- wp:cover {"url":"https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4","id":140,"dimRatio":50,"customOverlayColor":"#FFF","isUserOverlayColor":false,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom center","isDark":false,"sizeSlug":"full","metadata":{"name":"Bannière Accueil"},"align":"full","className":"is-style-style5","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-center is-style-style5" style="min-height:100vh"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4" data-object-fit="cover"></video><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#FFF"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">Office Notarial en Normandie</p>
 <!-- /wp:paragraph -->
 

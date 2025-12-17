@@ -1,0 +1,22 @@
+.double-marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.double-marquee-wrapper .marquee-line {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+.double-marquee-wrapper .marquee-content {
+  display: inline-flex;
+  gap: var(--marquee-gap, 2rem);
+  will-change: transform;
+}
+.double-marquee-wrapper .marquee-text {
+  font-size: var(--marquee-font-size, 48px);
+  font-weight: var(--marquee-font-weight, 700);
+  color: var(--marquee-color, #000000);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
