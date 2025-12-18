@@ -8,7 +8,7 @@ function register_double_marquee_assets() {
     // Register assets
     wp_register_script(
         'double-marquee-js', 
-        get_stylesheet_directory_uri() . '/shortcodes/shortcodes-double-marquee/assets/js/double-marquee.js', 
+        get_stylesheet_directory_uri() . '/shortcodes/shortcode-double-marquee/assets/js/shortcode-double-marquee.js', 
         array('gsap'), 
         null, 
         true
@@ -16,7 +16,7 @@ function register_double_marquee_assets() {
     
     wp_register_style(
         'double-marquee-css', 
-        get_stylesheet_directory_uri() . '/shortcodes/shortcodes-double-marquee/assets/css/double-marquee.css', 
+        get_stylesheet_directory_uri() . '/shortcodes/shortcode-double-marquee/shortcode-double-marquee.css', 
         array(), 
         null
     );
@@ -30,9 +30,9 @@ function double_marquee_shortcode($atts) {
         'line2' => 'MAISON - DOMAINE - HARAS - APPARTEMENT - LOCATION - ACHAT - VENTE - VIAGER',
         'font_size' => '48px',
         'speed' => '30', // Durée en secondes pour un cycle complet
-        'gap' => '2rem', // Espacement entre les éléments
-        'color' => '#000000',
-        'font_weight' => '700',
+        'gap' => '0', // Espacement entre les éléments
+        'color' => 'inherit',
+        'font_weight' => 'inherit',
         'class' => '',
         'id' => '',
     ), $atts);
@@ -83,6 +83,10 @@ function double_marquee_shortcode($atts) {
     
     // Remove newlines and extra spaces to prevent wpautop issues
     $html = str_replace(array("\r\n", "\r", "\n", "\t"), '', $html);
+    // supprime les espace entr les tag
+    $html = preg_replace('/>\s+</', '><', $html);
+
+
 
     return apply_filters('up_double_marquee_html', $html, $atts);
 }

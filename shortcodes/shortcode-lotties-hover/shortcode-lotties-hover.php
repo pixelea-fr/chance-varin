@@ -54,7 +54,7 @@ function up_lottie_hover_shortcode($atts) {
   // Charger notre script JS dédié
   wp_enqueue_script(
     'up-lottie-hover-script',
-    get_stylesheet_directory_uri() . '/shortcodes/shortcode-lotties-hover/assets/js/lottie-hover.js',
+    get_stylesheet_directory_uri() . '/shortcodes/shortcode-lotties-hover/assets/js/shortcode-lotties-hover.js',
     ['lottie-web'], // Dépendance
     '1.1',
     true

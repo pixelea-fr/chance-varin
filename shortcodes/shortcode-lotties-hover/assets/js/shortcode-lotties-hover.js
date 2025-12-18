@@ -1,122 +1,92 @@
-<?php
-/**
- * Shortcode Lottie : play on hover / reverse on leave
- * Usage : [lottie_hover src="/animations/logo8.json" width="185" height="199"]
- */
+document.addEventListener('DOMContentLoaded', function () {
+  const lotties = document.querySelectorAll('.lottie-hover-container');
 
-function up_lottie_hover_shortcode($atts) {
-  static $instance = 0;
-  $instance++;
+  lotties.forEach(container => {
+    const src = container.dataset.src;
+    if (!src) return;
 
-  $atts = shortcode_atts([
-    'src'      => '',
-    'width'    => '200',
-    'height'   => '200',
-    'speed'    => '1',
-    'reverse'  => 'true',
-    'loop'     => 'false',
-    'autoplay' => 'false',
-    'class'    => '',
-    'id'       => '',
-    'link'          => '',
-    'hover_trigger' => '',
-    'persist_end'   => 'true',
-    'trigger'       => 'hover', // hover, scroll
-    'full_width'    => 'false',
-  ], $atts);
+    // Options par défaut ou depuis data-attributes
+    const speed = parseFloat(container.dataset.speed) || 1;
+    const reverseOnLeave = container.dataset.reverse === 'true';
+    const loop = container.dataset.loop === 'true';
+    const autoplay = container.dataset.autoplay === 'true';
+    const triggerSelector = container.dataset.hoverTrigger;
+    
+    // Nouvelles options
+    const persistEnd = container.dataset.persistEnd !== 'false'; // Default true
+    const triggerType = container.dataset.trigger || 'hover'; // hover, scroll
 
-  if (empty($atts['src'])) {
-    return '';
-  }
+    // Initialisation de l'animation
+    const anim = lottie.loadAnimation({
+      container: container,
+      renderer: 'svg',
+      loop: loop,
+      autoplay: autoplay, // Si autoplay est true, ça démarre tout seul peu importe le trigger
+      path: src
+    });
 
-  $src = trim($atts['src']);
-  if (preg_match('#^https?://#i', $src) || str_starts_with($src, '//')) {
-    $src_url = $src;
-  } else {
-    $src_url = trailingslashit(get_stylesheet_directory_uri()) . 'assets/lotties/' . ltrim($src, '/');
-  }
+    anim.setSpeed(speed);
 
-  // Charger lottie-web (CDN)
-  wp_enqueue_script(
-    'lottie-web',
-    'https://unpkg.com/lottie-web/build/player/lottie.min.js',
-    [],
-    null,
-    true
-  );
+    // Si autoplay est activé, on ignore les triggers
+    if (autoplay) return;
 
-  // Charger ScrollTrigger (GSAP) si trigger=scroll
-  if ($atts['trigger'] === 'scroll') {
-      wp_enqueue_script('gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', array(), '3.12.5', true);
-      wp_enqueue_script('gsap-scroll-trigger', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js', array('gsap'), '3.12.5', true);
-  }
+    // Logique Scroll Trigger
+    if (triggerType === 'scroll') {
+      if (typeof ScrollTrigger !== 'undefined') {
+        ScrollTrigger.create({
+          trigger: container,
+          start: "top 85%", 
+          onEnter: () => {
+            anim.goToAndPlay(0);
+          }
+        });
+      } else {
+        // Fallback IntersectionObserver si GSAP n'est pas là
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    anim.goToAndPlay(0);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+        observer.observe(container);
+      }
+      return;
+    }
 
-  // Charger notre script JS dédié
-  wp_enqueue_script(
-    'up-lottie-hover-script',
-    get_stylesheet_directory_uri() . '/shortcodes/shortcode-lotties-hover/assets/js/shortcode-lottie-hover.js',
-    ['lottie-web'], // Dépendance
-    '1.1',
-    true
-  );
+    // Logique Hover Trigger (Défaut)
+    let triggerEl = container;
+    if (triggerSelector) {
+      const closest = container.closest(triggerSelector);
+      if (closest) {
+        triggerEl = closest;
+      } else {
+        const found = document.querySelector(triggerSelector);
+        if (found) {
+          triggerEl = found;
+        }
+      }
+    }
 
-  // Gestion de l'ID et des classes
-  $container_id = !empty($atts['id']) ? $atts['id'] : 'lottie-hover-' . $instance;
-  $classes = 'lottie-hover-container';
-  if (!empty($atts['class'])) {
-    $classes .= ' ' . $atts['class'];
-  }
-  
-  // Préparation des data attributes
-  $speed    = esc_attr($atts['speed']);
-  $reverse  = filter_var($atts['reverse'], FILTER_VALIDATE_BOOLEAN) ? 'true' : 'false';
-  $loop     = filter_var($atts['loop'], FILTER_VALIDATE_BOOLEAN) ? 'true' : 'false';
-  $autoplay = filter_var($atts['autoplay'], FILTER_VALIDATE_BOOLEAN) ? 'true' : 'false';
-  $trigger_sel = !empty($atts['hover_trigger']) ? $atts['hover_trigger'] : '';
-  
-  $persist_end = filter_var($atts['persist_end'], FILTER_VALIDATE_BOOLEAN) ? 'true' : 'false';
-  $trigger_type = in_array($atts['trigger'], ['hover', 'scroll']) ? $atts['trigger'] : 'hover';
-  $full_width = filter_var($atts['full_width'], FILTER_VALIDATE_BOOLEAN);
+    triggerEl.addEventListener('mouseenter', () => {
+      anim.setDirection(1);
+      anim.play();
+    });
 
-  // Style calculations
-  $style = '';
-  if ($full_width) {
-      $style = 'width: 100%; height: auto;';
-  } else {
-      $style = 'width:' . esc_attr($atts['width']) . 'px;height:' . esc_attr($atts['height']) . 'px;';
-  }
+    triggerEl.addEventListener('mouseleave', () => {
+      // Si persistEnd est true, on ne fait rien (on laisse finir ou rester à la fin)
+      if (persistEnd) return;
 
-  ob_start(); 
-  
-  // Wrapper lien (ouverture)
-  if (!empty($atts['link'])) {
-    echo '<a href="' . esc_url($atts['link']) . '" class="lottie-hover-link">';
-  }
-  ?>
-    <div
-      id="<?php echo esc_attr($container_id); ?>"
-      class="<?php echo esc_attr($classes); ?>"
-      style="<?php echo $style; ?>"
-      data-src="<?php echo esc_url($src_url); ?>"
-      data-speed="<?php echo $speed; ?>"
-      data-reverse="<?php echo $reverse; ?>"
-      data-loop="<?php echo $loop; ?>"
-      data-autoplay="<?php echo $autoplay; ?>"
-      data-hover-trigger="<?php echo $trigger_sel; ?>"
-      data-persist-end="<?php echo $persist_end; ?>"
-      data-trigger="<?php echo $trigger_type; ?>"
-      data-full-width="<?php echo $full_width ? 'true' : 'false'; ?>">
-    </div>
-  <?php
-  
-  // Wrapper lien (fermeture)
-  if (!empty($atts['link'])) {
-    echo '</a>';
-  }
+      // Sinon, on applique la logique de reverse ou stop
+      if (reverseOnLeave) {
+        anim.setDirection(-1);
+        anim.play();
+      } else {
+        anim.stop();
+        // Ou anim.goToAndStop(0) si on veut reset immédiat
+      }
+    });
 
-  return ob_get_clean();
-}
-
-add_shortcode('lottie_hover', 'up_lottie_hover_shortcode');
-
-
+  });
+});

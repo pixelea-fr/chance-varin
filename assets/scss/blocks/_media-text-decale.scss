@@ -1,23 +1,58 @@
+@use "../index" as *;
 .media-text-decale{
-    --padding-text:7.5rem;
+
+    --margin-top-media: 0px;
     --btn-height:36px;
     margin-right:auto;
     margin-left:auto;
     width: fit-content;
     position: relative;
     &__txt{
-        width: 60%;
-        padding: var(--padding-text);
+        width: 100%;
     }
-    &__media{
-       
-        position: relative;bottom:0;
-        transform:translateX(-30%);
-
-        img{
-            width:120%;  
-            max-width:120%; 
+    @include p(1200){
+        &__txt{
+            width: 60%;
+            padding:7.5rem;
+        }
+        &__media{
+            margin-top: var(--margin-top-media, 0px);
+            position: relative;bottom:0;
+            transform:translateX(-30%) ;
+    
+            img{
+                width:120%;  
+                max-width:120%; 
+            }
         }
     }
-    
+    @include b(1200, 1400){
+     //flex-wrap: wrap;
+     .media-text-decale{
+         &__txt{
+            width: 70%;
+        
+         }
+         &__media{
+             margin-top: var(--margin-top-media, 0px);
+            width: 100%;
+            transform:translateX(-30%) ;
+         }
+     }
+    }
+    @include m(1200){
+     flex-wrap:wrap;
+     .media-text-decale{
+       &__part2{
+            display: grid !important;
+            grid-template-columns: 1fr 2fr;
+        }
+           &__media{
+           margin-top:0 !important;
+         }
+        &__txt{
+           padding:4.5rem 1.5rem !important;
+         }
+     }
+    }
 }

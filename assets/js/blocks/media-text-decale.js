@@ -1,40 +1,49 @@
-// function adjustMediaTextDecaleHeight() {
-//     const containers = document.querySelectorAll('.media-text-decale');
-    
-//     containers.forEach(container => {
-//         const textElement = container.querySelector('.media-text-decale__txt');
-//         const mediaElement = container.querySelector('.media-text-decale__media');
-        
-//         if (!textElement || !mediaElement) return;
-        
-//         // Récupère les dimensions réelles
-//         const textHeight = textElement.offsetHeight;
-//         const mediaHeight = mediaElement.offsetHeight;
-        
-//         // Récupère les variables CSS
-//         const styles = getComputedStyle(container);
-//         const paddingText = parseFloat(styles.getPropertyValue('--padding-text')) || 120; // 7.5rem = 120px par défaut
-//         const btnHeight = parseFloat(styles.getPropertyValue('--btn-height')) || 36;
-        
-//         // Calcule la hauteur nécessaire
-//         // La hauteur totale = hauteur du texte + le dépassement du media
-//         const mediaOverflow = mediaHeight - paddingText - btnHeight;
-//         const totalHeight = textHeight + mediaOverflow;
-        
-//         // Applique la hauteur au conteneur
-//         container.style.height = `${totalHeight}px`;
-//     });
-// }
+function waitForBeforeMediaHeight(block, maxAttempts = 50) {
+  return new Promise((resolve) => {
+    let attempts = 0;
+    const check = () => {
+      const beforeMedia = block.querySelector('.media-text-decale__before-media');
+      if (beforeMedia && beforeMedia.offsetHeight > 0) {
+        resolve(beforeMedia.offsetHeight);
+      } else if (attempts < maxAttempts) {
+        attempts++;
+        requestAnimationFrame(check);
+      } else {
+        resolve(0); // fallback si jamais chargé
+      }
+    };
+    check();
+  });
+}
 
-// // Exécute au chargement de la page
-// document.addEventListener('DOMContentLoaded', adjustMediaTextDecaleHeight);
+async function alignMediaWithLastChild() {
+  const blocks = document.querySelectorAll('.media-text-decale');
 
-// // Exécute lors du redimensionnement de la fenêtre
-// let resizeTimeout;
-// window.addEventListener('resize', () => {
-//     clearTimeout(resizeTimeout);
-//     resizeTimeout = setTimeout(adjustMediaTextDecaleHeight, 150);
-// });
+  for (const block of blocks) {
+    const txt = block.querySelector('.media-text-decale__txt');
+    const media = block.querySelector('.media-text-decale__media');
 
-// // Si vous chargez des images dynamiquement, exécutez aussi après le chargement des images
-// window.addEventListener('load', adjustMediaTextDecaleHeight);
+    if (!txt || !media) continue;
+
+    const lastChild = txt.lastElementChild;
+    if (!lastChild) continue;
+
+    const txtRect = txt.getBoundingClientRect();
+    const lastChildRect = lastChild.getBoundingClientRect();
+
+    const offsetTop = lastChildRect.top - txtRect.top;
+
+    // Attendre que before-media ait une hauteur valide
+    const beforeMediaHeight = await waitForBeforeMediaHeight(block);
+
+    const finalOffset = offsetTop - beforeMediaHeight;
+    const clampedOffset = Math.max(0, finalOffset);
+    block.style.setProperty('--margin-top-media', `${clampedOffset}px`);
+  }
+}
+
+// Lancement
+window.addEventListener('DOMContentLoaded', () => {
+  alignMediaWithLastChild();
+  window.addEventListener('resize', alignMediaWithLastChild);
+});

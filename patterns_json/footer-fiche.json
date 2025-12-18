@@ -1,0 +1,7 @@
+{
+  "title": "Footer | Fiche cabinet",
+  "content": "<!-- wp:group {\"metadata\":{\"name\":\"Fiche Cabinet\"},\"className\":\"footer-fiche\",\"style\":{\"spacing\":{\"blockGap\":\"0.63rem\"}},\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-group footer-fiche\"><!-- wp:heading {\"level\":3,\"placeholder\":\"Etude de ville\",\"metadata\":{\"bindings\":{\"content\":{\"source\":\"core/pattern-overrides\"}},\"name\":\"Titre\"},\"className\":\"fiche-footer\",\"style\":{\"typography\":{\"fontSize\":\"21px\",\"lineHeight\":\"1\"}}} -->\n<h3 class=\"wp-block-heading fiche-footer\" style=\"font-size:21px;line-height:1\">Nom</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"placeholder\":\"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…\",\"metadata\":{\"bindings\":{\"content\":{\"source\":\"core/pattern-overrides\"}},\"name\":\"Texte\"},\"className\":\"footer-fiche\",\"style\":{\"typography\":{\"lineHeight\":\"1.87\"}}} -->\n<p class=\"footer-fiche\" style=\"line-height:1.87\">Lorem</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group -->",
+  "categories": ["featured"],
+  "keywords": ["cabinet", "étude"],
+  "blockTypes": [ "core/paragraph" ]
+}

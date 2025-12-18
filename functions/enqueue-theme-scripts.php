@@ -7,6 +7,6 @@ add_action('wp_enqueue_scripts', 'enqueue_theme_styles');
 
 
 function ajouter_css_editor_gutenberg() {
-  wp_enqueue_style('editor-css', get_template_directory_uri() . '/editor.css', array(), filemtime(get_template_directory() . '/editor.css'));
+  wp_enqueue_style('editor', get_stylesheet_directory_uri() . '/editor.css', array(), null);
 }
-add_action('enqueue_block_editor_assets', 'ajouter_css_editor_gutenberg');
+add_action('enqueue_block_assets', 'ajouter_css_editor_gutenberg');

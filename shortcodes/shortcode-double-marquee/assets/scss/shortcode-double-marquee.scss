@@ -11,14 +11,14 @@
     
     .marquee-content {
         display: inline-flex;
-        gap: var(--marquee-gap, 2rem);
+        gap: var(--marquee-gap, 0);
         will-change: transform;
     }
     
     .marquee-text {
         font-size: var(--marquee-font-size, 48px);
         font-weight: var(--marquee-font-weight, 700);
-        color: currentColor;
+        color: var(--marquee-color, currentColor);
         text-transform: uppercase;
         white-space: nowrap;
     }

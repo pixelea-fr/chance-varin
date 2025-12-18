@@ -134,9 +134,19 @@
                     "color": "#000000"
                 },
                 {
+                    "slug": "accent-4",
+                    "name": "Accent-4",
+                    "color": "#1C6DF4"
+                },
+                {
                     "slug": "transparent",
                     "name": "transparent",
                     "color": "transparent"
+                },
+                {
+                    "slug": "currentColor",
+                    "name": "currentColor",
+                    "color": "currentColor"
                 }
             ],
             "defaultDuotone": false,
@@ -330,7 +340,7 @@
         }
     },
     "styles": {
-        "css": "where(.wp-site-blocks) > * { margin-block-start: 0 !important; margin-block-end: 0 !important; }",
+        "css": "background: var(--wp--preset--color--base); where(.wp-site-blocks) > * { margin-block-start: 0 !important; margin-block-end: 0 !important; } ",
         "typography": {
             "fontFamily": "var(--wp--preset--font-family--first)"
         },
@@ -394,6 +404,18 @@
                 "margin": {
                     "bottom": "var:preset|spacing|1"
                     }
+                }
+            },
+            "core/separator":{
+                "css": "height:1px; border-top: 0; margin-block-start: 0 !important;",
+                       "spacing": {
+                    "blockGap" :"0"
+                }
+            },
+            "core/spacer":{
+                "css": "margin-block-start: 0 !important;",
+                "spacing": {
+                    "blockGap" :"0"
                 }
             },
             "core/button": {

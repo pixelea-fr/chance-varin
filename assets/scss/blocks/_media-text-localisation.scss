@@ -1,0 +1,11 @@
+.media-text-localisation{
+    margin-top:7.5rem !important;
+    .wp-block-column{
+        &:first-of-type{
+            height: 0;
+        }
+    }
+    &__img{
+       transform:translateY(calc(-30% - 7.5rem));
+    }
+}

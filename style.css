@@ -190,7 +190,7 @@ Text Domain: ng1-base
 }
 
 .media-text-decale {
-  --padding-text:7.5rem;
+  --margin-top-media: 0px;
   --btn-height:36px;
   margin-right: auto;
   margin-left: auto;
@@ -199,15 +199,84 @@ Text Domain: ng1-base
   position: relative;
 }
 .media-text-decale__txt {
-  width: 60%;
-  padding: var(--padding-text);
+  width: 100%;
 }
-.media-text-decale__media {
+@media (min-width: 1200px) {
+  .media-text-decale__txt {
+    width: 60%;
+    padding: 7.5rem;
+  }
+  .media-text-decale__media {
+    margin-top: var(--margin-top-media, 0px);
+    position: relative;
+    bottom: 0;
+    transform: translateX(-30%);
+  }
+  .media-text-decale__media img {
+    width: 120%;
+    max-width: 120%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .media-text-decale .media-text-decale__txt {
+    width: 70%;
+  }
+  .media-text-decale .media-text-decale__media {
+    margin-top: var(--margin-top-media, 0px);
+    width: 100%;
+    transform: translateX(-30%);
+  }
+}
+@media (max-width: 1200px) {
+  .media-text-decale {
+    flex-wrap: wrap;
+  }
+  .media-text-decale .media-text-decale__part2 {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+  }
+  .media-text-decale .media-text-decale__media {
+    margin-top: 0 !important;
+  }
+  .media-text-decale .media-text-decale__txt {
+    padding: 4.5rem 1.5rem !important;
+  }
+}
+
+.media-text-localisation {
+  margin-top: 7.5rem !important;
+}
+.media-text-localisation .wp-block-column:first-of-type {
+  height: 0;
+}
+.media-text-localisation__img {
+  transform: translateY(calc(-30% - 7.5rem));
+}
+
+.section-double-marquee {
+  transform: translateY(50%);
   position: relative;
-  bottom: 0;
-  transform: translateX(-30%);
+  z-index: 2;
 }
-.media-text-decale__media img {
-  width: 120%;
-  max-width: 120%;
+
+.footer-chance-varin {
+  background-image: url("./assets/images/footer-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* 5 vw à gauche du centre */
+}
+@media (max-width: 1920px) {
+  .footer-chance-varin {
+    background-position: calc(50% - 5vw) center;
+  }
+}
+@media (min-width: 1920px) {
+  .footer-chance-varin {
+    background-position: 272px center;
+  }
+}
+.footer-chance-varin__grid {
+  row-gap: 82px;
+  -moz-column-gap: 4.5rem;
+       column-gap: 4.5rem;
 }

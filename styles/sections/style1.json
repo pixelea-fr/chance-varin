@@ -11,7 +11,7 @@
     ],
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--base)",
+            "background": "transparent",
             "text": "var(--wp--preset--color--accent-3)"
         },
         "blocks": {

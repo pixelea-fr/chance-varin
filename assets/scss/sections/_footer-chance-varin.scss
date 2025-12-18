@@ -1,0 +1,22 @@
+@use "../index" as *;
+
+.footer-chance-varin{
+    background-image: url("./assets/images/footer-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain ;
+        /* 5 vw à gauche du centre */
+        @include m(1920){
+         
+            background-position: calc(50% - 5vw) center ; 
+        }
+        @include p(1920){
+         
+            background-position:272px center ; 
+        }
+
+    &__grid{
+        row-gap: 82px;
+        column-gap: 4.5rem;
+    }
+
+}

@@ -1,0 +1,28 @@
+<?php
+/**
+ * Title: Media texte localisation
+ * Slug: ng1-base/media-text-localisation
+ * Categories: media-text
+ * Keywords: up, pixelea, ng1 , media , texte , localisation
+ * Block Types: core/group
+ */
+?>
+<!-- wp:group {"metadata":{"name":"Media-text | Localisation"},"align":"full","className":"is-style-style2 media-text-localisation","style":{"spacing":{"padding":{"right":"var:preset|spacing|8","left":"var:preset|spacing|8","top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1682px"}} -->
+<div class="wp-block-group alignfull is-style-style2 media-text-localisation" style="padding-top:var(--wp--preset--spacing--8);padding-right:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"40%"} -->
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:image {"id":210,"sizeSlug":"large","linkDestination":"none","className":"media-text-localisation__img"} -->
+<figure class="wp-block-image size-large media-text-localisation__img"><img src="<?php echo home_url(); ?>/wp-content/uploads/2025/12/map-chance-varin-localisation.svg" alt="" class="wp-image-210"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"","style":{"spacing":{"blockGap":"var:preset|spacing|5"}}} -->
+<div class="wp-block-column"><!-- wp:heading {"textAlign":"right"} -->
+<h2 class="wp-block-heading has-text-align-right">Texte où on est ?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"right"} -->
+<p class="has-text-align-right">Lorem ipsum dolor sit amet consectetur. Ipsum eu sapien eu mattis fermentum ridiculus ut enim aliquet. Euismod libero vel aliquet volutpat ut nunc. Lacus eu urna commodo pellentesque elit magnis sapien turpis. Porttitor nisi tempor pharetra aenean sapien enim. Facilisis nisl gravida porta etiam dictumst egestas faucibus ullamcorper. Neque et curabitur ut cras non viverra viverra. Arcu sit elit massa vehicula vel faucibus egestas viverra facilisi. Tortor est suspendisse magnis eget adipiscing. Faucibus mattis cras amet sed nullam laoreet commodo. Pretium mi quam arcu odio leo faucibus sed sit. Vulputate lacus id id nec duis turpis pretium. Ac duis facilisis quisque euismod. Commodo congue mauris tortor commodo aliquet.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->

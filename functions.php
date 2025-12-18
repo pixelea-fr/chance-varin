@@ -8,6 +8,7 @@ include_once 'functions/pattern_categories.php';
 
 include_once 'functions/remove-core-patterns.php';
 include_once 'functions/load-patterns-json.php';
+//include_once 'functions/load-patterns-json-like-variations.php';
 include_once 'functions/no-cache.php';
 
 include_once "functions/register-shortcodes.php";
