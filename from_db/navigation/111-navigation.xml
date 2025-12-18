@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[111]]></id>
+  <slug><![CDATA[navigation]]></slug>
+  <type><![CDATA[wp_navigation]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2025-12-16 09:14:49]]></date>
+  <date_gmt><![CDATA[2025-12-16 08:14:49]]></date_gmt>
+  <title><![CDATA[Navigation]]></title>
+  <content><![CDATA[<!-- wp:navigation-link {"label":"Nos études","type":"page","id":115,"url":"https://chance-varin.local/nos-etudes/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Nos compétences","type":"page","id":117,"url":"https://chance-varin.local/nos-competences/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:site-logo {"width":150,"shouldSyncIcon":true} /-->
+
+<!-- wp:navigation-link {"label":"Négociation | Gérance","type":"page","id":121,"url":"https://chance-varin.local/negociation-gerance/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Contactez-nous","type":"page","id":119,"url":"https://chance-varin.local/contactez-nous/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2025-12-18 15:59:40]]></modified>
+  <meta/>
+  <taxonomies/>
+</content>
