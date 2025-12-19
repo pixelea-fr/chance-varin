@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[223]]></id>
+  <slug><![CDATA[menu]]></slug>
+  <type><![CDATA[wp_navigation]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2025-12-18 09:13:58]]></date>
+  <date_gmt><![CDATA[2025-12-18 08:13:58]]></date_gmt>
+  <title><![CDATA[Menu Pied de page]]></title>
+  <content><![CDATA[<!-- wp:navigation-link {"label":"Mentions légales","type":"page","id":225,"url":"https://chance-varin.local/mentions-legales/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Politique de confidentialité","type":"page","url":"Politique%20de%20confidentialit%C3%A9","kind":"post-type"} /-->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2025-12-19 09:42:27]]></modified>
+  <media/>
+  <meta/>
+  <taxonomies/>
+</content>

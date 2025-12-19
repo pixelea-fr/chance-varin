@@ -6,7 +6,7 @@
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Footer | Chance Varin"},"align":"full","className":"footer-chance-varin","style":{"spacing":{"padding":{"right":"var:preset|spacing|4","left":"var:preset|spacing|4","top":"13.8rem"}}},"layout":{"type":"constrained","contentSize":"1420px","wideSize":"1420px"}} -->
-<div class="wp-block-group alignfull footer-chance-varin" style="padding-top:13.8rem;padding-right:var(--wp--preset--spacing--4);padding-left:var(--wp--preset--spacing--4)"><!-- wp:columns {"verticalAlignment":null,"className":"footer-chance-varin__wrapper"} -->
+<div class="wp-block-group alignfull footer-chance-varin" style="padding-top:13.8rem;padding-right:var(--wp--preset--spacing--4);padding-left:var(--wp--preset--spacing--4)"><!-- wp:columns {"className":"footer-chance-varin__wrapper"} -->
 <div class="wp-block-columns footer-chance-varin__wrapper"><!-- wp:column {"verticalAlignment":"top","width":"40%","metadata":{"name":"Colonne 1"},"className":"footer-chance-varin__col1"} -->
 <div class="wp-block-column is-vertically-aligned-top footer-chance-varin__col1" style="flex-basis:40%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
 <div class="wp-block-group"><!-- wp:site-logo {"width":250} /-->
@@ -16,7 +16,9 @@
 
 <!-- wp:social-link {"url":"https://www.facebook.com/p/Chanc%C3%A9-Varin-61575509511147/","service":"facebook"} /-->
 
-<!-- wp:social-link {"url":"https://www.instagram.com/chance_varin_notaires/","service":"instagram"} /--></ul>
+<!-- wp:social-link {"url":"https://www.instagram.com/chance_varin_notaires/","service":"instagram"} /-->
+
+<!-- wp:social-link {"service":"mail"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
