@@ -15,9 +15,9 @@
 
 <!-- wp:navigation-link {"label":"Négociation | Gérance","type":"page","id":121,"url":"https://chance-varin.local/negociation-gerance/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
 
-<!-- wp:navigation-link {"label":"Contactez-nous","type":"page","id":119,"url":"https://chance-varin.local/contactez-nous/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content>
+<!-- wp:navigation-link {"label":"Contactez-nous","type":"page","id":119,"url":"https://chance-varin.local/contact/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2025-12-19 08:46:39]]></modified>
+  <modified><![CDATA[2025-12-19 09:05:21]]></modified>
   <media/>
   <meta/>
   <taxonomies/>
