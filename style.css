@@ -280,3 +280,1042 @@ Text Domain: ng1-base
   -moz-column-gap: 4.5rem;
        column-gap: 4.5rem;
 }
+
+.is-title-number > ul .wp-block-post-title a::before {
+  content: "";
+  display: inline;
+}
+
+.is-title-number > ul > li:nth-of-type(1) .wp-block-post-title a::before {
+  content: "01.";
+}
+
+.is-title-number > ul > li:nth-of-type(2) .wp-block-post-title a::before {
+  content: "02.";
+}
+
+.is-title-number > ul > li:nth-of-type(3) .wp-block-post-title a::before {
+  content: "03.";
+}
+
+.is-title-number > ul > li:nth-of-type(4) .wp-block-post-title a::before {
+  content: "04.";
+}
+
+.is-title-number > ul > li:nth-of-type(5) .wp-block-post-title a::before {
+  content: "05.";
+}
+
+.is-title-number > ul > li:nth-of-type(6) .wp-block-post-title a::before {
+  content: "06.";
+}
+
+.is-title-number > ul > li:nth-of-type(7) .wp-block-post-title a::before {
+  content: "07.";
+}
+
+.is-title-number > ul > li:nth-of-type(8) .wp-block-post-title a::before {
+  content: "08.";
+}
+
+.is-title-number > ul > li:nth-of-type(9) .wp-block-post-title a::before {
+  content: "09.";
+}
+
+.is-title-number > ul > li:nth-of-type(10) .wp-block-post-title a::before {
+  content: "010.";
+}
+
+.has-min-h-1 {
+  min-height: 1vh;
+}
+
+.has-min-h-2 {
+  min-height: 2vh;
+}
+
+.has-min-h-3 {
+  min-height: 3vh;
+}
+
+.has-min-h-4 {
+  min-height: 4vh;
+}
+
+.has-min-h-5 {
+  min-height: 5vh;
+}
+
+.has-min-h-6 {
+  min-height: 6vh;
+}
+
+.has-min-h-7 {
+  min-height: 7vh;
+}
+
+.has-min-h-8 {
+  min-height: 8vh;
+}
+
+.has-min-h-9 {
+  min-height: 9vh;
+}
+
+.has-min-h-10 {
+  min-height: 10vh;
+}
+
+.has-min-h-11 {
+  min-height: 11vh;
+}
+
+.has-min-h-12 {
+  min-height: 12vh;
+}
+
+.has-min-h-13 {
+  min-height: 13vh;
+}
+
+.has-min-h-14 {
+  min-height: 14vh;
+}
+
+.has-min-h-15 {
+  min-height: 15vh;
+}
+
+.has-min-h-16 {
+  min-height: 16vh;
+}
+
+.has-min-h-17 {
+  min-height: 17vh;
+}
+
+.has-min-h-18 {
+  min-height: 18vh;
+}
+
+.has-min-h-19 {
+  min-height: 19vh;
+}
+
+.has-min-h-20 {
+  min-height: 20vh;
+}
+
+.has-min-h-21 {
+  min-height: 21vh;
+}
+
+.has-min-h-22 {
+  min-height: 22vh;
+}
+
+.has-min-h-23 {
+  min-height: 23vh;
+}
+
+.has-min-h-24 {
+  min-height: 24vh;
+}
+
+.has-min-h-25 {
+  min-height: 25vh;
+}
+
+.has-min-h-26 {
+  min-height: 26vh;
+}
+
+.has-min-h-27 {
+  min-height: 27vh;
+}
+
+.has-min-h-28 {
+  min-height: 28vh;
+}
+
+.has-min-h-29 {
+  min-height: 29vh;
+}
+
+.has-min-h-30 {
+  min-height: 30vh;
+}
+
+.has-min-h-31 {
+  min-height: 31vh;
+}
+
+.has-min-h-32 {
+  min-height: 32vh;
+}
+
+.has-min-h-33 {
+  min-height: 33vh;
+}
+
+.has-min-h-34 {
+  min-height: 34vh;
+}
+
+.has-min-h-35 {
+  min-height: 35vh;
+}
+
+.has-min-h-36 {
+  min-height: 36vh;
+}
+
+.has-min-h-37 {
+  min-height: 37vh;
+}
+
+.has-min-h-38 {
+  min-height: 38vh;
+}
+
+.has-min-h-39 {
+  min-height: 39vh;
+}
+
+.has-min-h-40 {
+  min-height: 40vh;
+}
+
+.has-min-h-41 {
+  min-height: 41vh;
+}
+
+.has-min-h-42 {
+  min-height: 42vh;
+}
+
+.has-min-h-43 {
+  min-height: 43vh;
+}
+
+.has-min-h-44 {
+  min-height: 44vh;
+}
+
+.has-min-h-45 {
+  min-height: 45vh;
+}
+
+.has-min-h-46 {
+  min-height: 46vh;
+}
+
+.has-min-h-47 {
+  min-height: 47vh;
+}
+
+.has-min-h-48 {
+  min-height: 48vh;
+}
+
+.has-min-h-49 {
+  min-height: 49vh;
+}
+
+.has-min-h-50 {
+  min-height: 50vh;
+}
+
+.has-min-h-51 {
+  min-height: 51vh;
+}
+
+.has-min-h-52 {
+  min-height: 52vh;
+}
+
+.has-min-h-53 {
+  min-height: 53vh;
+}
+
+.has-min-h-54 {
+  min-height: 54vh;
+}
+
+.has-min-h-55 {
+  min-height: 55vh;
+}
+
+.has-min-h-56 {
+  min-height: 56vh;
+}
+
+.has-min-h-57 {
+  min-height: 57vh;
+}
+
+.has-min-h-58 {
+  min-height: 58vh;
+}
+
+.has-min-h-59 {
+  min-height: 59vh;
+}
+
+.has-min-h-60 {
+  min-height: 60vh;
+}
+
+.has-min-h-61 {
+  min-height: 61vh;
+}
+
+.has-min-h-62 {
+  min-height: 62vh;
+}
+
+.has-min-h-63 {
+  min-height: 63vh;
+}
+
+.has-min-h-64 {
+  min-height: 64vh;
+}
+
+.has-min-h-65 {
+  min-height: 65vh;
+}
+
+.has-min-h-66 {
+  min-height: 66vh;
+}
+
+.has-min-h-67 {
+  min-height: 67vh;
+}
+
+.has-min-h-68 {
+  min-height: 68vh;
+}
+
+.has-min-h-69 {
+  min-height: 69vh;
+}
+
+.has-min-h-70 {
+  min-height: 70vh;
+}
+
+.has-min-h-71 {
+  min-height: 71vh;
+}
+
+.has-min-h-72 {
+  min-height: 72vh;
+}
+
+.has-min-h-73 {
+  min-height: 73vh;
+}
+
+.has-min-h-74 {
+  min-height: 74vh;
+}
+
+.has-min-h-75 {
+  min-height: 75vh;
+}
+
+.has-min-h-76 {
+  min-height: 76vh;
+}
+
+.has-min-h-77 {
+  min-height: 77vh;
+}
+
+.has-min-h-78 {
+  min-height: 78vh;
+}
+
+.has-min-h-79 {
+  min-height: 79vh;
+}
+
+.has-min-h-80 {
+  min-height: 80vh;
+}
+
+.has-min-h-81 {
+  min-height: 81vh;
+}
+
+.has-min-h-82 {
+  min-height: 82vh;
+}
+
+.has-min-h-83 {
+  min-height: 83vh;
+}
+
+.has-min-h-84 {
+  min-height: 84vh;
+}
+
+.has-min-h-85 {
+  min-height: 85vh;
+}
+
+.has-min-h-86 {
+  min-height: 86vh;
+}
+
+.has-min-h-87 {
+  min-height: 87vh;
+}
+
+.has-min-h-88 {
+  min-height: 88vh;
+}
+
+.has-min-h-89 {
+  min-height: 89vh;
+}
+
+.has-min-h-90 {
+  min-height: 90vh;
+}
+
+.has-min-h-91 {
+  min-height: 91vh;
+}
+
+.has-min-h-92 {
+  min-height: 92vh;
+}
+
+.has-min-h-93 {
+  min-height: 93vh;
+}
+
+.has-min-h-94 {
+  min-height: 94vh;
+}
+
+.has-min-h-95 {
+  min-height: 95vh;
+}
+
+.has-min-h-96 {
+  min-height: 96vh;
+}
+
+.has-min-h-97 {
+  min-height: 97vh;
+}
+
+.has-min-h-98 {
+  min-height: 98vh;
+}
+
+.has-min-h-99 {
+  min-height: 99vh;
+}
+
+.has-min-h-100 {
+  min-height: 100vh;
+}
+
+.wp-block-media-text--no-padding.has-media-on-the-right .wp-block-media-text__content {
+  padding-left: 0;
+}
+.wp-block-media-text--no-padding:not(.has-media-on-the-right) .wp-block-media-text__content {
+  padding-right: 0;
+}
+
+.has-gap-1 {
+  gap: calc(1rem / 16);
+}
+
+.has-gap-2 {
+  gap: calc(2rem / 16);
+}
+
+.has-gap-3 {
+  gap: calc(3rem / 16);
+}
+
+.has-gap-4 {
+  gap: calc(4rem / 16);
+}
+
+.has-gap-5 {
+  gap: calc(5rem / 16);
+}
+
+.has-gap-6 {
+  gap: calc(6rem / 16);
+}
+
+.has-gap-7 {
+  gap: calc(7rem / 16);
+}
+
+.has-gap-8 {
+  gap: calc(8rem / 16);
+}
+
+.has-gap-9 {
+  gap: calc(9rem / 16);
+}
+
+.has-gap-10 {
+  gap: calc(10rem / 16);
+}
+
+.has-gap-11 {
+  gap: calc(11rem / 16);
+}
+
+.has-gap-12 {
+  gap: calc(12rem / 16);
+}
+
+.has-gap-13 {
+  gap: calc(13rem / 16);
+}
+
+.has-gap-14 {
+  gap: calc(14rem / 16);
+}
+
+.has-gap-15 {
+  gap: calc(15rem / 16);
+}
+
+.has-gap-16 {
+  gap: calc(16rem / 16);
+}
+
+.has-gap-17 {
+  gap: calc(17rem / 16);
+}
+
+.has-gap-18 {
+  gap: calc(18rem / 16);
+}
+
+.has-gap-19 {
+  gap: calc(19rem / 16);
+}
+
+.has-gap-20 {
+  gap: calc(20rem / 16);
+}
+
+.has-gap-21 {
+  gap: calc(21rem / 16);
+}
+
+.has-gap-22 {
+  gap: calc(22rem / 16);
+}
+
+.has-gap-23 {
+  gap: calc(23rem / 16);
+}
+
+.has-gap-24 {
+  gap: calc(24rem / 16);
+}
+
+.has-gap-25 {
+  gap: calc(25rem / 16);
+}
+
+.has-gap-26 {
+  gap: calc(26rem / 16);
+}
+
+.has-gap-27 {
+  gap: calc(27rem / 16);
+}
+
+.has-gap-28 {
+  gap: calc(28rem / 16);
+}
+
+.has-gap-29 {
+  gap: calc(29rem / 16);
+}
+
+.has-gap-30 {
+  gap: calc(30rem / 16);
+}
+
+.has-gap-31 {
+  gap: calc(31rem / 16);
+}
+
+.has-gap-32 {
+  gap: calc(32rem / 16);
+}
+
+.has-gap-33 {
+  gap: calc(33rem / 16);
+}
+
+.has-gap-34 {
+  gap: calc(34rem / 16);
+}
+
+.has-gap-35 {
+  gap: calc(35rem / 16);
+}
+
+.has-gap-36 {
+  gap: calc(36rem / 16);
+}
+
+.has-gap-37 {
+  gap: calc(37rem / 16);
+}
+
+.has-gap-38 {
+  gap: calc(38rem / 16);
+}
+
+.has-gap-39 {
+  gap: calc(39rem / 16);
+}
+
+.has-gap-40 {
+  gap: calc(40rem / 16);
+}
+
+.has-gap-41 {
+  gap: calc(41rem / 16);
+}
+
+.has-gap-42 {
+  gap: calc(42rem / 16);
+}
+
+.has-gap-43 {
+  gap: calc(43rem / 16);
+}
+
+.has-gap-44 {
+  gap: calc(44rem / 16);
+}
+
+.has-gap-45 {
+  gap: calc(45rem / 16);
+}
+
+.has-gap-46 {
+  gap: calc(46rem / 16);
+}
+
+.has-gap-47 {
+  gap: calc(47rem / 16);
+}
+
+.has-gap-48 {
+  gap: calc(48rem / 16);
+}
+
+.has-gap-49 {
+  gap: calc(49rem / 16);
+}
+
+.has-gap-50 {
+  gap: calc(50rem / 16);
+}
+
+.has-gap-51 {
+  gap: calc(51rem / 16);
+}
+
+.has-gap-52 {
+  gap: calc(52rem / 16);
+}
+
+.has-gap-53 {
+  gap: calc(53rem / 16);
+}
+
+.has-gap-54 {
+  gap: calc(54rem / 16);
+}
+
+.has-gap-55 {
+  gap: calc(55rem / 16);
+}
+
+.has-gap-56 {
+  gap: calc(56rem / 16);
+}
+
+.has-gap-57 {
+  gap: calc(57rem / 16);
+}
+
+.has-gap-58 {
+  gap: calc(58rem / 16);
+}
+
+.has-gap-59 {
+  gap: calc(59rem / 16);
+}
+
+.has-gap-60 {
+  gap: calc(60rem / 16);
+}
+
+.has-gap-61 {
+  gap: calc(61rem / 16);
+}
+
+.has-gap-62 {
+  gap: calc(62rem / 16);
+}
+
+.has-gap-63 {
+  gap: calc(63rem / 16);
+}
+
+.has-gap-64 {
+  gap: calc(64rem / 16);
+}
+
+.has-gap-65 {
+  gap: calc(65rem / 16);
+}
+
+.has-gap-66 {
+  gap: calc(66rem / 16);
+}
+
+.has-gap-67 {
+  gap: calc(67rem / 16);
+}
+
+.has-gap-68 {
+  gap: calc(68rem / 16);
+}
+
+.has-gap-69 {
+  gap: calc(69rem / 16);
+}
+
+.has-gap-70 {
+  gap: calc(70rem / 16);
+}
+
+.has-gap-71 {
+  gap: calc(71rem / 16);
+}
+
+.has-gap-72 {
+  gap: calc(72rem / 16);
+}
+
+.has-gap-73 {
+  gap: calc(73rem / 16);
+}
+
+.has-gap-74 {
+  gap: calc(74rem / 16);
+}
+
+.has-gap-75 {
+  gap: calc(75rem / 16);
+}
+
+.has-gap-76 {
+  gap: calc(76rem / 16);
+}
+
+.has-gap-77 {
+  gap: calc(77rem / 16);
+}
+
+.has-gap-78 {
+  gap: calc(78rem / 16);
+}
+
+.has-gap-79 {
+  gap: calc(79rem / 16);
+}
+
+.has-gap-80 {
+  gap: calc(80rem / 16);
+}
+
+.has-gap-81 {
+  gap: calc(81rem / 16);
+}
+
+.has-gap-82 {
+  gap: calc(82rem / 16);
+}
+
+.has-gap-83 {
+  gap: calc(83rem / 16);
+}
+
+.has-gap-84 {
+  gap: calc(84rem / 16);
+}
+
+.has-gap-85 {
+  gap: calc(85rem / 16);
+}
+
+.has-gap-86 {
+  gap: calc(86rem / 16);
+}
+
+.has-gap-87 {
+  gap: calc(87rem / 16);
+}
+
+.has-gap-88 {
+  gap: calc(88rem / 16);
+}
+
+.has-gap-89 {
+  gap: calc(89rem / 16);
+}
+
+.has-gap-90 {
+  gap: calc(90rem / 16);
+}
+
+.has-gap-91 {
+  gap: calc(91rem / 16);
+}
+
+.has-gap-92 {
+  gap: calc(92rem / 16);
+}
+
+.has-gap-93 {
+  gap: calc(93rem / 16);
+}
+
+.has-gap-94 {
+  gap: calc(94rem / 16);
+}
+
+.has-gap-95 {
+  gap: calc(95rem / 16);
+}
+
+.has-gap-96 {
+  gap: calc(96rem / 16);
+}
+
+.has-gap-97 {
+  gap: calc(97rem / 16);
+}
+
+.has-gap-98 {
+  gap: calc(98rem / 16);
+}
+
+.has-gap-99 {
+  gap: calc(99rem / 16);
+}
+
+.has-gap-100 {
+  gap: calc(100rem / 16);
+}
+
+.has-gap-101 {
+  gap: calc(101rem / 16);
+}
+
+.has-gap-102 {
+  gap: calc(102rem / 16);
+}
+
+.has-gap-103 {
+  gap: calc(103rem / 16);
+}
+
+.has-gap-104 {
+  gap: calc(104rem / 16);
+}
+
+.has-gap-105 {
+  gap: calc(105rem / 16);
+}
+
+.has-gap-106 {
+  gap: calc(106rem / 16);
+}
+
+.has-gap-107 {
+  gap: calc(107rem / 16);
+}
+
+.has-gap-108 {
+  gap: calc(108rem / 16);
+}
+
+.has-gap-109 {
+  gap: calc(109rem / 16);
+}
+
+.has-gap-110 {
+  gap: calc(110rem / 16);
+}
+
+.has-gap-111 {
+  gap: calc(111rem / 16);
+}
+
+.has-gap-112 {
+  gap: calc(112rem / 16);
+}
+
+.has-gap-113 {
+  gap: calc(113rem / 16);
+}
+
+.has-gap-114 {
+  gap: calc(114rem / 16);
+}
+
+.has-gap-115 {
+  gap: calc(115rem / 16);
+}
+
+.has-gap-116 {
+  gap: calc(116rem / 16);
+}
+
+.has-gap-117 {
+  gap: calc(117rem / 16);
+}
+
+.has-gap-118 {
+  gap: calc(118rem / 16);
+}
+
+.has-gap-119 {
+  gap: calc(119rem / 16);
+}
+
+.has-gap-120 {
+  gap: calc(120rem / 16);
+}
+
+.has-aspect-ratio-1-1 {
+  aspect-ratio: "1";
+}
+
+.has-aspect-ratio-4-3 {
+  aspect-ratio: "4 / 3";
+}
+
+.has-aspect-ratio-3-2 {
+  aspect-ratio: "3 / 2";
+}
+
+.has-aspect-ratio-16-9 {
+  aspect-ratio: "16 / 9";
+}
+
+.has-aspect-ratio-21-9 {
+  aspect-ratio: "21 / 9";
+}
+
+.has-aspect-ratio-9-16 {
+  aspect-ratio: "9 / 16";
+}
+
+.has-aspect-ratio-2-3 {
+  aspect-ratio: "2 / 3";
+}
+
+.has-aspect-ratio-3-4 {
+  aspect-ratio: "3 / 4";
+}
+
+/** changement du breakpoint du menu */
+@media (max-width: 1024px) {
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: flex;
+  }
+}
+@media (max-width: 1024px) {
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+}
+/* -------------------------------------------------
+   Menu : logo toujours premier en mobile
+   ------------------------------------------------- */
+html:has(.has-modal-open) .wp-block-navigation-item:has(.wp-block-site-logo) {
+  order: -1;
+}
+html:has(.has-modal-open) .wp-block-navigation__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html:has(.has-modal-open) .wp-block-navigation-item {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+html:has(.has-modal-open) .navigation-logo-centered .wp-block-navigation-item:has(.wp-block-site-logo) {
+  position: static !important;
+  transform: none;
+}
+
+header.wp-block-template-part.fixed {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navigation-logo-centered {
+  position: relative;
+  min-height: 150px;
+}
+.navigation-logo-centered:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  right: 0;
+  background: var(--wp--preset--color--base);
+  z-index: 1;
+  height: calc(100% - 26px);
+}
+.navigation-logo-centered .wp-block-navigation__responsive-container-open {
+  z-index: 10;
+}
+
+/* Menu desktop (non burger) */
+.wp-block-navigation:not(.is-responsive) .wp-block-navigation__responsive-container {
+  /* styles desktop */
+}
+
+/* Menu mobile (burger actif) */
+.wp-block-navigation.is-responsive .wp-block-navigation__responsive-container-open {
+  /* styles mobile */
+}

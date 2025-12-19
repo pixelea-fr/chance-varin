@@ -1,0 +1,28 @@
+/* -------------------------------------------------
+   Menu : logo toujours premier en mobile
+   ------------------------------------------------- */
+
+// 1) Breakpoint Gutenberg « mobile »
+$nav-mobile: 600px;
+
+// 2) On cible le conteneur du menu
+html:has(.has-modal-open){
+        // on remonte la <li> logo en 1re position
+      .wp-block-navigation-item:has(.wp-block-site-logo) {
+        order: -1;
+      }
+            // on force le conteneur en colonne
+      .wp-block-navigation__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .wp-block-navigation-item{
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .navigation-logo-centered .wp-block-navigation-item:has(.wp-block-site-logo) {
+        position :static !important;
+        transform:none;
+      }
+}

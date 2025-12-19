@@ -1,0 +1,20 @@
+.navigation-logo-centered{
+    position: relative;
+    min-height: 150px;
+    &:before{
+        content:"";
+        display:block;
+        position: absolute;
+        top:0;
+        left:50%;
+        transform: translateX(-50%);
+        width:100vw;
+        right:0;
+        background: var(--wp--preset--color--base);
+        z-index: 1;
+        height: calc(100% - 26px);
+    }
+    .wp-block-navigation__responsive-container-open{
+        z-index: 10;    
+    }
+}

@@ -4,12 +4,16 @@
   <slug><![CDATA[accueil]]></slug>
   <type><![CDATA[page]]></type>
   <status><![CDATA[publish]]></status>
+  <date><![CDATA[2025-12-17 08:37:16]]></date>
+  <date_gmt><![CDATA[2025-12-17 07:37:16]]></date_gmt>
   <title><![CDATA[Accueil]]></title>
   <content><![CDATA[]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2025-12-18 14:58:49]]></modified>
+  <modified><![CDATA[2025-12-19 14:38:35]]></modified>
+  <media/>
   <meta>
-    <key name="_edit_lock"><![CDATA[1766066323:1]]></key>
+    <key name="_edit_lock"><![CDATA[1766151514:1]]></key>
+    <key name="_wp_page_template"><![CDATA[page-mentions-legales]]></key>
   </meta>
   <taxonomies/>
 </content>

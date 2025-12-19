@@ -1,0 +1,10 @@
+// La class fixed doit être ajouter directement dans  parts / header.html
+header.wp-block-template-part{
+    &.fixed{
+        z-index: 100;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+    }
+}

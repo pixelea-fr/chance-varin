@@ -5,12 +5,13 @@
   align-items: center;
 
   /* logo centré */
-  .wp-block-navigation-item:has(.wp-block-site-logo) {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-  }
+   .wp-block-navigation-item:has(.wp-block-site-logo) {
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 2;
+   }
+   
 
   /* 1 seul « last before » et 1 seul « first after » */
   @for $n from 1 through 15 {

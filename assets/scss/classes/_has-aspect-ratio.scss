@@ -1,0 +1,18 @@
+$aspect-ratios: (
+  "1-1":   "1" ,
+  "4-3":   "4 / 3",
+  "3-2":   "3 / 2",
+  "16-9":  "16 / 9",
+  "21-9":  "21 / 9",
+  "9-16":  "9 / 16",
+  "2-3":   "2 / 3",
+  "3-4":   "3 / 4"
+);
+
+// Génération des classes .aspect-{clé}
+@each $name, $ratio in $aspect-ratios {
+  .has-aspect-ratio-#{$name} {
+    aspect-ratio: $ratio;
+  }
+
+}

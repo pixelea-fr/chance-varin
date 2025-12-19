@@ -1,0 +1,15 @@
+.is-title-number>ul{
+   .wp-block-post-title a::before{
+        content:"";
+        display:inline;
+    }
+}
+
+$max-steps: 10; 
+
+@for $i from 1 through $max-steps {
+
+  .is-title-number>ul>li:nth-of-type(#{$i}) .wp-block-post-title a::before{
+    content: "0#{$i}.";
+  }
+}

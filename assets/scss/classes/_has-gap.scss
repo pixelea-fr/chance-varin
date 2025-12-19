@@ -1,0 +1,8 @@
+$max-steps: 120; 
+
+@for $i from 1 through $max-steps {
+
+  .has-gap-#{$i}{
+    gap: calc(#{$i}rem / 16);
+  }
+}
