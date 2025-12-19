@@ -7,7 +7,15 @@
   <date><![CDATA[2025-12-19 09:18:04]]></date>
   <date_gmt><![CDATA[2025-12-19 08:18:04]]></date_gmt>
   <title><![CDATA[Navigation]]></title>
-  <content><![CDATA[<!-- wp:navigation-link {"label":"Nos études","type":"page","id":115,"url":"https://chance-varin.local/nos-etudes/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+  <content><![CDATA[<!-- wp:navigation-submenu {"label":"Nos études","type":"page","id":115,"url":"https://chance-varin.local/nos-etudes/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} -->
+<!-- wp:navigation-link {"label":"Lisieux","type":"page","id":292,"url":"https://chance-varin.local/nos-etudes/lisieux/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Pont l’Évêque","type":"page","id":294,"url":"https://chance-varin.local/nos-etudes/pont-leveque/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Mézidon","type":"page","id":296,"url":"https://chance-varin.local/nos-etudes/mezidon/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+
+<!-- wp:navigation-link {"label":"Deauville","type":"page","id":298,"url":"https://chance-varin.local/nos-etudes/deauville/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
+<!-- /wp:navigation-submenu -->
 
 <!-- wp:navigation-link {"label":"Nos compétences","type":"page","id":117,"url":"https://chance-varin.local/nos-competences/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
 
@@ -17,7 +25,7 @@
 
 <!-- wp:navigation-link {"label":"Contactez-nous","type":"page","id":119,"url":"https://chance-varin.local/contact/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2025-12-19 09:30:57]]></modified>
+  <modified><![CDATA[2025-12-19 16:05:28]]></modified>
   <media/>
   <meta>
     <key name="_wp_old_date"><![CDATA[2025-12-16]]></key>
