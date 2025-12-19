@@ -1,24 +1,28 @@
-@function px($target-px) {
-    @return ($target-px * 1px);
+// Retire l'uniter pour fonctionner avec ou sans unité
+@function strip-unit($value) {
+  @if type-of($value) == 'number' and not unitless($value) {
+    @return $value / ($value * 0 + 1);
+  }
+  @return $value;
 }
 
-@function PxToRem($size) {
-  $remSize: $size / 16;
-  @return ($remSize * 1rem);
+@function px($target) {
+  @return strip-unit($target) * 1px;
 }
 
-@mixin b($min,$max){
-  @media (min-width: px($min)) and (max-width:  px($max)) {
+// mixins
+@mixin b($min, $max) {
+  @media (min-width: px($min)) and (max-width: px($max)) {
     @content;
   }
 }
-@mixin m($min){
-  @media (max-width: px($min)){
+@mixin m($max) {
+  @media (max-width: px($max)) {
     @content;
   }
 }
-@mixin p($max){
-  @media (min-width:  px($max)){
+@mixin p($min) {
+  @media (min-width: px($min)) {
     @content;
   }
 }

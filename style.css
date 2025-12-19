@@ -19,6 +19,24 @@ Text Domain: ng1-base
   margin-block-end: 0 !important;
 }
 
+@media (max-width: 1024px) {
+  .only-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .only-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .only-mobitab {
+    display: none !important;
+  }
+}
+
 @media (max-width: 600px) {
   .is-style-section {
     color: currentColor;

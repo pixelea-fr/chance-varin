@@ -1,3 +1,6 @@
 @forward 'mixins';
 
 $menu-mobile-breakpoint: 1024px;
+
+$breakpoint-mobitab: $menu-mobile-breakpoint;
+$breakpoint-mobile: 600px;

@@ -7,3 +7,19 @@
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
 }
+.only-desktop{
+    @include m($breakpoint-mobitab){
+        display: none !important;
+    }
+}
+.only-mobile{
+    @include p($breakpoint-mobile){
+        display: none !important;
+    }
+}
+.only-mobitab{
+    @include p($breakpoint-mobitab){
+        display: none !important;
+    }
+}
+
