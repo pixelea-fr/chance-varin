@@ -1,0 +1,12 @@
+$menu-bg: var(--wp--preset--color--base);
+$menu-text: inherit;
+$menu-text-hover: var(--wp--preset--color--base-2);
+$menu-lines: var(--wp--preset--color--base-4);
+
+header{
+    color: var(--wp--preset--color--base-4);
+}
+
+header.light-colors{
+    color: var(--wp--preset--color--base);
+}

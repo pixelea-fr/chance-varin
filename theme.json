@@ -159,31 +159,15 @@
             "fluid": true,
             "fontFamilies": [
                 {
-                    "fontFamily": "variable-sample, sans-serif",
+                    "fontFamily": "var(--font-primary)",
                     "name": "variable-sample",
-                    "slug": "first",
-                    "fontFace": [
-                        {
-                            "fontFamily": "variable-sample",
-                             "fontStyle": "auto",
-                            "fontWeight": "100 900",
-                            "fontDisplay": "swap"
-
-                        }
-                    ]
+                    "slug": "first"
                 },
                 {
-                    "fontFamily": "variable-sample, sans-serif",
+                     "fontFamily": "var(--font-secondary)",
                     "name": "variable-sample",
-                    "slug": "second",
-                    "fontFace": [
-                        {
-                            "fontFamily": "variable-sample",
-                            "fontStyle": "auto",
-                            "fontWeight": "100 900",
-                            "fontDisplay": "swap"
-                        }
-                    ]
+                    "slug": "second"
+                 
                 }
             ],
             "fontSizes": [

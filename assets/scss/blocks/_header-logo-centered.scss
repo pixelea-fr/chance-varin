@@ -1,3 +1,4 @@
+@use "../index" as *;
 .navigation-logo-centered {
   gap: 4.5rem;
   position: relative;
@@ -18,14 +19,16 @@
     &[data-nb-elements="#{$n}"] {
       $mid: ceil($n / 2);
 
-      /* dernier avant le logo */
-      .wp-block-navigation-item:nth-of-type(#{$mid - 1}) {
-        margin-right: auto;
-      }
-
-      /* premier après le logo */
-      .wp-block-navigation-item:nth-of-type(#{$mid + 1}) {
-        margin-left: auto;
+      @include p($menu-mobile-breakpoint){
+            /* dernier avant le logo */
+            >.wp-block-navigation-item:nth-of-type(#{$mid - 1}) {
+              margin-right: auto;
+            }
+      
+            /* premier après le logo */
+            >.wp-block-navigation-item:nth-of-type(#{$mid + 1}) {
+              margin-left: auto;
+            }
       }
     }
   }

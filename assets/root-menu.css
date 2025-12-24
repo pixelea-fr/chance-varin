@@ -14,6 +14,14 @@
     top: 0;
   }
 }
+header {
+  color: var(--wp--preset--color--base-4);
+}
+
+header.light-colors {
+  color: var(--wp--preset--color--base);
+}
+
 /* -------------------------------------------------
    Menu : logo toujours premier en mobile
    ------------------------------------------------- */
@@ -46,6 +54,11 @@ header.wp-block-template-part.fixed {
   position: relative;
   min-height: 150px;
 }
+@media (max-width: 1600px) {
+  .navigation-logo-centered {
+    gap: clamp(1.5rem, 4.5rem - 1.5vw, 4.5rem);
+  }
+}
 .navigation-logo-centered:before {
   content: "";
   display: block;
@@ -63,12 +76,103 @@ header.wp-block-template-part.fixed {
   z-index: 10;
 }
 
+ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)) {
+  position: relative;
+}
+ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)):before, ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)):after {
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--wp--preset--color--base-4);
+  transition: all 0.6s ease, transform 0.5s ease;
+}
+ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)):before {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)):after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)):hover:before, ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)):hover:after {
+  width: 100%;
+}
+
+.wp-block-navigation-item {
+  transition: all 0.5s ease !important;
+  font-weight: 700;
+  color: inherit;
+}
+
+.wp-block-navigation-item:hover {
+  color: var(--wp--preset--color--base-2);
+}
+
 /* Menu desktop (non burger) */
 .wp-block-navigation:not(.is-responsive) .wp-block-navigation__responsive-container {
   /* styles desktop */
 }
 
+html:not(.has-modal-open) .wp-block-navigation-item.has-child {
+  position: relative;
+}
+html:not(.has-modal-open) .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container:before {
+  position: absolute;
+  top: -3rem;
+}
+html:not(.has-modal-open) .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container:after {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-250px);
+}
+html:not(.has-modal-open) .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container:before, html:not(.has-modal-open) .wp-block-navigation-item.has-child .wp-block-navigation__submenu-container:after {
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: var(--wp--preset--color--base-4);
+  transition: all 0.6s ease, transform 0.5s ease;
+}
+html:not(.has-modal-open) .wp-block-navigation-item.has-child:hover .wp-block-navigation__submenu-container:before, html:not(.has-modal-open) .wp-block-navigation-item.has-child:hover .wp-block-navigation__submenu-container:after {
+  width: 100%;
+}
+html:not(.has-modal-open) .wp-block-navigation-item.has-child:hover .wp-block-navigation__submenu-container:after {
+  transform: translateY(0);
+}
+@media (min-width: 1024px) {
+  html:not(.has-modal-open) .wp-block-navigation-item.has-child > .wp-block-navigation-item__content {
+    padding: 0.5em 0.5rem 0.5em 0 !important;
+  }
+  html:not(.has-modal-open) .wp-block-navigation-item__content {
+    line-height: 1.25;
+    font-size: 20px;
+    padding: 0.5em 0.5rem;
+  }
+  html:not(.has-modal-open) .wp-block-navigation__submenu-container {
+    border: none !important;
+    left: -1rem !important;
+  }
+  html:not(.has-modal-open) .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+    padding: 5px 1rem !important;
+  }
+}
+
 /* Menu mobile (burger actif) */
 .wp-block-navigation.is-responsive .wp-block-navigation__responsive-container-open {
   /* styles mobile */
+}
+
+html.has-modal-open .wp-block-navigation-item__content {
+  text-align: center;
+}
+html.has-modal-open .wp-block-navigation__container {
+  gap: 1.5rem !important;
+}
+html.has-modal-open .wp-block-site-logo {
+  margin-bottom: 2.5rem;
 }

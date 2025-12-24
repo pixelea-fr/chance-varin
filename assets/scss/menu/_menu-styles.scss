@@ -1,6 +1,11 @@
+@use "../index" as *;
+@use "menu-colors" as *;
 .navigation-logo-centered{
     position: relative;
     min-height: 150px;
+    @include m(1600){
+      gap: clamp(1.5rem, 4.5rem - 1.5vw, 4.5rem);
+    }
     &:before{
         content:"";
         display:block;
@@ -10,11 +15,40 @@
         transform: translateX(-50%);
         width:100vw;
         right:0;
-        background: var(--wp--preset--color--base);
+        background: $menu-bg;
         z-index: 1;
         height: calc(100% - 26px);
     }
     .wp-block-navigation__responsive-container-open{
         z-index: 10;    
     }
+}
+
+
+ul:not(.wp-block-navigation__submenu-container)>.wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)){
+    position: relative;
+    &:before, &:after{
+        z-index:1;
+        content:"";
+        display: block;
+        width: 0;
+        height: 1px;
+        background: $menu-lines;
+        transition: all .6s ease, transform .5s ease;
+    }
+        &:before{position: absolute; top:0;left: 0;}
+    &:after{position: absolute; bottom:0;left: 0;}
+    &:hover{
+        &:before, &:after{
+            width: 100%;
+        }
+    }
+}
+.wp-block-navigation-item{
+    transition: all .5s ease !important;
+    font-weight: 700;
+    color: $menu-text;
+}
+.wp-block-navigation-item:hover {
+  color: $menu-text-hover;
 }

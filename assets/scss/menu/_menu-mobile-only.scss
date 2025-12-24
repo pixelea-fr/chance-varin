@@ -1,4 +1,18 @@
 /* Menu mobile (burger actif) */
 .wp-block-navigation.is-responsive .wp-block-navigation__responsive-container-open {
   /* styles mobile */
+  
+}
+
+html.has-modal-open{
+    .wp-block-navigation-item__content{
+        text-align: center;
+    }
+        .wp-block-navigation__container{
+        gap:1.5rem !important;
+    }
+    .wp-block-site-logo{
+        margin-bottom: 2.5rem;
+    }
+    
 }
