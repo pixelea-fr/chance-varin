@@ -21,6 +21,16 @@ header {
 header.light-colors {
   color: var(--wp--preset--color--base);
 }
+header.light-colors img {
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+header.light-colors .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  background-color: transparent !important;
+}
+
+header.with-bg {
+  color: var(--wp--preset--color--base-4);
+}
 
 /* -------------------------------------------------
    Menu : logo toujours premier en mobile
@@ -59,7 +69,11 @@ header.wp-block-template-part.fixed {
     gap: clamp(1.5rem, 4.5rem - 1.5vw, 4.5rem);
   }
 }
-.navigation-logo-centered:before {
+.navigation-logo-centered .wp-block-navigation__responsive-container-open {
+  z-index: 10;
+}
+
+header.with-bg .navigation-logo-centered:before {
   content: "";
   display: block;
   position: absolute;
@@ -72,8 +86,9 @@ header.wp-block-template-part.fixed {
   z-index: 1;
   height: calc(100% - 26px);
 }
-.navigation-logo-centered .wp-block-navigation__responsive-container-open {
-  z-index: 10;
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+  background-color: var(--wp--preset--color--base) !important;
 }
 
 ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)) {
@@ -105,11 +120,20 @@ ul:not(.wp-block-navigation__submenu-container) > .wp-block-navigation-item:not(
 .wp-block-navigation-item {
   transition: all 0.5s ease !important;
   font-weight: 700;
-  color: inherit;
+  color: inherit !important;
 }
-
 .wp-block-navigation-item:hover {
   color: var(--wp--preset--color--base-2);
+}
+.wp-block-navigation-item:hover .wp-block-navigation-submenu .wp-block-navigation-item {
+  color: inherit !important;
+}
+.wp-block-navigation-item .wp-block-navigation-submenu .wp-block-navigation-item:hover {
+  color: var(--wp--preset--color--base-2) !important;
+}
+
+.wp-block-navigation-submenu {
+  color: inherit !important;
 }
 
 /* Menu desktop (non burger) */

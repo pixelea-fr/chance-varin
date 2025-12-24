@@ -160,99 +160,66 @@
             "fontFamilies": [
                 {
                     "fontFamily": "var(--font-primary)",
-                    "name": "variable-sample",
+                    "name": "Poppins",
                     "slug": "first"
                 },
                 {
                      "fontFamily": "var(--font-secondary)",
-                    "name": "variable-sample",
+                    "name": "Anton",
                     "slug": "second"
                  
                 }
             ],
-            "fontSizes": [
-                {
-                    "slug": "xxs",
-                    "name": "xxs|12",
-                    "size": "0.75rem"
-                },
-                {
-                    "slug": "xs",
-                    "name": "s|13",
-                    "size": "0.813rem"
-                },
-                {
-                    "slug": "s",
-                    "name": "s|14",
-                    "size": "0.875rem"
-                },
-                {
-                    "slug": "m",
-                    "name": "m|16",
-                    "size": "1rem"
-                },
-                {
-                    "slug": "ml",
-                    "name": "ml|18",
-                    "size": "1.125rem"
-                },
-                {
-                    "slug": "l",
-                    "name": "l|20",
-                    "size": "1.25rem"
-                },
-                {
-                    "slug": "xl",
-                    "name": "xl|62",
-                    "size": "clamp(1rem, 3.23vw, 62px)"
-                },
-                {
-                    "slug": "xxl",
-                    "name": "xxl|250",
-                    "size": "clamp(2rem, 13.02vw, 250px)"
-                },
-                {
-                    "slug": "h-one",
-                    "name": "xxl|h1|72/40",
-                    "size": "4.5rem",
-                    "fluid": {
-                        "max": "4.5rem",
-                        "min": "2.5rem"
-                    }
-                },
-                {
-                    "slug": "h-two",
-                    "name": "xl|h2|56/36",
-                    "size": "3.5rem",
-                    "fluid": {
-                        "max": "3.5rem",
-                        "min": "2.25rem"
-                    }
-                },
-                {
-                    "slug": "h-three",
-                    "name": "l|h3|34/28",
-                    "size": "2.125rem",
-                    "fluid": {
-                        "max": "2.125rem",
-                        "min": "1.75rem"
-                    }
-                },
-                {
-                    "slug": "h-four",
-                    "name": "m|h4|28/24",
-                    "size": "1.75rem",
-                    "fluid": {
-                        "max": "1.75rem",
-                        "min": "1.5rem"
-                    }
-                },
-                {
-                    "slug": "h-five",
-                    "name": "s|h5|21",
-                    "size": "1.3125rem"
-                }
-            ]
+          "fontSizes": [
+            {
+                "slug": "xs",
+                "name": "s|15",
+                "size": "0.938rem",
+                "fluid": false
+            },
+            {
+                "slug": "regular",
+                "name": "regular|16",
+                "size": "1rem",
+                "fluid": false
+            },
+            {
+                "slug": "s",
+                "name": "s|18",
+                "size": "1.125rem",
+                "fluid": false
+            },
+            {
+                "slug": "m",
+                "name": "m|20",
+                "size": "1.25rem",
+                "fluid": false
+            },
+            {
+                "slug": "l",
+                "name": "l|21",
+                "size": "1.313rem",
+                "fluid": false
+            },
+            {
+                "slug": "xl",
+                "name": "xl|24",
+                "size": "1.5rem",
+                "fluid": false
+            },
+            {
+                "slug": "xxl",
+                "name": "xxl|64",
+                "size": "4rem",
+                "fluid": false
+            },
+            {
+                "slug": "xxxl",
+                "name": "xxxl|120",
+                "size": "7.5rem",
+                "fluid": false
+            }
+        ]
         },
         "spacing": {
             "spacingSizes": [
@@ -333,36 +300,16 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--second)"
                 }
-            },
-            "h1": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--h-one)",
-					"lineHeight": "1.15"
-				}
-			},
-			"h2": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--h-three)",
-                    "lineHeight": "1"
-				}
-			},
-			"h3": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--h-four)"
-				}
-			},
-			"h4": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--h-four)"
-				}
-			},
-			"h5": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--h-five)"
-				}
-			}
+            }
         },
         "blocks": {
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--second)",
+                    "fontSize" :"var(--wp--preset--font-size--xxl)",
+                    "lineHeight": "1.25"
+                }
+            },
             "core/paragraph":{
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--m)",
@@ -416,14 +363,16 @@
                 },
                 "typography": {
                     "textTransform": "none",
-                    "fontSize": "var(--wp--preset--font-size--s)",
-                    "fontWeight": "600"
+                    "fontSize": "var(--wp--preset--font-size--regular)",
+                    "fontWeight": "600",
+                    "lineHeight" :"1.4"
                 },
                 "spacing": {
+                    
                             "padding": {
                                 "bottom": ".5rem",
                                 "left": "1rem",
-                                "right": "1rem",
+                                "right": ".75rem",
                                 "top": ".5rem"
                             }
                         },
@@ -438,7 +387,7 @@
                         },
                         "typography": {
                             "textTransform": "none",
-                            "fontSize": "var(--wp--preset--font-size--s)",
+                            "fontSize": "var(--wp--preset--font-size--regular)",
                             "fontWeight": "600"
                         }
                     }

@@ -1,0 +1,8 @@
+@use "../index" as *;
+
+.is-style-style5 .wp-block-button.is-style-core-button-with-arrows .wp-block-button__link {
+  @include slide-fill-right-to-left(var(--wp--preset--color--base-4));
+}
+.is-style-style4 .wp-block-button.is-style-core-button-with-arrows .wp-block-button__link {
+  @include slide-fill-right-to-left(var(--wp--preset--color--base-2));
+}

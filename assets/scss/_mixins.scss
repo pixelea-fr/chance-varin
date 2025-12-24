@@ -26,3 +26,21 @@
     @content;
   }
 }
+// degrader de gauche a droite au survol
+@mixin slide-fill-right-to-left($color) {
+  background-image: linear-gradient(
+    to left,
+    transparent 0%,
+    transparent 50%,
+    $color 50%,
+    $color 100%
+  );
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200% 100%;
+  transition: background-position 0.4s ease;
+
+  &:hover {
+    background-position: left;
+  }
+}

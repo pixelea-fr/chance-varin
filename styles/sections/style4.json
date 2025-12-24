@@ -29,7 +29,7 @@
             "button": {
                 ":hover":{
                     "color": {
-                        "background": "var(--wp--preset--color--base-2) !important",
+                        
                         "text": "var(--wp--preset--color--base) !important"
                     },
                     "border": {

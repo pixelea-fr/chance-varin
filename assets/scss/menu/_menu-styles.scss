@@ -6,24 +6,32 @@
     @include m(1600){
       gap: clamp(1.5rem, 4.5rem - 1.5vw, 4.5rem);
     }
-    &:before{
-        content:"";
-        display:block;
-        position: absolute;
-        top:0;
-        left:50%;
-        transform: translateX(-50%);
-        width:100vw;
-        right:0;
-        background: $menu-bg;
-        z-index: 1;
-        height: calc(100% - 26px);
-    }
+    
     .wp-block-navigation__responsive-container-open{
         z-index: 10;    
     }
 }
+header.with-bg {
+    .navigation-logo-centered{
+        &:before{
+            content:"";
+            display:block;
+            position: absolute;
+            top:0;
+            left:50%;
+            transform: translateX(-50%);
+            width:100vw;
+            right:0;
+            background: $menu-bg;
+            z-index: 1;
+            height: calc(100% - 26px);
+        }
+    }
+}
+  .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{
+    background-color: $menu-sub-bg !important;
 
+  }
 
 ul:not(.wp-block-navigation__submenu-container)>.wp-block-navigation-item:not(.has-child):not(:has(.custom-logo)){
     position: relative;
@@ -47,8 +55,20 @@ ul:not(.wp-block-navigation__submenu-container)>.wp-block-navigation-item:not(.h
 .wp-block-navigation-item{
     transition: all .5s ease !important;
     font-weight: 700;
-    color: $menu-text;
+    color: $menu-text !important;
+    &:hover{
+        color: $menu-text-hover ;
+       .wp-block-navigation-submenu .wp-block-navigation-item{
+            color: $menu-text !important;
+        }
+    }
+    .wp-block-navigation-submenu{
+        .wp-block-navigation-item:hover{
+            color: $menu-text-hover !important;
+        }
+    }
 }
-.wp-block-navigation-item:hover {
-  color: $menu-text-hover;
+.wp-block-navigation-submenu{
+    color: inherit !important;
 }
+

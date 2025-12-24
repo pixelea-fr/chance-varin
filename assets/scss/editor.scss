@@ -1,4 +1,6 @@
 @use 'index' as *;
+@use 'font';
+@use 'blocks/root-blocks-editor';
 
 .editor-styles-wrapper .wp-block-template-part,
 .editor-styles-wrapper :where(.wp-site-blocks) > * {
