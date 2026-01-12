@@ -1,0 +1,21 @@
+$margin-sizes: (
+    "8": .5rem,
+    "16": 1rem,
+    "24": 1.5rem,
+    "32": 2rem,
+    "40": 2.5rem,
+    "48": 3rem,
+    "72": 4.5rem,
+    "120": clamp(2rem, 1.29rem + 5.18vw,7.5rem),
+    "160": 10rem,
+    "200": 12.5rem
+);
+
+@each $slug, $size in $margin-sizes {
+    .has-margin-t-#{$slug} {
+        margin-top: $size !important;
+    }
+    .has-margin-b-#{$slug} {
+        margin-bottom: $size !important;
+    }
+}

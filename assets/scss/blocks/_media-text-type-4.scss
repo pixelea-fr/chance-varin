@@ -1,0 +1,5 @@
+@use "../index" as *;
+.media-text-type-4{
+	--decalage-y:-3.5rem;
+    margin-top: calc(var(--decalage-y) * -1) !important;
+}

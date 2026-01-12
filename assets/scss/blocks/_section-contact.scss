@@ -1,0 +1,19 @@
+.section-contact{
+	.has-image-halph-bg-color-base-4{
+	.wp-block-media-text__media{
+		--pb : 3rem;
+		--pt : 2.5rem;
+		background: linear-gradient(to right, white 60%, var(--wp--preset--color--base-4) 60%);
+		padding-top: var(--pt);
+		padding-bottom:var(--pb);
+		padding-left: 7.5rem;
+		padding-right: 7.5rem;
+		height: calc(100% - var(--pt) - var(--pb));
+	}
+		.wp-block-media-text__content > .wp-block-group {
+			
+			padding-left: 7.5rem;
+			padding-right: 7.5rem;
+		}
+	}
+}

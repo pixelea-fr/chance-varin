@@ -7,7 +7,8 @@
         "core\/group",
         "core\/columns",
         "core\/column",
-        "core\/cover"
+        "core\/cover",
+        "core\/media-text"
     ],
     "styles": {
         "color": {
@@ -18,7 +19,7 @@
             "core/button":{
                 "color": {
                     "background": "transparent",
-                    "text": "var(--wp--preset--color--base)"
+                    "text": "var(--wp--preset--color--base-4)"
                 },
                 "border": {
                     "color": "currentColor"

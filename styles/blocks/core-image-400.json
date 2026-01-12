@@ -1,0 +1,10 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "400px décalé gauche",
+	"slug": "400-decal",
+	"blockTypes": ["core/image"],
+    "styles": {
+        "css": "& img{max-width:400px !important; transform:translateX(-50%) translateY(var(--decalage-y,-3.25rem)); position:relative; z-index:2; }"
+    }
+}

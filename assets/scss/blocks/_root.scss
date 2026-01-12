@@ -1,6 +1,16 @@
 @use 'core-group/is-style-section';
 @use 'core-button/is-style-core-button-with-arrows';
+@use 'core-heading/is-style-with-line';
 @use "header-logo-centered";
 @import "cover-home";
 @import "media-text-decale";
 @import "media-text-localisation";
+@import "media-text-decale-3";
+@import "media-text-portrait";
+@import "media-text-portrait-reverse";
+@import "media-text-type-4";
+@import "media-text-type-5";
+@import "section-text-type-3";
+@import "media-text-type-6";
+@import "section-text-2cols";
+@import "section-contact";

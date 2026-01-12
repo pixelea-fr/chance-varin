@@ -20,13 +20,13 @@ function register_gsap_scripts(){
 
 function enqueue_gsap_assets() {
 
-  wp_enqueue_script(
-      'gsap-sample',
-      get_stylesheet_directory_uri() . '/assets/js/gsap/gsap-sample.js',
-      array('gsap', 'gsap-scroll-trigger'),
-     null,
-      true
-  );
+//   wp_enqueue_script(
+//       'gsap-sample',
+//       get_stylesheet_directory_uri() . '/assets/js/gsap/gsap-sample.js',
+//       array('gsap', 'gsap-scroll-trigger'),
+//      null,
+//       true
+//   );
 
 }
 add_action('wp_enqueue_scripts', 'enqueue_gsap_assets');

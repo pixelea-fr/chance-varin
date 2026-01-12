@@ -1,0 +1,30 @@
+.has-padding-content-0{
+
+   &.wp-block-media-text > .wp-block-media-text__content{
+        padding: 0 ;
+    }
+}
+
+$padding-sizes: (
+    "8": .5rem,
+    "16": 1rem,
+    "24": 1.5rem,
+    "32": 2rem,
+    "40": 2.5rem,
+    "48": 3rem,
+    "72": 4.5rem,
+    "120": clamp(2rem, 1.29rem + 5.18vw,7.5rem),
+    "160": 10rem,
+    "200": 12.5rem
+);
+
+@each $slug, $size in $padding-sizes {
+    .has-padding-l-#{$slug} {
+        padding-left: $size;
+    }
+    .has-padding-r-#{$slug} {
+        padding-right: $size;
+    }
+}
+
+

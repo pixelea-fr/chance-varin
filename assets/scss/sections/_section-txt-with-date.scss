@@ -1,0 +1,9 @@
+.section-txt-with-date{
+    position: relative;
+    margin-bottom: 7.5rem !important;
+
+    p:not(.is-style-bordered){ 
+       line-height: 1.38 !important;
+       font-size: var(--wp--preset--font-size--s);
+    }
+}

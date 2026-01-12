@@ -82,6 +82,28 @@
             "wideSize": "1200px"
         },
         "color": {
+         "duotone": [
+                {
+                    "colors": [  "#1744B0","#1C6DF4" ],
+                    "slug": "bleu",
+                    "name": "Bleu"
+                },
+                        {
+                    "colors": [ "#1C6DF4","#1744B0" ],
+                    "slug": "bleu-2",
+                    "name": "Bleu 2"
+                },
+                                        {
+                    "colors": [ "#000000","#1744B0" ],
+                    "slug": "blanc-noir",
+                    "name": "Blanc Noir"
+                },
+                {
+                    "colors": [ "#000000","#1C6DF4" ],
+                    "slug": "blanc-noir-2",
+                    "name": "Blanc Noir 2"
+                }
+            ],
             "palette": [
                 {
                     "slug": "base",
@@ -111,7 +133,7 @@
                 {
                     "slug": "contrast-2",
                     "name": "Contrast 2",
-                    "color": "#312319"
+                    "color": "#1F1D49"
                 },
                 {
                     "slug": "contrast-3",
@@ -213,6 +235,12 @@
                 "size": "4rem",
                 "fluid": false
             },
+                        {
+                "slug": "xxl-b",
+                "name": "xxl-b|80",
+                "size": "5rem",
+                "fluid": false
+            },
             {
                 "slug": "xxxl",
                 "name": "xxxl|120",
@@ -274,9 +302,39 @@
                     "size": "12.5rem"
                 },
                 {
+                    "slug": "11",
+                    "name": "15rem|240",
+                    "size": "15rem"
+                },
+                {
+                    "slug": "12",
+                    "name": "18.75rem|300",
+                    "size": "18.75rem"
+                },
+                {
                     "slug": "headerheight",
                     "name": "header height",
                     "size": "var(--header-height)"
+                },
+                                {
+                    "slug": "custom-01",
+                    "name": "Custom 01",
+                    "size": "var(--spacing-custom-01)"
+                },
+                                {
+                    "slug": "custom-02",
+                    "name": "Custom 02",
+                    "size": "var(--spacing-custom-02)"
+                },
+                                {
+                    "slug": "custom-03",
+                    "name": "Custom 03",
+                    "size": "var(--spacing-custom-03)"
+                },
+                                        {
+                    "slug": "custom-04",
+                    "name": "Custom 04",
+                    "size": "var(--spacing-custom-04)"
                 }
             ],
             "defaultSpacingSizes": false,

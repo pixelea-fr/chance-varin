@@ -1,31 +1,34 @@
-@use 'index' as *;
-
-.contact-form-grid {
-
+@use "index" as *;
+.section-contact form {
     display: grid;
-    gap: 1rem;
+    row-gap: 2.5rem;
+    column-gap: 4.5rem;
+    @include m(480){
+     display: flex;
+     flex-wrap: wrap;
+     row-gap:.1.2rem;
+    }
   }
 
 
-  .contact-form-grid > :nth-child(-n+4) {
+  .section-contact form > :nth-child(-n+4) {
     grid-column: span 1;
   }
 
 
-  .contact-form-grid {
+  .section-contact form {
     grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
   }
 
-  .contact-form-grid > :nth-child(n+5) {
+  .section-contact form > :nth-child(n+6) {
     grid-column: span 2; /* Occupe toute la largeur (2 colonnes) */
   }
-  .contact-form-grid label{
+  .section-contact form label{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: .938rem;
   }
-  .contact-form-grid span{
+  .section-contact form span{
     width: 100%;
     display: block;
     &.equipements-checkbox{
@@ -39,46 +42,44 @@
     }
   }
 
-  .contact-form-grid input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
-  .contact-form-grid textarea,
-  .contact-form-grid select
+  .section-contact form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
+  .section-contact form textarea,
+  .section-contact form select
   {
-  border-color: transparent;
-  background-color: var(--wp--preset--color--base-2);
+  border-bottom: 1px solid currentColor;
+  background-color: transparent;
   width: 100% !important;
   box-sizing: border-box;
-  padding: .5rem 1rem;
-  border-radius: .25rem;
-  font-size: .75rem;
-  margin-top: 0.5rem;
-  .is-style-section-style1 &{
-    background-color: var(--wp--preset--color--base-2) !important;
-  }
+  padding:  1rem .5rem 1rem 0;
+  border-radius:0;
+  font-size: 1.125rem;
+  color : var(--wp--preset--color--contrast);
 }
 
-.contact-form-grid .wpcf7-list-item{
+.section-contact form .wpcf7-list-item{
   margin: .5rem 0 0 0!important;
   label{
     flex-direction: row;
     align-items: center;
     gap: 1rem;
-
   }
 }
 
  input[type="submit"].wpcf7-submit{
-  margin-top: 3rem !important;
-  padding: 0.563rem 1rem !important;
-  background: var(--wp--preset--color--accent) !important;
-  border-radius: 2rem !important;
-  color:var(--wp--preset--color--black, black) !important;
-  border: 1px solid transparent;
+  margin-top: .5rem !important;
+  padding:  1rem !important;
+  background: transparent !important;
+  width: fit-content;
+  color:var(--wp--preset--color--contrast) !important;
+  border: 1px solid currentColor;
   font-size: .8rem;
   text-transform: uppercase;
+  transition:all .5s;
+  cursor:pointer;
   &:hover{
-    background-color:var(--wp--preset--color--black, black) !important;
-    color:white !important;
-
+    background-color:var(--wp--preset--color--contrast) !important;
+    color: var(--wp--preset--color--base) !important;
+    border-color: var(--wp--preset--color--contrast) !important;
   }
 }
 
@@ -88,10 +89,10 @@
   flex-direction: column;
   gap:1.5rem;
   border-radius: .25rem;
-  background: var(--wp--preset--color--base);
-  select{
-    background: white;
-  }
+  // background: var(--wp--preset--color--base);
+  // select{
+  //   background: var(--wp--preset--color--base);
+  // }
 
 }
 
@@ -104,13 +105,13 @@ input[type="checkbox"]{
     appearance: none;
     width: 1rem;
     height: 1rem;
-    border: 1px solid #000;
-    background-color: white;
+    border: 1px solid var(--wp--preset--color--contrast);
+    background-color: var(--wp--preset--color--base);
     cursor: pointer;
 }
 input[type="checkbox"]:checked {
-    background-color: black;
-    border-color: white;
+    background-color: var(--wp--preset--color--contrast);
+    border-color: var(--wp--preset--color--base);
     &:before {
         content: "";
         height: 1rem;
@@ -132,9 +133,75 @@ textarea,
 select
 {
   border-color: transparent;
-  background-color: var(--wp--preset--color--base);
+  background-color: transparent;
   width: 100% !important;
   box-sizing: border-box;
-  padding: .5rem 1rem;
-  border-radius: .25rem;
+  padding:  1rem .5rem 1rem 0;
+
+ 
+}
+
+
+
+
+
+/* conteneur de chaque champ */
+.with-label-behind.field{
+  position:relative;          /* référence pour le label absolute */
+  margin-bottom:1.2rem;
+}
+
+/* le champ lui-même */
+.with-label-behind .input{
+  width:100%;
+  padding: 1rem 0.75rem 0.5rem 0;   /* un peu d’espace en haut pour le label */
+  position:relative;
+  z-index:2;                     /* au-dessus du label */
+}
+
+/* le label « placeholder » */
+.with-label-behind label{
+  position:absolute;
+  left:0;
+  top:1rem;                   /* centré verticalement */
+  color:#7f8c8d;
+  pointer-events:none;           /* clics à travers */
+  z-index:1;                     /* derrière le champ */
+  transition:opacity .25s ease, transform .5s ease;
+  text-transform: uppercase;
+  color : var(--wp--preset--color--contrast-2);
+}
+
+/* disparition quand focus OU quand le champ a une valeur */
+.with-label-behind .input:focus  + label,
+.with-label-behind .input.has-value + label{
+  opacity:0;
+}
+/* disparition si focus OU si valeur saisie */
+.field:has(input:focus) label,
+ .field:has(input.has-value) label
+{
+
+  opacity:.9;
+  transform: translateY(3.5em);
+  font-size: .8em;
+}
+
+.field:has(textarea:focus) label,
+ .field:has(textarea.has-value) label
+{
+  opacity:.9;
+   transform: translateY(-2.5em);
+   font-size: .8em;
+}
+textarea{
+  height:158px;
+}
+textarea:focus,input:focus{
+  outline: none;
+}
+
+.wpcf7-not-valid-tip{
+  transform:translateY(1.325rem);
+  font-size: .7rem;
 }

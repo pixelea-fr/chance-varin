@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "16 | 1rem",
+	"slug": "spacer-1",
+	"blockTypes": ["core/spacer"],
+	"styles": {
+		"dimensions": {
+			"minHeight": "var:preset|spacing|1"
+		}
+	}
+}

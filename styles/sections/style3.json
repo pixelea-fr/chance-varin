@@ -7,7 +7,8 @@
         "core\/group",
         "core\/columns",
         "core\/column",
-        "core\/cover"
+        "core\/cover",
+        "core\/media-text"
     ],
     "styles": {
         "color": {

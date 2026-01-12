@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "bordure",
+	"slug": "bordered",
+	"blockTypes": ["core/paragraph","core/heading"],
+    
+    "styles": {
+        "css": "-webkit-text-stroke: 0.025em var(--wp--preset--color--base-4);paint-order: stroke fill;",
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--xxxl)",
+            "fontFamily" :"var(--wp--preset--font-family--second)"
+        }
+    }
+}
