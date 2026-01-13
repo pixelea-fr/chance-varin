@@ -104,6 +104,13 @@
                     "name": "Blanc Noir 2"
                 }
             ],
+            "gradients": [
+                {
+					"slug": "gradient-1",
+					"gradient": "linear-gradient(0deg, rgba(44, 45, 63, 0.00) 64.42%, var(--Gun-Powder-950, rgba(44, 45, 63, 0.70)) 87.02%);",
+					"name": "Vertical Gris"
+				}
+            ],
             "palette": [
                 {
                     "slug": "base",
@@ -365,13 +372,14 @@
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--second)",
                     "fontSize" :"var(--wp--preset--font-size--xxl)",
-                    "lineHeight": "1.25"
+                    "lineHeight": "1.25",
+                    "fontWeight":"400"
                 }
             },
             "core/paragraph":{
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--m)",
-                    "lineHeight" : "1.25"
+                    "fontSize": "var(--wp--preset--font-size--s)",
+                    "lineHeight" : "1.4"
                 }
             },
             "core/quote": {

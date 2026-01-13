@@ -16,9 +16,11 @@
     }
     
     .marquee-text {
-        font-size: var(--marquee-font-size, 48px);
-        font-weight: var(--marquee-font-weight, 700);
+        font-size: var(--marquee-font-size, 64px);
+        font-weight: var(--marquee-font-weight, 400);
         color: var(--marquee-color, currentColor);
+        font-family: var(--marquee-font-family, var(--wp--preset--font-family--second));
+        line-height: var(--marquee-line-height, 1.25);
         text-transform: uppercase;
         white-space: nowrap;
     }

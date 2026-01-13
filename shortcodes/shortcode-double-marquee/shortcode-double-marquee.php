@@ -28,11 +28,11 @@ function double_marquee_shortcode($atts) {
     $atts = shortcode_atts(array(
         'line1' => 'LOCATION - ACHAT - VENTE - VIAGER - MAISON - DOMAINE - HARAS - APPARTEMENT',
         'line2' => 'MAISON - DOMAINE - HARAS - APPARTEMENT - LOCATION - ACHAT - VENTE - VIAGER',
-        'font_size' => '48px',
+        'font_size' => '',
         'speed' => '30', // Durée en secondes pour un cycle complet
         'gap' => '0', // Espacement entre les éléments
-        'color' => 'inherit',
-        'font_weight' => 'inherit',
+        'color' => '',
+        'font_weight' => '',
         'class' => '',
         'id' => '',
     ), $atts);
@@ -42,13 +42,22 @@ function double_marquee_shortcode($atts) {
     wp_enqueue_style('double-marquee-css');
 
     // Build CSS variables
-    $style = sprintf(
-        '--marquee-font-size: %s; --marquee-gap: %s; --marquee-color: %s; --marquee-font-weight: %s;',
-        esc_attr($atts['font_size']),
-        esc_attr($atts['gap']),
-        esc_attr($atts['color']),
-        esc_attr($atts['font_weight'])
-    );
+    $styles = array();
+
+    if ( $atts['font_size'] !== '' ) {
+        $styles[] = '--marquee-font-size: ' . esc_attr( $atts['font_size'] );
+    }
+    if ( $atts['gap'] !== '' ) {
+        $styles[] = '--marquee-gap: ' . esc_attr( $atts['gap'] );
+    }
+    if ( $atts['color'] !== '' ) {
+        $styles[] = '--marquee-color: ' . esc_attr( $atts['color'] );
+    }
+    if ( $atts['font_weight'] !== '' ) {
+        $styles[] = '--marquee-font-weight: ' . esc_attr( $atts['font_weight'] );
+    }
+
+    $style = implode( '; ', $styles );
 
     $wrapper_class = 'double-marquee-wrapper';
     if (!empty($atts['class'])) {

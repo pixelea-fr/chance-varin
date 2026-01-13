@@ -1,0 +1,21 @@
+@use "../index" as *;
+
+.has-align-space-around{
+    justify-content: space-around;
+}
+.has-align-space-evenly{
+    justify-content: space-evenly;
+}
+.wp-block-column{
+    @include m(600){
+        &.has-align-vertical-mobile-center{
+            align-self: center;
+        }
+    }
+    //tablette
+    @include b(600,1024){
+        &.has-align-vertical-tablet-center{
+            align-self: center;
+        }
+    }
+}

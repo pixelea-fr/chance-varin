@@ -1,0 +1,25 @@
+{
+    "$schema": "https:\/\/schemas.wp.org\/trunk\/theme.json",
+    "version": 3,
+    "slug": "main",
+    "title": "Principal",
+    "blockTypes": [
+        "core/navigation"
+    ],
+    "styles": {
+        "css": "",
+        "elements": {
+            "link": {
+                "color": {
+                    "text" :"inherit"
+                },
+                "typography": {
+                    "textDecoration": "none",
+                  
+                    "fontWeight" : "700"
+                }
+            
+            }
+        }
+    }
+}

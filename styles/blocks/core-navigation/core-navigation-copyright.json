@@ -1,0 +1,38 @@
+{
+    "$schema": "https:\/\/schemas.wp.org\/trunk\/theme.json",
+    "version": 3,
+    "slug": "copyright",
+    "title": "copyright",
+    "blockTypes": [
+        "core/navigation"
+    ],
+    "styles": {
+        "elements": {
+            "button": {
+                ":hover":{
+                    "color": {
+                        
+                        "text": "var(--wp--preset--color--base) !important"
+                    },
+                    "border": {
+                        "color": "var(--wp--preset--color--base-4) !important"
+                    }
+                }
+            },
+            "link":{
+                "color": {
+                    "text": "var(--wp--preset--color--base-4)"
+                },
+                ":hover":{
+                    "color": {
+                        "text": "var(--wp--preset--color--base-4)"
+                    }
+                },
+                "typography": {
+                    "textDecoration": "none",
+                    "fontWeight" :"400"
+                  }
+            }
+        }
+    }
+}

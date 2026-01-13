@@ -8,8 +8,8 @@
  */
 ?>
 <?php $is_editor = is_admin() || wp_is_json_request() || (function_exists('get_current_screen') && get_current_screen() && get_current_screen()->is_block_editor()); ?>
-<!-- wp:group {"metadata":{"name":"Media Texte Décalé"},"align":"full","className":"media-text-decale","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","verticalAlignment":"top"}} -->
-<div class="wp-block-group alignfull media-text-decale"><!-- wp:group {"metadata":{"name":"Media Texte Décalé | Textes"},"className":"is-style-style4 media-text-decale__txt","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8","left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Media Texte Décalé"},"align":"full","className":"media-text-decale has-text-style-1","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignfull media-text-decale has-text-style-1"><!-- wp:group {"metadata":{"name":"Media Texte Décalé | Textes"},"className":"is-style-style4 media-text-decale__txt","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8","left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-style4 media-text-decale__txt" style="padding-top:var(--wp--preset--spacing--8);padding-right:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)"><!-- wp:heading -->
 <h2 class="wp-block-heading">Chancé-Varin &amp; associés</h2>
 <!-- /wp:heading -->

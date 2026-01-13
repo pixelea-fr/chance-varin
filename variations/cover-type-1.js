@@ -68,15 +68,7 @@ wp.domReady( function() {
             "placeholder": "Texte Banière",
             "metadata": {
                 "name": "Intro"
-            },
-            "style": {
-                "typography": {
-                    "lineHeight": "1.38",
-                    "fontStyle": "normal",
-                    "fontWeight": "300"
-                }
-            },
-            "fontSize": "s"
+            }
         }
     ]
 ],
@@ -140,14 +132,6 @@ wp.domReady( function() {
             "metadata": {
                 "name": "Intro"
             },
-            "style": {
-                "typography": {
-                    "lineHeight": "1.38",
-                    "fontStyle": "normal",
-                    "fontWeight": "300"
-                }
-            },
-            "fontSize": "s",
             "content": "Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus. Adipiscing eu faucibus nec massa. Cursus sit dis magna a tellus duis. Tincidunt cursus mi interdum ultrices ultrices malesuada risus dolor non."
         }
     }

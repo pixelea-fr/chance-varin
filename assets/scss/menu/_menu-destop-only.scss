@@ -1,65 +1,140 @@
 @use "../index" as *;
-@use "menu-colors" as *;
+@use "menu-variables" as *;
+
+
+
 /* Menu desktop (non burger) */
 .wp-block-navigation:not(.is-responsive) .wp-block-navigation__responsive-container {
   /* styles desktop */
 
 }
+ header.light-colors:not(.is-on-top) .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content{
+     color: var(--wp--preset--color--base-4);
+ }
+  header.is-on-top:not(.light-colors) .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content{
+     color: var(--wp--preset--color--base-4);
+ }
+.wp-block-navigation:not(.has-text-color) .wp-block-navigation__submenu-container{
+  color: inherit;
+}
+.wp-block-navigation-item.has-child {
+  &:hover{
+    color: var(--wp--preset--color--base-2);
+    .light-colors header &{
+      color: var(--wp--preset--color--base-2);
+    }
+  }
+  //color: $menu-text-current;
+  .wp-block-navigation-submenu{
+     .light-colors header &{
+      color: var(--wp--preset--color--base-2);
+    }
+      color:var(--wp--preset--color--base) !important;
+      .wp-block-navigation-item:hover{
+        color:var(--wp--preset--color--base-2) !important;
+      }
+  }
+}
+//COLORS en fonction du heaer
+header {
+  color: var(--wp--preset--color--base-4);
 
-html:not(.has-modal-open) {
+
+  &.light-colors {
+    color: var(--wp--preset--color--base);
+
+    img {
+      filter: brightness(0) saturate(100%) invert(100%);
+    }
+
+    .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+
+  &.with-bg {
+    color: var(--wp--preset--color--base-4);
+  }
+}
+
+//MAIN
+html:not(.has-modal-open) .wp-block-navigation__container.is-style-main {
 
 
-    .wp-block-navigation-item.has-child{
+  .wp-block-navigation-item.has-child {
     position: relative;
-    .wp-block-navigation__submenu-container{
-    &:before{position: absolute; top:-3rem;}
-    &:after{position: absolute; bottom:0; transform: translateY(-250px);}
-    &:before, &:after{
-        z-index:1;
-        content:"";
+
+    .wp-block-navigation__submenu-container {
+      &:before {
+        position: absolute;
+        top: -3rem;
+      }
+
+      &:after {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(-250px);
+      }
+
+      &:before,
+      &:after {
+        z-index: 1;
+        content: "";
         display: block;
         width: 0;
         height: 1px;
         background: $menu-lines;
         transition: all .6s ease, transform .5s ease;
-    }
+      }
     }
 
-    &:hover .wp-block-navigation__submenu-container{
-        
-        &:before, &:after{
-            width: 100%;
+    &:hover .wp-block-navigation__submenu-container {
 
-        }
-         &:after{transform: translateY(0);}
-  
-    }
-}
-@include p($menu-mobile-breakpoint){
-  .wp-block-navigation-item.has-child {
-    >.wp-block-navigation-item__content {
-   
-      padding: 0.5em 0.5rem 0.5em 0 !important;
+      &:before,
+      &:after {
+        width: 100%;
+
+      }
+
+      &:after {
+        transform: translateY(0);
+      }
+
     }
   }
-      .wp-block-navigation-item__content{
-        line-height: 1.25;
-        font-size: 20px;
-        padding: 0.5em 0.5rem;
+
+  @include p($menu-mobile-breakpoint) {
+    .wp-block-navigation-item.has-child {
+      >.wp-block-navigation-item__content {
+        padding: 0.5em 0.5rem 0.5em 0 !important;
+      }
+
+      .wp-block-navigation-submenu .wp-block-navigation-item__content {
+        padding: 5px 1rem !important;
+        font-size: $sub-menu-font-size !important;
+        line-height: $sub-menu-line-height;
+        font-weight: $sub-menu-font-weight;
+      }
+    }
+
+    .wp-block-navigation-item__content {
+      line-height: $menu-line-height;
+      font-size: $menu-font-size;
+      font-weight: $menu-font-weight;
+      padding: 0.5em 0.5rem;
 
 
-        }
- .wp-block-navigation__submenu-container{
-     border:none !important;
-     left: -1rem !important;
+    }
 
-        .wp-block-navigation-item__content {
-            padding: 5px 1rem !important;
-        }
- }
+    .wp-block-navigation__submenu-container {
+      border: none !important;
+      left: -1rem !important;
+    }
+
+  }
+
+
+
+
 }
-
-
-
-}
-

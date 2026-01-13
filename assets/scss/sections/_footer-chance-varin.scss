@@ -1,22 +1,45 @@
 @use "../index" as *;
 
 .footer-chance-varin{
-    background-image: url("./assets/images/footer-bg.svg");
+    background-image:linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.80) 41.35%,
+      rgba(255, 255, 255, 0.24) 100%
+    ),url("./assets/images/footer-bg.svg");
     background-repeat: no-repeat;
     background-size: contain ;
-        /* 5 vw à gauche du centre */
-        @include m(1920){
-         
-            background-position: calc(50% - 5vw) center ; 
+
+        @include m(1400){
+            background-position:left; 
+        }
+        @include b(1400,1920){
+             background-position: calc((100vw - 1600px) / 2) center;
         }
         @include p(1920){
-         
-            background-position:272px center ; 
+            // aligner a gauche comme siu il etait dasn un contenru de 1840px 
+            background-position: calc((100vw - 1840px) / 2) center;
         }
 
     &__grid{
-        row-gap: 82px;
-        column-gap: 4.5rem;
+        row-gap: 1.5rem;
+        @include b(1200,1600){
+         column-gap : 1vw;
+         row-gap: 2rem;
+        }
+        @include p(1600){
+         column-gap: 4.5rem;
+          row-gap: 82px;
+        }
+        @include b(500,1200){
+         grid-template-columns: repeat(2,minmax(0,1fr));
+        }
+           @include m(500){
+         grid-template-columns: repeat(1,minmax(0,1fr));
+        }
     }
-
+    .has-align-space-around{
+        @include m(500){
+        flex-wrap: wrap;
+        }
+    }
 }

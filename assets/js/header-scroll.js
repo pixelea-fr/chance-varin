@@ -20,8 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // mais la demande est "inferieur a celui ci" donc hauteur du cover)
             if (scrollPosition < (coverHeight - headerHeight)) {
                 header.classList.add('light-colors');
+                     header.classList.remove('with-bg');
             } else {
                 header.classList.remove('light-colors');
+                     header.classList.add('with-bg');
             }
         }
 
