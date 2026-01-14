@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[738]]></id>
+  <slug><![CDATA[query-loop-bien]]></slug>
+  <type><![CDATA[wp_template_part]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-01-13 16:42:25]]></date>
+  <date_gmt><![CDATA[2026-01-13 15:42:25]]></date_gmt>
+  <title><![CDATA[query-loop-bien]]></title>
+  <content><![CDATA[<!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"bien","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-query"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"metadata":{"name":"Card BIen"},"className":"has-width-card is-card-bien is-style-style1","style":{"border":{"width":"1px"}},"borderColor":"base-4","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group has-width-card is-card-bien is-style-style1 has-border-color has-base-4-border-color" style="border-width:1px"><!-- wp:post-featured-image /-->
+
+<!-- wp:group {"className":"has-width-100-minus-2rem is-style-style1","style":{"spacing":{"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-width-100-minus-2rem is-style-style1"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>À partir de </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"prix_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {"style":{"typography":{"lineHeight":"1.25"}},"fontFamily":"first"} /-->
+
+<!-- wp:post-excerpt {"moreText":"En savoir plus "} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"chevron","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query -->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2026-01-13 16:44:00]]></modified>
+  <media/>
+  <meta>
+    <key name="origin"><![CDATA[theme]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="wp_theme">
+      <term slug="chance-varin"/>
+    </taxonomy>
+    <taxonomy name="wp_template_part_area">
+      <term slug="uncategorized"/>
+    </taxonomy>
+  </taxonomies>
+</content>

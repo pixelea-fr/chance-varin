@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[755]]></id>
+  <slug><![CDATA[content-404]]></slug>
+  <type><![CDATA[wp_template_part]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-01-14 08:37:47]]></date>
+  <date_gmt><![CDATA[2026-01-14 07:37:47]]></date_gmt>
+  <title><![CDATA[content-404]]></title>
+  <content><![CDATA[<!-- wp:spacer {"height":"var:preset|spacing|10","metadata":{"name":"Espacement 200 | 12.5rem"},"className":"is-spacer-200"} -->
+<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer is-spacer-200"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10","metadata":{"name":"Espacement 200 | 12.5rem"},"className":"is-spacer-200"} -->
+<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer is-spacer-200"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:heading {"textAlign":"center","level":1} -->
+<h1 class="wp-block-heading has-text-align-center">Page non trouvé :(</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Désolé, la page que vous cherchiez n'existe pas ou a été déplacée.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Retour à la <a href="https://chance-varin.local/">page d'accueil</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10","metadata":{"name":"Espacement 200 | 12.5rem"},"className":"is-spacer-200"} -->
+<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer is-spacer-200"></div>
+<!-- /wp:spacer -->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2026-01-14 08:38:22]]></modified>
+  <media/>
+  <meta>
+    <key name="origin"><![CDATA[theme]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="wp_theme">
+      <term slug="chance-varin"/>
+    </taxonomy>
+    <taxonomy name="wp_template_part_area">
+      <term slug="uncategorized"/>
+    </taxonomy>
+  </taxonomies>
+</content>

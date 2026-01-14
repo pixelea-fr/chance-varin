@@ -1,0 +1,16 @@
+<?php
+/**
+ * Title: Bien
+ * Slug: ng1-base/template-single-bien
+* Categories: pixelea, featured
+ * Keywords: starter
+ * Block Types: core/post-content
+ * Post Types: bien, wp_template
+ * Viewport width: 1400
+ */
+?>
+
+<!-- wp:pattern {"slug":"ng1-base/cover-type-1"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-072"} /-->
+<!-- wp:pattern {"slug":"ng1-base/data-bien"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-072"} /-->

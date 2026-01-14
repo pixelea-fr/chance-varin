@@ -1,0 +1,91 @@
+{
+    "block": "core/group",
+    "control": {
+        "type": "select",
+        "id": "padding-right",
+        "label": "Padding Droite",
+        "options": [
+            {
+                "id": "padding-r-8",
+                "label": ".5rem | 8",
+                "classes": [
+                    "has-padding-r-8"
+                ],
+                "class": "has-padding-r-8"
+            },
+            {
+                "id": "padding-r-16",
+                "label": "1rem | 16",
+                "classes": [
+                    "has-padding-r-16"
+                ],
+                "class": "has-padding-r-16"
+            },
+            {
+                "id": "padding-r-24",
+                "label": "1.5rem | 24",
+                "classes": [
+                    "has-padding-r-24"
+                ],
+                "class": "has-padding-r-24"
+            },
+            {
+                "id": "padding-r-32",
+                "label": "2rem | 32",
+                "classes": [
+                    "has-padding-r-32"
+                ],
+                "class": "has-padding-r-32"
+            },
+            {
+                "id": "padding-r-40",
+                "label": "2.5rem | 40",
+                "classes": [
+                    "has-padding-r-40"
+                ],
+                "class": "has-padding-r-40"
+            },
+            {
+                "id": "padding-r-48",
+                "label": "3rem | 48",
+                "classes": [
+                    "has-padding-r-48"
+                ],
+                "class": "has-padding-r-48"
+            },
+            {
+                "id": "padding-r-72",
+                "label": "4.5rem | 72",
+                "classes": [
+                    "has-padding-r-72"
+                ],
+                "class": "has-padding-r-72"
+            },
+            {
+                "id": "padding-r-120",
+                "label": "7.5rem | 120",
+                "classes": [
+                    "has-padding-r-120"
+                ],
+                "class": "has-padding-r-120"
+            },
+            {
+                "id": "padding-r-160",
+                "label": "10rem | 160",
+                "classes": [
+                    "has-padding-r-160"
+                ],
+                "class": "has-padding-r-160"
+            },
+            {
+                "id": "padding-r-200",
+                "label": "12.5rem | 200",
+                "classes": [
+                    "has-padding-r-200"
+                ],
+                "class": "has-padding-r-200"
+            }
+        ],
+        "panel": "Padding"
+    }
+}

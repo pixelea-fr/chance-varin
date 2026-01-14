@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[759]]></id>
+  <slug><![CDATA[card-bien]]></slug>
+  <type><![CDATA[wp_template_part]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-01-14 08:58:36]]></date>
+  <date_gmt><![CDATA[2026-01-14 07:58:36]]></date_gmt>
+  <title><![CDATA[card-bien]]></title>
+  <content><![CDATA[<!-- wp:group {"metadata":{"name":"Card BIen"},"className":"has-width-card is-card-bien is-style-style1","style":{"border":{"width":"1px"},"spacing":{"padding":{"bottom":"var:preset|spacing|2"}}},"borderColor":"base-4","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group has-width-card is-card-bien is-style-style1 has-border-color has-base-4-border-color" style="border-width:1px;padding-bottom:var(--wp--preset--spacing--2)"><!-- wp:post-featured-image /-->
+
+<!-- wp:group {"className":"has-width-100-minus-2rem is-style-style1","style":{"spacing":{"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-width-100-minus-2rem is-style-style1"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>À partir de </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"prix_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {"style":{"typography":{"lineHeight":"1.25"}},"fontFamily":"first"} /-->
+
+<!-- wp:post-excerpt {"moreText":"En savoir plus "} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2026-01-14 09:10:41]]></modified>
+  <media/>
+  <meta>
+    <key name="origin"><![CDATA[theme]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="wp_theme">
+      <term slug="chance-varin"/>
+    </taxonomy>
+    <taxonomy name="wp_template_part_area">
+      <term slug="uncategorized"/>
+    </taxonomy>
+  </taxonomies>
+</content>

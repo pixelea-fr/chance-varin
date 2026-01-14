@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[724]]></id>
+  <slug><![CDATA[taxonomy-genre]]></slug>
+  <type><![CDATA[wp_template]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-01-13 16:20:00]]></date>
+  <date_gmt><![CDATA[2026-01-13 15:20:00]]></date_gmt>
+  <title><![CDATA[taxonomy-genre]]></title>
+  <content><![CDATA[<!-- wp:template-part {"slug":"header","theme":"chance-varin","tagName":"header","className":"fixed is-on-top"} /-->
+
+<!-- wp:spacer {"height":"var:preset|spacing|headerheight","className":"is-spacer-header-height"} -->
+<div style="height:var(--wp--preset--spacing--headerheight)" aria-hidden="true" class="wp-block-spacer is-spacer-header-height"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:cover {"url":"https://chance-varin.local/wp-content/uploads/2026/01/Photo-interieur-1024x683.jpeg","id":316,"alt":"Photo intérieur du cabinet","dimRatio":0,"isUserOverlayColor":true,"focalPoint":{"x":0.49,"y":0},"minHeight":600,"isDark":false,"sizeSlug":"large","align":"full","className":"is-style-style5 cover-type-1","style":{"color":{"duotone":"var:preset|duotone|blanc-noir"},"spacing":{"blockGap":"var:preset|spacing|2","padding":{"right":"var:preset|spacing|2","left":"var:preset|spacing|2","top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"}}},"layout":{"type":"constrained","contentSize":"760px"},"allowedBlocks":["core/paragraph","core/heading","core/freeform","core/query-title","core/term-description"]} -->
+<div class="wp-block-cover alignfull is-light is-style-style5 cover-type-1" style="padding-top:var(--wp--preset--spacing--8);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--2);min-height:600px"><img class="wp-block-cover__image-background wp-image-316 size-large" alt="Photo intérieur du cabinet" src="https://chance-varin.local/wp-content/uploads/2026/01/Photo-interieur-1024x683.jpeg" style="object-position:49% 0%" data-object-fit="cover" data-object-position="49% 0%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false,"style":{"typography":{"lineHeight":"1.25"}},"fontSize":"xxl-b"} /-->
+
+<!-- wp:term-description {"textAlign":"center"} /--></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:spacer {"height":"60px","metadata":{"name":"Espacement | Taille"},"className":"spacer-60"} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer spacer-60"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"tagName":"main","className":"has-padding-l-120 has-padding-r-120","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group has-padding-l-120 has-padding-r-120" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:template-part {"slug":"query-loop-bien","theme":"chance-varin","align":"full"} /--></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"chance-varin"} /-->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2026-01-13 16:20:00]]></modified>
+  <media/>
+  <meta>
+    <key name="origin"><![CDATA[theme]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="wp_theme">
+      <term slug="chance-varin"/>
+    </taxonomy>
+  </taxonomies>
+</content>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[725]]></id>
+  <slug><![CDATA[]]></slug>
+  <type><![CDATA[bien]]></type>
+  <status><![CDATA[draft]]></status>
+  <date><![CDATA[2026-01-13 16:20:49]]></date>
+  <date_gmt><![CDATA[0000-00-00 00:00:00]]></date_gmt>
+  <title><![CDATA[BIen 1]]></title>
+  <content><![CDATA[<!-- wp:spacer {"height":"var:preset|spacing|12","metadata":{"name":"Espacement 300 | 18.75rem"},"className":"is-spacer-300"} -->
+<div style="height:var(--wp--preset--spacing--12)" aria-hidden="true" class="wp-block-spacer is-spacer-300"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Card BIen"},"className":"has-width-card is-card-bien","style":{"border":{"width":"1px"}},"borderColor":"base-4","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group has-width-card is-card-bien has-border-color has-base-4-border-color" style="border-width:1px"><!-- wp:post-featured-image /-->
+
+<!-- wp:group {"className":"has-width-100-minus-2rem","style":{"spacing":{"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-width-100-minus-2rem"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>À partir de </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"prix_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title /-->
+
+<!-- wp:post-excerpt {"moreText":"En savoir plus "} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content>
+  <excerpt><![CDATA[bien très grand]]></excerpt>
+  <modified><![CDATA[2026-01-13 16:20:49]]></modified>
+  <media/>
+  <meta/>
+  <taxonomies/>
+</content>

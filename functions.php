@@ -14,6 +14,8 @@ include_once 'functions/no-cache.php';
 
 include_once "functions/register-shortcodes.php";
 
+include_once 'functions/metabox/root.php';
+
 include_once 'functions/cpt/root.php';
 include_once 'functions/taxonomy/root.php';
 

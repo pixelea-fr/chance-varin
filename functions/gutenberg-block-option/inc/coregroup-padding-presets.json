@@ -1,0 +1,110 @@
+{
+    "block": "core/group",
+    "control": {
+        "type": "select",
+        "id": "padding-presets",
+        "label": "Presets padding (Gauche & Droite)",
+        "options": [
+            {
+                "id": "padding-l-8",
+                "label": ".5rem | 8",
+                "classes": [
+                    "has-padding-l-8",
+                    "has-padding-r-8"
+                ],
+                "class": "has-padding-l-8"
+            },
+            {
+                "id": "padding-l-16",
+                "label": "1rem | 16",
+                "classes": [
+                    "has-padding-l-16",
+                    "has-padding-r-16"
+                ],
+                "class": "has-padding-l-16"
+            },
+            {
+                "id": "padding-l-24",
+                "label": "1.5rem | 24",
+                "classes": [
+                    "has-padding-l-24",
+                    "has-padding-r-24"
+                ],
+                "class": "has-padding-l-24"
+            },
+            {
+                "id": "padding-l-32",
+                "label": "2rem | 32",
+                "classes": [
+                    "has-padding-l-32",
+                    "has-padding-r-32"
+                ],
+                "class": "has-padding-l-32"
+            },
+            {
+                "id": "padding-l-40",
+                "label": "2.5rem | 40",
+                "classes": [
+                    "has-padding-l-40",
+                    "has-padding-r-40"
+                ],
+                "class": "has-padding-l-40"
+            },
+            {
+                "id": "padding-l-48",
+                "label": "3rem | 48",
+                "classes": [
+                    "has-padding-l-48",
+                    "has-padding-r-48"
+                ],
+                "class": "has-padding-l-48"
+            },
+            {
+                "id": "padding-l-72",
+                "label": "4.5rem | 72",
+                "classes": [
+                    "has-padding-l-72",
+                    "has-padding-r-72"
+                ],
+                "class": "has-padding-l-72"
+            },
+            {
+                "id": "padding-l-120",
+                "label": "7.5rem | 120",
+                "classes": [
+                    "has-padding-l-120",
+                    "has-padding-r-120"
+                ],
+                "class": "has-padding-l-120"
+            },
+            {
+                "id": "padding-l-160",
+                "label": "10rem | 160",
+                "classes": [
+                    "has-padding-l-160",
+                    "has-padding-r-160"
+                ],
+                "class": "has-padding-l-160"
+            },
+            {
+                "id": "padding-l-200",
+                "label": "12.5rem | 200",
+                "classes": [
+                    "has-padding-l-200",
+                    "has-padding-r-200"
+                ],
+                "class": "has-padding-l-200"
+            },
+            {
+                "id": "padding-l-240",
+                "label": "15rem | 240",
+                "classes": [
+                    "has-padding-l-240",
+                    "has-padding-r-240"
+                ],
+                "class": "has-padding-l-240"
+            }
+        ],
+        "panel": "Padding"
+    }
+}

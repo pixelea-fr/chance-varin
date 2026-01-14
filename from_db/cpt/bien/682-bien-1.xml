@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[682]]></id>
+  <slug><![CDATA[bien-1]]></slug>
+  <type><![CDATA[bien]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-01-13 10:36:59]]></date>
+  <date_gmt><![CDATA[2026-01-13 09:36:59]]></date_gmt>
+  <title><![CDATA[BIen 1]]></title>
+  <content><![CDATA[<!-- wp:spacer {"height":"var:preset|spacing|12","metadata":{"name":"Espacement 300 | 18.75rem"},"className":"is-spacer-300"} -->
+<div style="height:var(--wp--preset--spacing--12)" aria-hidden="true" class="wp-block-spacer is-spacer-300"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Données du bien"},"className":"has-width-100-minus-2rem","style":{"spacing":{"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-width-100-minus-2rem"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Prix :</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"prix_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Loyer :</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"prix_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Surface :</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"surface_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Surface du terrain:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"surface_terrain_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Frais de Négociation :</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"frais_negociation_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Frais d'acte :</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"core/post-meta","args":{"key":"frais_acte_formatted"}}}}} -->
+<p></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->]]></content>
+  <excerpt><![CDATA[bien très grand]]></excerpt>
+  <modified><![CDATA[2026-01-14 07:57:03]]></modified>
+  <media>
+    <file type="featured" original_id="450">
+      <filename><![CDATA[2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1.jpg]]></filename>
+      <title><![CDATA[82139266_10220421001545731_753836648155840512_n-600&#215;412 1]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+  </media>
+  <meta>
+    <key name="_edit_lock"><![CDATA[1768373821:1]]></key>
+    <key name="_edit_last"><![CDATA[1]]></key>
+    <key name="type_bien"><![CDATA[]]></key>
+    <key name="prix"><![CDATA[3000]]></key>
+    <key name="prix_formatted"><![CDATA[3 000 €]]></key>
+    <key name="surface"><![CDATA[200]]></key>
+    <key name="surface_formatted"><![CDATA[200 M2]]></key>
+    <key name="surface_terrain"><![CDATA[678]]></key>
+    <key name="surface_terrain_formatted"><![CDATA[678 M2]]></key>
+    <key name="loyer"><![CDATA[2300]]></key>
+    <key name="loyer_formatted"><![CDATA[2 300 €]]></key>
+    <key name="frais_ngociation"><![CDATA[657]]></key>
+    <key name="frais_ngociation_formatted"><![CDATA[657 €]]></key>
+    <key name="frais_acte"><![CDATA[908]]></key>
+    <key name="frais_acte_formatted"><![CDATA[908 €]]></key>
+    <key name="type_bien_formatted"><![CDATA[]]></key>
+    <key name="footnotes"><![CDATA[]]></key>
+    <key name="_thumbnail_id"><![CDATA[450]]></key>
+    <key name="_wp_page_template"><![CDATA[default]]></key>
+    <key name="reference"><![CDATA[]]></key>
+    <key name="frais_negociation"><![CDATA[807]]></key>
+    <key name="frais_negociation_formatted"><![CDATA[807 €]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="genre">
+      <term slug="location"/>
+    </taxonomy>
+    <taxonomy name="type_de_bien">
+      <term slug="maison"/>
+    </taxonomy>
+  </taxonomies>
+</content>

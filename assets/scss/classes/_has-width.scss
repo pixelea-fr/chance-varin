@@ -1,3 +1,20 @@
 .has-width-100{
     width:100%;
 }
+
+.has-width-card{
+    width:100%;
+    max-width: 534px !important;
+}
+
+$has_width_100_minus: (
+    1rem: 1rem,
+    2rem: 2rem,
+    3rem:3rem,
+);
+
+@each $minus, $val in $has_width_100_minus {
+    .has-width-100-minus-#{$minus}{
+        width:calc(100% - #{$val});
+    }
+}

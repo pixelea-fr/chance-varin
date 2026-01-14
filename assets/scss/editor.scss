@@ -1,5 +1,6 @@
 @use 'index' as *;
 @use 'font';
+@use 'classes/root-classes';
 @use 'blocks/root-blocks-editor';
 
 .editor-styles-wrapper .wp-block-template-part,

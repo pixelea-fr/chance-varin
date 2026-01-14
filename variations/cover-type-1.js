@@ -44,7 +44,9 @@ wp.domReady( function() {
     "allowedBlocks": [
         "core/paragraph",
         "core/heading",
-        "core/freeform"
+        "core/freeform",
+        "core/query-title",
+        "core/term-description"
     ]
 },
             innerBlocks: [
@@ -108,7 +110,9 @@ wp.domReady( function() {
     "allowedBlocks": [
         "core/paragraph",
         "core/heading",
-        "core/freeform"
+        "core/freeform",
+        "core/query-title",
+        "core/term-description"
     ]
 }, innerBlocks: [
     {
@@ -140,3 +144,4 @@ wp.domReady( function() {
         }
     );
 });
+

@@ -17,21 +17,17 @@
 			"name": "footer",
 			"title": "Footer"
 		},
-        {
-			"area": "footer",
-			"name": "footer-3-cols",
-			"title": "Footer 3 Columns"
-		},
-		{
-			"area": "footer",
-			"name": "footer-4-cols",
-			"title": "Footer 4 Columns"
-		},
-		{
+                {
 			"area": "uncategorized",
-			"name": "sidebar",
-			"title": "Sidebar"
+			"name": "card-bien",
+			"title": "Card d'un bien"
 		},
+        {
+			"area": "uncategorized",
+			"name": "card",
+			"title": "Card d'un post"
+		},
+
         {
 			"area": "uncategorized",
 			"name": "query-loop-post",
@@ -39,8 +35,8 @@
 		},
         {
 			"area": "uncategorized",
-			"name": "query-loop-page",
-			"title": "Boucle de pages"
+			"name": "query-loop-bien",
+			"title": "Boucle de biens"
 		}
 	],
 	"customTemplates": [

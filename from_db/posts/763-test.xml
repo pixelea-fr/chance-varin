@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[763]]></id>
+  <slug><![CDATA[test]]></slug>
+  <type><![CDATA[post]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-01-14 09:11:27]]></date>
+  <date_gmt><![CDATA[2026-01-14 08:11:27]]></date_gmt>
+  <title><![CDATA[TEST]]></title>
+  <content><![CDATA[]]></content>
+  <excerpt><![CDATA[test desxciption]]></excerpt>
+  <modified><![CDATA[2026-01-14 09:11:27]]></modified>
+  <media/>
+  <meta>
+    <key name="_edit_lock"><![CDATA[1768378280:1]]></key>
+    <key name="_pingme"><![CDATA[1]]></key>
+    <key name="_encloseme"><![CDATA[1]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="category">
+      <term slug="non-classe"/>
+    </taxonomy>
+  </taxonomies>
+</content>
