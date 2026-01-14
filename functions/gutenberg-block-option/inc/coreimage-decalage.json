@@ -1,0 +1,27 @@
+{
+    "block": "core/image",
+    "control": {
+        "type": "select",
+        "id": "decalage",
+        "label": "Décalage",
+        "options": [
+            {
+                "id": "decal-2",
+                "label": "Heading 1/2 line",
+                "classes": [
+                    "has-decal-2"
+                ],
+                "class": "has-decal-2"
+            },
+            {
+                "id": "decal-3",
+                "label": "Top 52px Left 50%",
+                "classes": [
+                    "has-decal-3"
+                ],
+                "class": "has-decal-3"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}

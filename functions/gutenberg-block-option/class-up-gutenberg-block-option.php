@@ -26,11 +26,13 @@ class UP_Gutenberg_Block_Option {
         ));
     }
     public function get_switches(\WP_REST_Request $request) {
-        $sources = get_option('up_ge_control_sources', array());
-        if (!is_array($sources)) { $sources = array(); }
+        $mode = get_option('up_ge_source_mode', 'merge');
+        if (!is_string($mode)) { $mode = 'merge'; }
+        $mode = sanitize_key($mode);
+        if ($mode !== 'plugin' && $mode !== 'filter' && $mode !== 'theme' && $mode !== 'merge') { $mode = 'merge'; }
 
         // 1) Controls du thème (JSON)
-        $themeControls = array();
+        $themeOut = array();
         $dir = __DIR__ . '/inc/';
         $files = glob($dir . '*.json');
         if (is_array($files)) {
@@ -42,59 +44,52 @@ class UP_Gutenberg_Block_Option {
                 $block = (string) $decoded['block'];
                 $control = $decoded['control'];
                 if (empty($control['id'])) { continue; }
-                $key = $block . '|' . (string)$control['id'];
-                $themeControls[$key] = array('block' => $block, 'control' => $control);
+                if (!isset($themeOut[$block])) { $themeOut[$block] = array(); }
+                $themeOut[$block][] = $control;
             }
         }
 
         // 2) Controls du filtre
-        $filterControls = array();
+        $filterOut = array();
         $filtered = apply_filters('up_block_switches', array());
         if (is_array($filtered)) {
             foreach ($filtered as $b => $controls) {
                 if (!is_array($controls)) { continue; }
-                foreach ($controls as $c) {
-                    if (!is_array($c) || empty($c['id'])) { continue; }
-                    $key = (string)$b . '|' . (string)$c['id'];
-                    $filterControls[$key] = array('block' => (string)$b, 'control' => $c);
+                $filterOut[(string)$b] = $controls;
+            }
+        }
+
+        // 3) Controls du plugin (option WP, même si le plugin est désactivé)
+        $pluginOut = get_option('up_ge_switches_config', array());
+        if (!is_array($pluginOut)) { $pluginOut = array(); }
+
+        if ($mode === 'plugin') { return new \WP_REST_Response($pluginOut, 200); }
+        if ($mode === 'filter') { return new \WP_REST_Response($filterOut, 200); }
+        if ($mode === 'theme') { return new \WP_REST_Response($themeOut, 200); }
+
+        // merge: plugin + filtre + thème (thème override filtre override plugin)
+        $merged = array();
+        foreach (array($pluginOut, $filterOut, $themeOut) as $conf) {
+            if (!is_array($conf)) { continue; }
+            foreach ($conf as $block => $controls) {
+                if (!is_array($controls)) { continue; }
+                if (!isset($merged[$block])) { $merged[$block] = array(); }
+                foreach ($controls as $control) {
+                    if (!is_array($control) || empty($control['id'])) { continue; }
+                    $found = null;
+                    foreach ($merged[$block] as $i => $existing) {
+                        if (is_array($existing) && isset($existing['id']) && $existing['id'] === $control['id']) { $found = $i; break; }
+                    }
+                    if (null !== $found) {
+                        $merged[$block][$found] = array_merge($merged[$block][$found], $control);
+                    } else {
+                        $merged[$block][] = $control;
+                    }
                 }
             }
         }
 
-        // 3) Résolution de source et construction
-        $allKeys = array_unique(array_merge(array_keys($themeControls), array_keys($filterControls)));
-        $out = array();
-        foreach ($allKeys as $key) {
-            $wanted = isset($sources[$key]) ? (string)$sources[$key] : '';
-            if ($wanted !== 'theme' && $wanted !== 'filter' && $wanted !== 'plugin') {
-                $wanted = isset($themeControls[$key]) ? 'theme' : 'filter';
-            }
-            // plugin n'existe pas ici: fallback theme > filter
-            if ($wanted === 'plugin') {
-                $wanted = isset($themeControls[$key]) ? 'theme' : 'filter';
-            }
-
-            $entry = null;
-            if ($wanted === 'theme' && isset($themeControls[$key])) {
-                $entry = $themeControls[$key];
-            } elseif ($wanted === 'filter' && isset($filterControls[$key])) {
-                $entry = $filterControls[$key];
-            }
-
-            if (!$entry) {
-                // fallback si la source choisie n'est pas dispo
-                if (isset($themeControls[$key])) { $entry = $themeControls[$key]; }
-                elseif (isset($filterControls[$key])) { $entry = $filterControls[$key]; }
-            }
-            if (!$entry) { continue; }
-
-            $block = (string)$entry['block'];
-            $control = $entry['control'];
-            if (!isset($out[$block])) { $out[$block] = array(); }
-            $out[$block][] = $control;
-        }
-
-        return new \WP_REST_Response($out, 200);
+        return new \WP_REST_Response($merged, 200);
     }
 }
 

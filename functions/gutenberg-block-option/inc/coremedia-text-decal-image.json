@@ -1,0 +1,35 @@
+{
+    "block": "core/media-text",
+    "control": {
+        "type": "select",
+        "id": "decal-image",
+        "label": "Décalage",
+        "options": [
+            {
+                "id": "decal-media-text-media-1",
+                "label": "1 Décalage bas gauche",
+                "classes": [
+                    "has-decal-media-text-media-1"
+                ],
+                "class": "has-decal-media-text-media-1"
+            },
+            {
+                "id": "decal-media-text-media-2",
+                "label": "2 Décalage bas droit",
+                "classes": [
+                    "has-decal-media-text-media-2"
+                ],
+                "class": "has-decal-media-text-media-2"
+            },
+            {
+                "id": "decal-media-text-media-3",
+                "label": "3 Décalage bas droit",
+                "classes": [
+                    "has-decal-media-text-media-3"
+                ],
+                "class": "has-decal-media-text-media-3"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}

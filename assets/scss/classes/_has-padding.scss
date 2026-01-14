@@ -13,7 +13,7 @@ $padding-sizes: (
     "40": 2.5rem,
     "48": 3rem,
     "72": 4.5rem,
-    "120": clamp(2rem, 1.29rem + 5.18vw,7.5rem),
+    "120": var(--clamp-7-5-rem),
     "160": 10rem,
     "200": 12.5rem
 );

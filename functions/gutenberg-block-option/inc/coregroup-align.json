@@ -1,0 +1,27 @@
+{
+    "block": "core/group",
+    "control": {
+        "type": "select",
+        "id": "align",
+        "label": "Alignement Horizontal",
+        "options": [
+            {
+                "id": "align-space-around",
+                "label": "space-around",
+                "classes": [
+                    "has-align-space-around"
+                ],
+                "class": "has-align-space-around"
+            },
+            {
+                "id": "align-space-evenly",
+                "label": "space-evenly",
+                "classes": [
+                    "has-align-space-evenly"
+                ],
+                "class": "has-align-space-evenly"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}

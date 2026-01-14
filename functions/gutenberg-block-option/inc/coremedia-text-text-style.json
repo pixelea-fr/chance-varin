@@ -1,0 +1,19 @@
+{
+    "block": "core/media-text",
+    "control": {
+        "type": "select",
+        "id": "text-style",
+        "label": "Section Text (style)",
+        "options": [
+            {
+                "id": "text-style-1",
+                "label": "18px/25px",
+                "classes": [
+                    "has-text-style-1"
+                ],
+                "class": "has-text-style-1"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}

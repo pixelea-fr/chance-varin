@@ -1,0 +1,35 @@
+{
+    "block": "core/group",
+    "control": {
+        "type": "select",
+        "id": "align-vertical",
+        "label": "Alignement Vertical",
+        "options": [
+            {
+                "id": "align-vertical-align-mobile-center",
+                "label": "Mobile center",
+                "classes": [
+                    "has-align-vertical-mobile-center"
+                ],
+                "class": "has-align-vertical-mobile-center"
+            },
+            {
+                "id": "align-vertical-align-tablet-center",
+                "label": "Tablet center",
+                "classes": [
+                    "has-align-vertical-tablet-center"
+                ],
+                "class": "has-align-vertical-tablet-center"
+            },
+            {
+                "id": "align-vertical-align-desktop-center",
+                "label": "Desktop center",
+                "classes": [
+                    "has-align-vertical-desktop-center"
+                ],
+                "class": "has-align-vertical-desktop-center"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "block": "core/group",
+    "control": {
+        "type": "select",
+        "id": "width",
+        "label": "Largeur",
+        "options": [
+            {
+                "id": "width-full",
+                "label": "full",
+                "classes": [
+                    "has-width-full"
+                ],
+                "class": "has-width-full"
+            },
+            {
+                "id": "width-100",
+                "label": "100%",
+                "classes": [
+                    "has-width-100"
+                ],
+                "class": "has-width-100"
+            },
+            {
+                "id": "width-wide",
+                "label": "wide",
+                "classes": [
+                    "has-width-wide"
+                ],
+                "class": "has-width-wide"
+            },
+            {
+                "id": "width-large",
+                "label": "large",
+                "classes": [
+                    "has-width-large"
+                ],
+                "class": "has-width-large"
+            },
+            {
+                "id": "width-card",
+                "label": "Card",
+                "classes": [
+                    "has-width-card"
+                ],
+                "class": "has-width-card"
+            },
+            {
+                "id": "width-100-minus-1rem",
+                "label": "100% - 1rem",
+                "classes": [
+                    "has-width-100-minus-1rem"
+                ],
+                "class": "has-width-100-minus-1rem"
+            },
+            {
+                "id": "width-100-minus-2rem",
+                "label": "100% - 2rem",
+                "classes": [
+                    "has-width-100-minus-2rem"
+                ],
+                "class": "has-width-100-minus-2rem"
+            },
+            {
+                "id": "width-100-minus-3rem",
+                "label": "100% - 3rem",
+                "classes": [
+                    "has-width-100-minus-3rem"
+                ],
+                "class": "has-width-100-minus-3rem"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}

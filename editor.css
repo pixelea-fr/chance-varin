@@ -1167,11 +1167,11 @@
 }
 
 .has-padding-l-120 {
-  padding-left: clamp(2rem, 1.29rem + 5.18vw, 7.5rem);
+  padding-left: var(--clamp-7-5-rem);
 }
 
 .has-padding-r-120 {
-  padding-right: clamp(2rem, 1.29rem + 5.18vw, 7.5rem);
+  padding-right: var(--clamp-7-5-rem);
 }
 
 .has-padding-l-160 {

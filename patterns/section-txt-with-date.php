@@ -18,7 +18,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"align":"right","metadata":{"name":"Date"},"className":"has-on-bottom-half is-style-bordered section-with-date__date"} -->
-<p class="has-text-align-right has-on-bottom-half is-style-bordered section-with-date__date">2018</p>
+<!-- wp:paragraph {"align":"right","metadata":{"name":"Date"},"className":"has-on-bottom-half is-style-bordered section-txt-with-date__date"} -->
+<p class="has-text-align-right has-on-bottom-half is-style-bordered section-txt-with-date__date">2018</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

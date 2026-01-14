@@ -1,0 +1,19 @@
+{
+    "block": "core/media-text",
+    "control": {
+        "type": "select",
+        "id": "padding-content",
+        "label": "Padding Content",
+        "options": [
+            {
+                "id": "has-padding-content-0",
+                "label": "aucun padding au content",
+                "classes": [
+                    "has-padding-content-0"
+                ],
+                "class": "has-padding-content-0"
+            }
+        ],
+        "panel": "Apparence"
+    }
+}
