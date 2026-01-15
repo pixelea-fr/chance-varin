@@ -3,7 +3,10 @@
   /* styles mobile */
   
 }
-
+.wp-block-navigation__responsive-container-close {
+    top:2rem;
+    right: 2rem;
+}
 html.has-modal-open{
   .wp-block-navigation__submenu-container .wp-block-navigation-item__label{
      //  border:1px solid pink;

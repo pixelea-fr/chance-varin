@@ -252,6 +252,33 @@ textarea:focus, input:focus {
   overflow-x: clip;
 }
 
+html:not(.has-modal-open) header.with-bg .navigation-logo-centered__container {
+  background: var(--wp--preset--color--base) !important;
+}
+html:not(.has-modal-open) .navigation-logo-centered__container {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+@media (max-width: 1280px) {
+  html:not(.has-modal-open) .navigation-logo-centered__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  html:not(.has-modal-open) .navigation-logo-centered__container .wp-block-site-logo {
+    margin: 0 !important;
+  }
+  html:not(.has-modal-open) .navigation-logo-centered__container .wp-block-navigation {
+    margin: 0 !important;
+  }
+  html:not(.has-modal-open) .navigation-logo-centered__container .wp-block-site-logo.is-default-size img {
+    width: 76px;
+  }
+  html:not(.has-modal-open) .navigation-logo-centered__container .navigation-logo-centered {
+    min-height: auto !important;
+  }
+}
+
 @media (max-width: 600px) {
   .is-style-section {
     color: currentColor;
@@ -2477,6 +2504,11 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
 /* Menu mobile (burger actif) */
 .wp-block-navigation.is-responsive .wp-block-navigation__responsive-container-open {
   /* styles mobile */
+}
+
+.wp-block-navigation__responsive-container-close {
+  top: 2rem;
+  right: 2rem;
 }
 
 html.has-modal-open .wp-block-navigation__submenu-container .wp-block-navigation-item__label {

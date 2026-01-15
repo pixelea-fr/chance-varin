@@ -233,6 +233,11 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
   /* styles mobile */
 }
 
+.wp-block-navigation__responsive-container-close {
+  top: 2rem;
+  right: 2rem;
+}
+
 html.has-modal-open .wp-block-navigation__submenu-container .wp-block-navigation-item__label {
   font-size: 1.2rem;
 }
