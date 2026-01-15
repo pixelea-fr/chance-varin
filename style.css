@@ -574,19 +574,20 @@ textarea:focus, input:focus {
 }
 
 .media-text-localisation {
-  --decalage-carte: 7.5rem;
-  margin-top: var(--decalage-carte) !important;
+  --decalage-size:7.5rem;
+  --decalage-carte: calc(-30% - var(--decalage-size));
+  margin-top: var(--decalage-size) !important;
 }
 @media (max-width: 782px) {
   .media-text-localisation {
-    --decalage-carte: 17rem;
+    --decalage-size: 50vw;
   }
 }
 .media-text-localisation .wp-block-column:first-of-type {
   height: 0;
 }
 .media-text-localisation__img {
-  transform: translateY(calc(-30% - var(--decalage-carte)));
+  transform: translateY(var(--decalage-carte));
 }
 
 .media-text-decale-3 {
