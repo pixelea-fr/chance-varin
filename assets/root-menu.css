@@ -1,10 +1,10 @@
 /** changement du breakpoint du menu */
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .wp-block-navigation__responsive-container-open:not(.always-shown) {
     display: flex;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
     bottom: 0;
     display: none;
@@ -158,20 +158,24 @@ header.is-on-top:not(.light-colors) .wp-block-navigation .wp-block-navigation-it
   color: var(--wp--preset--color--base-2) !important;
 }
 
-header {
+.has-modal-open header .wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open {
+  color: var(--wp--preset--color--base-4) !important;
+}
+
+html:not(.has-modal-open) header {
   color: var(--wp--preset--color--base-4);
 }
-header.light-colors {
+html:not(.has-modal-open) header.light-colors {
   color: var(--wp--preset--color--base);
 }
-header.light-colors img {
+html:not(.has-modal-open) header.light-colors img {
   filter: brightness(0) saturate(100%) invert(100%);
 }
-header.light-colors .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+html:not(.has-modal-open) header.light-colors .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
   background-color: transparent !important;
   box-shadow: none !important;
 }
-header.with-bg {
+html:not(.has-modal-open) header.with-bg {
   color: var(--wp--preset--color--base-4);
 }
 
@@ -202,7 +206,7 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.has-child:hover .wp-block-navigation__submenu-container:after {
   transform: translateY(0);
 }
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.has-child > .wp-block-navigation-item__content {
     padding: 0.5em 0.5rem 0.5em 0 !important;
   }
@@ -229,6 +233,15 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
   /* styles mobile */
 }
 
+html.has-modal-open .wp-block-navigation__submenu-container .wp-block-navigation-item__label {
+  font-size: 1.2rem;
+}
+html.has-modal-open .wp-block-navigation-item__label {
+  font-size: 1.3rem;
+  display: block;
+  margin-bottom: var(--decalage-y) !important;
+  padding: 1rem;
+}
 html.has-modal-open .wp-block-navigation-item__content {
   text-align: center;
 }

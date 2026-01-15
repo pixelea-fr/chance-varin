@@ -36,27 +36,31 @@
   }
 }
 //COLORS en fonction du heaer
-header {
-  color: var(--wp--preset--color--base-4);
-
-
-  &.light-colors {
-    color: var(--wp--preset--color--base);
-
-    img {
-      filter: brightness(0) saturate(100%) invert(100%);
-    }
-
-    .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
-      background-color: transparent !important;
-      box-shadow: none !important;
-    }
-  }
-
-  &.with-bg {
-    color: var(--wp--preset--color--base-4);
-  }
+.has-modal-open header .wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open{
+  color: var(--wp--preset--color--base-4) !important;
 }
+ html:not(.has-modal-open) header {
+   color: var(--wp--preset--color--base-4);
+ 
+ 
+   &.light-colors {
+     color: var(--wp--preset--color--base);
+ 
+     img {
+       filter: brightness(0) saturate(100%) invert(100%);
+     }
+ 
+     .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+       background-color: transparent !important;
+       box-shadow: none !important;
+     }
+   }
+ 
+   &.with-bg {
+     color: var(--wp--preset--color--base-4);
+   }
+ }
+
 
 //MAIN
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main {
