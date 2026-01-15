@@ -1,0 +1,43 @@
+{
+    "block": "core/image",
+    "control": {
+        "type": "select",
+        "id": "visibility",
+        "label": "Visibilité",
+        "options": [
+            {
+                "id": "mobile-hidden",
+                "label": "Cacher sur mobile",
+                "classes": [
+                    "mobile-hidden"
+                ],
+                "class": "mobile-hidden"
+            },
+            {
+                "id": "mobitab-hidden",
+                "label": "Cacher sur mobile et tablette",
+                "classes": [
+                    "mobitab-hidden"
+                ],
+                "class": "mobitab-hidden"
+            },
+            {
+                "id": "desktop-hidden",
+                "label": "Cacher sur ordinateur",
+                "classes": [
+                    "desktop-hidden"
+                ],
+                "class": "desktop-hidden"
+            },
+            {
+                "id": "desktab-hidden",
+                "label": "Cacher sur tablette et orinateur",
+                "classes": [
+                    "desktab-hidden"
+                ],
+                "class": "desktab-hidden"
+            }
+        ],
+        "panel": "Visibilité"
+    }
+}

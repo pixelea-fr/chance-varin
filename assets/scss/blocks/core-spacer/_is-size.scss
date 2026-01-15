@@ -1,0 +1,10 @@
+@use '../../index' as *;
+
+.is-spacer{
+  
+    @include m(600){
+          &-160{
+            height: 3rem !important;
+          }
+    }
+}

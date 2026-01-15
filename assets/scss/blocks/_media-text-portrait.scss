@@ -1,5 +1,39 @@
-@use "../index" as *;
-.media-text-portrait{
-	--decalage-y:-3.5rem;
-    margin-top: calc(var(--decalage-y) * -1) !important;
+@use "../index"as *;
+
+.media-text-portrait {
+	--decalage-y: -3.5rem;
+	margin-top: calc(var(--decalage-y) * -1) !important;
+
+	@include p(960) {
+		margin-right: calc(-1 * var(--clamp-7-5-rem));
+	}
+
+	@include m(960) {
+		--decalage-y:0;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column-reverse;
+	}
+
+	&__txt {
+		@include m(1200) {
+			padding-left: 2.5rem !important;
+			//padding-right: 1rem !important;
+		}
+		@include m(960) {
+			padding-right: var(--clamp-mobitab-4-5-rem) !important;
+			padding-left: var(--clamp-mobitab-4-5-rem) !important;
+			margin-top: -5.5rem !important;
+		}
+	}
+
+	&__media img {
+		@include m(960) {
+			max-width: 100% !important;
+			transform: none !important;
+			//
+		}
+	}
 }

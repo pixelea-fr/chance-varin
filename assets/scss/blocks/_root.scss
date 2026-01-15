@@ -1,6 +1,7 @@
 @use 'core-group/is-style-section';
 @use 'core-button/is-style-core-button-with-arrows';
 @use 'core-heading/is-style-with-line';
+@use "core-spacer/is-size";
 @use "header-logo-centered";
 @import "cover-home";
 @import "media-text-decale";
@@ -15,3 +16,4 @@
 @import "section-text-2cols";
 @import "section-contact";
 @import "section-txt-with-date";
+@import "media-text-type-5--date";
