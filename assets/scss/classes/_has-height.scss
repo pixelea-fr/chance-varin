@@ -1,0 +1,35 @@
+@use "../index" as *;
+
+$height-sizes: (
+    "8": .5rem,
+    "16": 1rem,
+    "24": 1.5rem,
+    "32": 2rem,
+    "40": 2.5rem,
+    "48": 3rem,
+    "72": 4.5rem,
+    "120": 7.5rem,
+    "160": 10rem,
+    "200": 12.5rem,
+    "240": 15rem,
+    "300": 18.75rem
+);
+
+@each $slug, $size in $height-sizes {
+   
+    @include m(600){
+        .has-height-mobile-#{$slug} {
+            height: $size !important;
+        }
+    }
+        @include b(600,1280){
+        .has-height-mobitab-#{$slug} {
+            height: $size !important;
+        }
+    }
+    @include m(1280){
+        .has-height-mobitab-#{$slug} {
+            height: $size !important;
+        }
+    }
+}
