@@ -235,7 +235,7 @@
             {
                 "slug": "xxl",
                 "name": "xxl|64",
-                "size": "4rem",
+                "size": "clamp(3rem, 2.1667rem + 2.6667vw, 4.5rem)",
                 "fluid": false
             },
                         {
