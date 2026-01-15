@@ -1,11 +1,18 @@
+@use "../index" as *;
+
 .media-text-localisation{
-    margin-top:7.5rem !important;
+    --decalage-carte : 7.5rem;
+    @include m(782){
+     --decalage-carte : 17rem;
+    }
+    margin-top: var(--decalage-carte)!important;
     .wp-block-column{
         &:first-of-type{
             height: 0;
         }
     }
     &__img{
-       transform:translateY(calc(-30% - 7.5rem));
+       transform:translateY(calc(-30% - var(--decalage-carte)));
+       
     }
 }
