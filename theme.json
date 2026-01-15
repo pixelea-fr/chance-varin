@@ -241,13 +241,13 @@
                         {
                 "slug": "xxl-b",
                 "name": "xxl-b|80",
-                "size": "5rem",
+                "size": "clamp(3rem, 1.8889rem + 3.5556vw, 5rem);",
                 "fluid": false
             },
             {
                 "slug": "xxxl",
                 "name": "xxxl|120",
-                "size": "7.5rem",
+                "size": "clamp(3.5rem, 1.2778rem + 7.1111vw, 7.5rem);",
                 "fluid": false
             }
         ]
