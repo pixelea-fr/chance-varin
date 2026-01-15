@@ -1,11 +1,13 @@
-.has-padding-content-0{
+@use "../index" as *;
 
+.has-padding-content-0{
    &.wp-block-media-text > .wp-block-media-text__content{
         padding: 0 ;
     }
 }
 
 $padding-sizes: (
+    "0": 0,
     "8": .5rem,
     "16": 1rem,
     "24": 1.5rem,
@@ -25,6 +27,17 @@ $padding-sizes: (
     .has-padding-r-#{$slug} {
         padding-right: $size;
     }
+    @include m(600){
+        .has-padding-mobile-l-#{$slug} {
+            padding-left: $size !important;
+        }
+        .has-padding-mobile-r-#{$slug} {
+            padding-right: $size !important;
+        }
+    }
+    
 }
+
+
 
 
