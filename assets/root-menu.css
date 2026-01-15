@@ -240,7 +240,7 @@ html.has-modal-open .wp-block-navigation-item__label {
   font-size: 1.3rem;
   display: block;
   margin-bottom: var(--decalage-y) !important;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 html.has-modal-open .wp-block-navigation-item__content {
   text-align: center;
