@@ -574,7 +574,6 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
 }
 
 .media-text-decale {
-  background: red;
   --margin-top-media: 0px;
   --btn-height:36px;
   margin-right: auto;
