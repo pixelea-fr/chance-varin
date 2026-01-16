@@ -1,0 +1,51 @@
+@use "../index" as *;
+
+$font-sizes: (
+    'xs',
+    'regular',
+    's',
+    'm',
+    'l',
+    'xl',
+    'xxl',
+    'xxl-b',
+    'xxxl'
+);
+
+@each $size in $font-sizes {
+    @include m(600){
+        .has-mobile-font-size-#{$size} {
+            font-size: var(--wp--preset--font-size--#{$size}) !important;
+        }
+    }
+    @include b(600,1280){
+        .has-tab-font-size-#{$size} {
+            font-size: var(--wp--preset--font-size--#{$size}) !important;
+        }
+    }
+    @include m(1280){
+        .has-mobitab-font-size-#{$size} {
+             font-size: var(--wp--preset--font-size--#{$size}) !important;
+        }
+    }
+}
+
+
+@each $slug, $size in $height-sizes {
+   
+    @include m(600){
+        .has-height-mobile-#{$slug} {
+            height: $size !important;
+        }
+    }
+    @include b(600,1280){
+    .has-height-tab-#{$slug} {
+        height: $size !important;
+    }
+    }
+    @include m(1280){
+        .has-height-mobitab-#{$slug} {
+            height: $size !important;
+        }
+    }
+}

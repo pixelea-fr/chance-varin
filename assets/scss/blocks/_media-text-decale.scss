@@ -1,6 +1,6 @@
 @use "../index" as *;
 .media-text-decale{
-
+background:red;
     --margin-top-media: 0px;
     --btn-height:36px;
     margin-right:auto;
@@ -10,19 +10,22 @@
     &__txt{
         width: 100%;
     }
+	
     @include p(1200){
         &__txt{
             width: 60%;
             padding:7.5rem;
         }
         &__media{
-            margin-top: var(--margin-top-media, 0px);
+            margin-top: var(--margin-top-media, 0px) !important;
             position: relative;bottom:0;
-            transform:translateX(-30%) ;
+            
     
             img{
                 width:120%;  
                 max-width:120%; 
+                float: right;
+                transform:translateX(calc(-1 * var(--clamp-7-5-rem))) ;
             }
         }
     }
@@ -36,7 +39,7 @@
          &__media{
              margin-top: var(--margin-top-media, 0px);
             width: 100%;
-            transform:translateX(-30%) ;
+           //transform:translateX(-30%) ;
          }
      }
     }

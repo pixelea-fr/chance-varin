@@ -18,9 +18,43 @@
 <p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus. Adipiscing eu faucibus nec massa. Cursus sit dis magna a tellus duis. Tincidunt cursus mi interdum ultrices ultrices malesuada risus dolor non. Pellentesque est sit eget amet pretium. Nam at leo tortor volutpat enim egestas a. Amet mi at vulputate nisi sapien.</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Section mise en avant | page link"},"className":"section-focus-page","style":{"border":{"left":{"color":"var:preset|color|base-2","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|2"},"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-focus-page" style="border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"} -->
+<div class="wp-block-button is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"><a class="wp-block-button__link wp-element-button" href="/genre/location/">Nos locations</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
 <!-- wp:paragraph -->
-<p></p>
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Section mise en avant | page link"},"className":"section-focus-page","style":{"border":{"left":{"color":"var:preset|color|base-2","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|2"},"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-focus-page" style="border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"} -->
+<div class="wp-block-button is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"><a class="wp-block-button__link wp-element-button" href="/genre/vente/">Nos ventes</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Section mise en avant | page link"},"className":"section-focus-page","style":{"border":{"left":{"color":"var:preset|color|base-2","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|2"},"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-focus-page" style="border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"} -->
+<div class="wp-block-button is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"><a class="wp-block-button__link wp-element-button" href="/genre/viager/">Viager</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 

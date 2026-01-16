@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Flèche sans bordure",
+	"slug": "with-arrows-no-border",
+	"blockTypes": ["core/button"],
+    "styles": {
+		"color": {
+			"background": "transparent",
+			"text": "inherit"
+		},
+		"typography": {
+			"lineHeight": "1.4",
+			"fontWeight" :"700"
+		},
+        "css": "border: none; width:fit-content; padding-left: 0; padding-right: 0 ;"
+    }
+}

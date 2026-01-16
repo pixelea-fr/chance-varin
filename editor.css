@@ -1423,7 +1423,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-8 {
+  .has-height-tab-8 {
     height: 0.5rem !important;
   }
 }
@@ -1438,7 +1438,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-16 {
+  .has-height-tab-16 {
     height: 1rem !important;
   }
 }
@@ -1453,7 +1453,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-24 {
+  .has-height-tab-24 {
     height: 1.5rem !important;
   }
 }
@@ -1468,7 +1468,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-32 {
+  .has-height-tab-32 {
     height: 2rem !important;
   }
 }
@@ -1483,7 +1483,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-40 {
+  .has-height-tab-40 {
     height: 2.5rem !important;
   }
 }
@@ -1498,7 +1498,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-48 {
+  .has-height-tab-48 {
     height: 3rem !important;
   }
 }
@@ -1513,7 +1513,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-72 {
+  .has-height-tab-72 {
     height: 4.5rem !important;
   }
 }
@@ -1528,7 +1528,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-120 {
+  .has-height-tab-120 {
     height: 7.5rem !important;
   }
 }
@@ -1543,7 +1543,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-160 {
+  .has-height-tab-160 {
     height: 10rem !important;
   }
 }
@@ -1558,7 +1558,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-200 {
+  .has-height-tab-200 {
     height: 12.5rem !important;
   }
 }
@@ -1573,7 +1573,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-240 {
+  .has-height-tab-240 {
     height: 15rem !important;
   }
 }
@@ -1588,7 +1588,7 @@
   }
 }
 @media (min-width: 600px) and (max-width: 1280px) {
-  .has-height-mobitab-300 {
+  .has-height-tab-300 {
     height: 18.75rem !important;
   }
 }
@@ -1603,6 +1603,33 @@
   align-items: center;
 }
 .wp-block-button.is-style-core-button-with-arrows .wp-block-button__link::after {
+  content: "";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 11px;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='11' viewBox='0 0 13 11' fill='none'%3E%3Cpath d='M0.5 5.29167H12M12 5.29167L7.20833 0.5M12 5.29167L7.20833 10.0833' stroke='black' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='11' viewBox='0 0 13 11' fill='none'%3E%3Cpath d='M0.5 5.29167H12M12 5.29167L7.20833 0.5M12 5.29167L7.20833 10.0833' stroke='black' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+}
+
+.wp-block-button.is-style-with-arrows-no-border .wp-block-button__link {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.wp-block-button.is-style-with-arrows-no-border .wp-block-button__link:hover {
+  color: var(--wp--preset--color--base-2) !important;
+  gap: 0.6rem;
+}
+.wp-block-button.is-style-with-arrows-no-border .wp-block-button__link::after {
   content: "";
   display: inline-flex;
   align-items: center;
