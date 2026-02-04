@@ -31,7 +31,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->]]></content>
   <excerpt><![CDATA[bien très grand]]></excerpt>
-  <modified><![CDATA[2026-01-14 08:27:41]]></modified>
+  <modified><![CDATA[2026-02-04 13:48:20]]></modified>
   <media>
     <file type="featured" original_id="450">
       <filename><![CDATA[2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1.jpg]]></filename>
@@ -41,7 +41,7 @@
     </file>
   </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1768375652:1]]></key>
+    <key name="_edit_lock"><![CDATA[1770209300:1]]></key>
     <key name="_edit_last"><![CDATA[1]]></key>
     <key name="type_bien"><![CDATA[]]></key>
     <key name="prix"><![CDATA[3000]]></key>
@@ -67,7 +67,7 @@
   </meta>
   <taxonomies>
     <taxonomy name="genre">
-      <term slug="location"/>
+      <term slug="viager"/>
     </taxonomy>
     <taxonomy name="type_de_bien">
       <term slug="maison"/>

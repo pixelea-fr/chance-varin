@@ -65,3 +65,21 @@ html:not(.has-modal-open) {
         }
     }
 }
+
+:root{
+    @include b(900,1680){
+     --wp--preset--font-size--xxxl : 6vw;
+    }
+    
+}
+@include m(1200){
+ .wp-block-media-text{
+     display: flex;
+     flex-direction: column;
+ }
+ .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: 100%  !important
+
+}
+
+}

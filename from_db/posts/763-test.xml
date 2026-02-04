@@ -7,12 +7,22 @@
   <date><![CDATA[2026-01-14 09:11:27]]></date>
   <date_gmt><![CDATA[2026-01-14 08:11:27]]></date_gmt>
   <title><![CDATA[TEST]]></title>
-  <content><![CDATA[]]></content>
+  <content><![CDATA[<!-- wp:heading -->
+<h2 class="wp-block-heading">efef</h2>
+<!-- /wp:heading -->]]></content>
   <excerpt><![CDATA[test desxciption]]></excerpt>
-  <modified><![CDATA[2026-01-14 09:11:27]]></modified>
-  <media/>
+  <modified><![CDATA[2026-02-04 14:09:40]]></modified>
+  <media>
+    <file type="featured" original_id="543">
+      <filename><![CDATA[2026/01/recueils-de-regles-ou-de-coutumes-locales-scaled.jpg]]></filename>
+      <title><![CDATA[recueils de règles ou de coutumes locales]]></title>
+      <alt><![CDATA[Recueils de règles ou de coutumes locales]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+  </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1768378280:1]]></key>
+    <key name="_edit_lock"><![CDATA[1770210569:1]]></key>
+    <key name="_thumbnail_id"><![CDATA[543]]></key>
     <key name="_pingme"><![CDATA[1]]></key>
     <key name="_encloseme"><![CDATA[1]]></key>
   </meta>

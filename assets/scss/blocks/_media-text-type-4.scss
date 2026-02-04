@@ -1,5 +1,14 @@
-@use "../index" as *;
-.media-text-type-4{
-	--decalage-y:-3.5rem;
+@use "../index"as *;
+
+.media-text-type-4 {
+    --decalage-y: -3.5rem;
     margin-top: calc(var(--decalage-y) * -1) !important;
+
+    @include m(1200) {
+
+        &.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__content,
+        .wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__media {
+            align-self: auto !important;
+        }
+    }
 }

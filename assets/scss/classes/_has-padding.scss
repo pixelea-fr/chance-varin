@@ -22,7 +22,7 @@ $padding-sizes: (
 
 @each $slug, $size in $padding-sizes {
     .has-padding-l-#{$slug} {
-        padding-left: $size;
+        padding-left: $size ;
     }
     .has-padding-r-#{$slug} {
         padding-right: $size;
@@ -30,6 +30,7 @@ $padding-sizes: (
     @include m(600){
         .has-padding-mobile-l-#{$slug} {
             padding-left: $size !important;
+
         }
         .has-padding-mobile-r-#{$slug} {
             padding-right: $size !important;
