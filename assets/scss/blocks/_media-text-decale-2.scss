@@ -1,0 +1,35 @@
+@use "../index"as *;
+
+.media-text-decal-2 {
+    gap: 0 !important;
+}
+
+@include p(1200) {
+    .media-text-decal-2 {
+        --media-text-decal-2-top: 278px;
+        margin-bottom: var(--media-text-decal-2-top) !important;
+    }
+
+    .media-text-decal-2__col2 {
+        img {
+          transform: translateX(calc(-1 * var(--clamp-7-5-rem))) translateY(var(--media-text-decal-2-top));
+        }
+    }
+}
+
+@include m(1200) {
+    .media-text-decal-2 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        &__col1 {
+            flex-basis: 100% !important;
+        }
+        .wp-block-image img {
+            width: 100vw;
+        }
+
+        .has-padding-r-240 {
+            padding-right: var(--clamp-7-5-rem);
+        }
+    }
+}

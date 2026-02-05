@@ -84,6 +84,14 @@
                     "has-padding-r-200"
                 ],
                 "class": "has-padding-r-200"
+            },
+                      {
+                "id": "padding-r-240",
+                "label": "15rem | 240",
+                "classes": [
+                    "has-padding-r-240"
+                ],
+                "class": "has-padding-r-240"
             }
         ],
         "panel": "Padding"

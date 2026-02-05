@@ -12,7 +12,7 @@
 		transform:  translateY(calc( var(--decalage-y, 40%) - 100%));
 		max-width: calc(1920px / 2);
 	}
-	.wp-block-media-text__content>*{
+	.wp-block-media-text__contentt>*{
 		position: relative;
 		z-index:4;
 	}

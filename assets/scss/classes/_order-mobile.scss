@@ -1,0 +1,8 @@
+.is-stacked-on-mobile--reverse{
+    &.wp-block-media-text {
+        @media (max-width: 1200px) {
+            display:flex;
+            flex-direction: column-reverse;
+        }
+    }
+}

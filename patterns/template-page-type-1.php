@@ -11,5 +11,10 @@
 ?>
 <!-- wp:pattern {"slug":"ng1-base/spacer-300"} /-->
 <!-- wp:pattern {"slug":"ng1-base/cover-type-1"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-120"} /-->
+<!-- wp:pattern {"slug":"ng1-base/section-media-text-etudes"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-200"} /-->
 <!-- wp:pattern {"slug":"ng1-base/media-text-type-5--date"} /-->
-<!-- wp:pattern {"slug":"ng1-base/media-text-decale-3"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-240"} /-->
+<!-- wp:pattern {"slug":"ng1-base/section-video-etudes"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-200"} /-->
