@@ -228,13 +228,13 @@
             },
             {
                 "slug": "xl",
-                "name": "xl|24",
-                "size": "1.5rem",
+                "name": "xl|64",
+                "size": "clamp(3rem, 2.4444rem + 1.4815vw, 4rem);",
                 "fluid": false
             },
             {
                 "slug": "xxl",
-                "name": "xxl|64",
+                "name": "xxl|72",
                 "size": "clamp(3rem, 2.1667rem + 2.6667vw, 4.5rem)",
                 "fluid": false
             },

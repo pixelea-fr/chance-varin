@@ -2850,6 +2850,15 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
   right: 2rem;
 }
 
+html.has-modal-open .wp-block-site-logo {
+  position: absolute;
+  top: -2rem;
+  left: 2rem;
+}
+html.has-modal-open .wp-block-site-logo img {
+  width: 78px;
+}
+
 html.has-modal-open .wp-block-navigation__submenu-container .wp-block-navigation-item__label {
   font-size: 1.2rem;
 }
