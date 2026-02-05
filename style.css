@@ -2860,13 +2860,14 @@ html.has-modal-open .wp-block-site-logo img {
 }
 
 html.has-modal-open .wp-block-navigation__submenu-container .wp-block-navigation-item__label {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 html.has-modal-open .wp-block-navigation-item__label {
   font-size: 1.3rem;
   display: block;
   margin-bottom: var(--decalage-y) !important;
-  padding: 0.15rem;
+  padding: 0.3rem;
 }
 html.has-modal-open .wp-block-navigation-item__content {
   text-align: center;
