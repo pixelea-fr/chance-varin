@@ -1,5 +1,12 @@
 @use "../index" as *;
 
+footer{
+    @include m(600){
+     >div{
+        padding-top:3rem !important;
+     }
+    }
+}
 .footer-chance-varin{
     background-image:linear-gradient(
       180deg,

@@ -391,6 +391,15 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   .is-spacer-160 {
     height: 3rem !important;
   }
+  .is-spacer-180 {
+    height: 3rem !important;
+  }
+  .is-spacer-200 {
+    height: 3rem !important;
+  }
+  .is-spacer-240 {
+    height: 3rem !important;
+  }
 }
 
 .navigation-logo-centered {
@@ -861,6 +870,12 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   transform: translateY(50%);
   position: relative;
   z-index: 2;
+}
+
+@media (max-width: 600px) {
+  footer > div {
+    padding-top: 3rem !important;
+  }
 }
 
 .footer-chance-varin {
