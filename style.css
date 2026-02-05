@@ -2866,12 +2866,13 @@ html.has-modal-open .wp-block-navigation-item__label {
   font-size: 1.3rem;
   display: block;
   margin-bottom: var(--decalage-y) !important;
-  padding: 0.5rem;
+  padding: 0.15rem;
 }
 html.has-modal-open .wp-block-navigation-item__content {
   text-align: center;
 }
 html.has-modal-open .wp-block-navigation__container {
+  padding-top: 2.5rem;
   gap: 1.5rem !important;
 }
 html.has-modal-open .wp-block-site-logo {
