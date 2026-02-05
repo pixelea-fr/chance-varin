@@ -5,11 +5,11 @@
  * Block Types: core/group
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Section texte | 2 cols | container"},"align":"full","className":"is-style-style4 section-text-2cols__container","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8","left":"var:preset|spacing|8","right":"var:preset|spacing|8"}}},"layout":{"type":"constrained","contentSize":"1680px"}} -->
-<div class="wp-block-group alignfull is-style-style4 section-text-2cols__container" style="padding-top:var(--wp--preset--spacing--8);padding-right:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)"><!-- wp:columns {"metadata":{"name":"Section texte | 2 cols "},"align":"wide","className":"section-txt-2cols__container","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|5"}}}} -->
+<!-- wp:group {"metadata":{"name":"Section texte | 2 cols | container"},"align":"full","className":"is-style-style4 section-text-2cols__container has-padding-l-120 has-padding-r-120","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"}}},"layout":{"type":"constrained","contentSize":"1680px"}} -->
+<div class="wp-block-group alignfull is-style-style4 section-text-2cols__container has-padding-l-120 has-padding-r-120" style="padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:columns {"metadata":{"name":"Section texte | 2 cols "},"align":"wide","className":"section-txt-2cols__container","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|5"}}}} -->
 <div class="wp-block-columns alignwide section-txt-2cols__container"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
-<p>Le pôle immobilier des particuliers accompagne et conseille dans les différentes opérations immobilières, comme l'acquisition de la résidence principale, d'une résidence secondaire, d'un immeuble professionnel, la réalisation d'une opération de défiscalisation ou encore la réalisation d'un investissement locatif.   </p>
+<p>Le pôle immobilier des particuliers accompagne et conseille dans les différentes opérations immobilières, comme l'acquisition de la résidence principale, d'une résidence secondaire, d'un immeuble professionnel, la réalisation d'une opération de défiscalisation ou encore la réalisation d'un investissement locatif. &nbsp; </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
