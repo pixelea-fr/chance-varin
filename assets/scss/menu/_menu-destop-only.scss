@@ -1,8 +1,11 @@
 @use "../index" as *;
 @use "menu-variables" as *;
-
-
-
+:root{
+  --before-after-width:220px;
+}
+.wp-block-navigation .wp-block-navigation-item__label{
+  white-space: nowrap;
+  }
 /* Menu desktop (non burger) */
 .wp-block-navigation:not(.is-responsive) .wp-block-navigation__responsive-container {
   /* styles desktop */
@@ -79,10 +82,12 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main {
         position: absolute;
         bottom: 0;
         transform: translateY(-250px);
+           
       }
 
       &:before,
       &:after {
+         max-width:var(--before-after-width); 
         z-index: 1;
         content: "";
         display: block;
@@ -98,6 +103,7 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main {
       &:before,
       &:after {
         width: 100%;
+    
 
       }
 
