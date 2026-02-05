@@ -11,7 +11,7 @@
 ?>
 <!-- wp:pattern {"slug":"ng1-base/spacer-300"} /-->
 <!-- wp:pattern {"slug":"ng1-base/cover-type-1"} /-->
-<!-- wp:pattern {"slug":"ng1-base/spacer-072"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-300"} /-->
 <!-- wp:pattern {"slug":"ng1-base/media-text-type-4"} /-->
 <!-- wp:pattern {"slug":"ng1-base/spacer-160"} /-->
 <!-- wp:pattern {"slug":"ng1-base/section-text-type-3"} /-->

@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="has-xs-font-size" style="line-height:1.87">2 Place Jean Bureau <br>14130 PONT L’ÉVÊQUE<br>02 31 64 00 08</p>
+<p class="has-xs-font-size" style="line-height:1.87">2 Place Jean Bureau <br>14130 PONT L’EVEQUE <br>02 31 64 00 08</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

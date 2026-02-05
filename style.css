@@ -873,6 +873,13 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   padding: 0;
 }
 
+.section-information__media-txt {
+  min-height: 626px;
+}
+.section-information__media-txt.is-style-style2 {
+  min-height: 470px;
+}
+
 .section-double-marquee {
   transform: translateY(50%);
   position: relative;
