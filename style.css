@@ -350,13 +350,10 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
 }
 
 .is-style-with-line.wp-block-heading, .is-style-with-line.wp-block-post-title {
-  padding-left: 1rem;
-  padding-right: 1rem;
   background: white !important;
   display: inline-flex;
   position: relative;
   z-index: 2;
-  position: absol;
 }
 .is-style-with-line__wrapper {
   max-width: var(--wp--style--global--content-size);
@@ -370,9 +367,13 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
 }
 .is-style-with-line__container {
   color: var(--wp--preset--color--base-4);
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: calc(var(--clamp-7-5-rem) - 2rem) !important;
   position: relative;
+}
+@media (max-width: 600px) {
+  .is-style-with-line__container {
+    padding-left: 2rem;
+  }
 }
 .is-style-with-line__container:before {
   content: "";

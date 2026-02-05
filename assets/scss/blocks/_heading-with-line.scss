@@ -1,0 +1,40 @@
+// .is-style-with-line {
+  
+//     &.wp-block-heading,&.wp-block-post-title {
+
+//                 background: white !important;
+//                 display: inline-flex;
+//                 position: relative;
+//                 z-index: 2;
+       
+//     }
+    
+//       &__wrapper{
+//         max-width:var(--wp--style--global--content-size);
+//         &.alignfull{
+//             max-width:calc(1680px + 1rem);
+//         }
+//         &.alignwide{
+//             max-width:var(--wp--style--global--wide-size);
+//         }
+//         margin:0 auto;
+//       }  
+//     &__container{
+
+//         color:var(--wp--preset--color--base-4);
+//       padding-left: calc(var(--clamp-7-5-rem) - 2rem) !important;
+//         position:relative;
+//             &:before{
+//                 content: "";
+//                 display: block;
+//                 height: 1px;
+//                 background-color: currentColor;
+//                width:100%;
+//                position: absolute;
+//                top:50%;
+//                left: 0;
+//                right: 104px;
+//                transform: translateY(-50%);
+//             }
+//         }
+// }
