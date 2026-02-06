@@ -1,5 +1,50 @@
 @use "../index" as *;
 .media-text-portrait-reverse{
+	position:relative;
 	--decalage-y:-3.5rem;
     margin-top: calc(var(--decalage-y) * -1) !important;
+	&:after{
+		content:"";
+		width: 100vw;
+		position:absolute;
+		right:0;
+		bottom:0;
+		top:0;
+		transform:translateX(100%)
+	}
+	&:has(.is-style-style2){
+
+		&.media-text-portrait-reverse:after{
+		background: var(--wp--preset--color--base-2);
+		}
+	}
+}
+
+
+
+.media-text-portrait-reverse{
+@include m(768){
+	margin-top: 0 !important;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+ >.wp-block-group {
+	&.media-text-portrait-reverse__txt{
+	width: 100%;
+	padding: var(--clamp-7-5-rem) !important;
+	}
+
+ }
+ .is-style-400-decal-droite{
+	transform:none !important;
+	img{
+		margin: 0 auto;
+		max-width: 100% !important;
+		transform:none !important;
+	}
+}
+}
+
 }

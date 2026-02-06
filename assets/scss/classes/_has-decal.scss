@@ -10,11 +10,18 @@
 .has-decal-h-1{
     position:absolute;
     top:0;
-    left:var(--clamp-7-5-rem); 
+   @include p(600){
+     left:var(--clamp-7-5-rem); 
+   }
     right: 0;
     transform: translateY(calc(-100% + 72px));
     z-index:3;
     width: 100%;
+    @include m(600){
+     text-align: left;
+     padding: 0 var(--clamp-7-5-rem);
+     box-sizing: border-box;
+    }
 }
 
 

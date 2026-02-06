@@ -11,7 +11,7 @@
 ?>
 
 <!-- wp:pattern {"slug":"ng1-base/cover-home"} /-->
-<!-- wp:pattern {"slug":"ng1-base/spacer-160"} /-->
+<!-- wp:pattern {"slug":"ng1-base/spacer-160-mobile-0"} /-->
 <!-- wp:pattern {"slug":"ng1-base/media-text-decale"} /-->
 <!-- wp:pattern {"slug":"ng1-base/spacer-160"} /-->
 <!-- wp:pattern {"slug":"ng1-base/media-text-localisation"} /-->

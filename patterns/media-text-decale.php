@@ -30,8 +30,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Media Texte Décalé | part 2"},"className":"media-text-decale__part2","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom"}} -->
-<div class="wp-block-group media-text-decale__part2"><!-- wp:group {"metadata":{"name":"before-media"},"className":"media-text-decale__before-media","layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group media-text-decale__before-media"><!-- wp:shortcode -->
+<div class="wp-block-group media-text-decale__part2"><!-- wp:group {"metadata":{"name":"before-media"},"className":"media-text-decale__before-media has-margin-t-minus-160 is-hidden-mobile","layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group media-text-decale__before-media has-margin-t-minus-160 is-hidden-mobile"><!-- wp:shortcode -->
 <?php 
 if (!$is_editor) {
     echo do_shortcode('[lottie_hover src="logo-chance-varin.json" speed="3" 

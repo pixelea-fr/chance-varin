@@ -211,7 +211,7 @@
             {
                 "slug": "s",
                 "name": "s|18",
-                "size": "1.125rem",
+                "size": "clamp(1rem, 0.8481rem + 0.3165vw, 1.125rem);",
                 "fluid": false
             },
             {

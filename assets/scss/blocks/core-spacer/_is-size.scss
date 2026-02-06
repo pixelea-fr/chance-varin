@@ -1,19 +1,26 @@
 @use '../../index' as *;
 
-.is-spacer{
+.is-spacer {
   
-    @include m(600){
-          &-160{
-            height: 3rem !important;
-          }
-           &-180{
-            height: 3rem !important;
-          }
-              &-200{
-            height: 3rem !important;
-          }
-                      &-240{
-            height: 3rem !important;
-          }
+  @include m(600) {
+    &-160 {
+      height: 3rem !important;
     }
+    &-180 {
+      height: 3rem !important;
+    }
+    &-200 {
+      height: 3rem !important;
+    }
+    &-240 {
+      height: 3rem !important;
+    }
+
+  &-160,&-180,&-200,&-240{
+      &[class$="--mobile0"] {
+        height: 0 !important;
+      }
+    }
+  }
+  
 }

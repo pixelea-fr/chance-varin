@@ -59,4 +59,10 @@
          }
      }
     }
+    @include m(600){
+     display: block !important;
+     .media-text-decale__part2{
+       grid-template-columns:1fr;
+     }
+    }
 }

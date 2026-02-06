@@ -1,0 +1,22 @@
+@use "../index" as *;
+
+@include m(600){
+ .is-hidden-mobile{
+  display: none !important;
+ }
+}
+@include m(1024){
+ .is-hidden-mobitab{
+  display: none !important;
+ }
+}
+@include p(1024){
+  .is-hidden-desktop{
+  display: none !important;
+ }
+}
+@include b(600, 1024){
+  .is-hidden-tablet{
+  display: none !important;
+ }
+}

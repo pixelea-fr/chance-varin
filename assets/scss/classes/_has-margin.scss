@@ -1,5 +1,6 @@
+@use "../index.scss" as *;
 $margin-sizes: (
-    "8": .5rem,
+    "minus-160" : -10rem,
     "16": 1rem,
     "24": 1.5rem,
     "32": 2rem,
@@ -19,3 +20,8 @@ $margin-sizes: (
         margin-bottom: $size !important;
     }
 }
+    @include m(1200){
+     .has-margin-t-minus-160{
+        margin-top: 0 !important;
+     }
+    }

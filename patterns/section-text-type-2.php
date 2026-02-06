@@ -9,8 +9,8 @@
 ?>
 <!-- wp:group {"align":"full","className":"section-text-type-2__container is-style-default","style":{"spacing":{"padding":{"right":"var:preset|spacing|2","left":"var:preset|spacing|2"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull section-text-type-2__container is-style-default" style="padding-right:var(--wp--preset--spacing--2);padding-left:var(--wp--preset--spacing--2)"><!-- wp:group {"metadata":{"name":"section text type 2"},"align":"full","className":"section-text-type-2 is-style-style4","style":{"spacing":{"padding":{"right":"var:preset|spacing|2","left":"var:preset|spacing|2"}}},"layout":{"type":"constrained","contentSize":"1680px"}} -->
-<div class="wp-block-group alignfull section-text-type-2 is-style-style4" style="padding-right:var(--wp--preset--spacing--2);padding-left:var(--wp--preset--spacing--2)"><!-- wp:heading {"textAlign":"center","align":"full","className":"section-text-type-2__title is-style-bordered has-decal-h-1"} -->
-<h2 class="wp-block-heading alignfull has-text-align-center section-text-type-2__title is-style-bordered has-decal-h-1">Patrimoine des particuliers</h2>
+<div class="wp-block-group alignfull section-text-type-2 is-style-style4" style="padding-right:var(--wp--preset--spacing--2);padding-left:var(--wp--preset--spacing--2)"><!-- wp:heading {"textAlign":"center","align":"full","className":"section-text-type-2__title is-style-bordered has-decal-h-1","style":{"typography":{"lineHeight":"1"}}} -->
+<h2 class="wp-block-heading alignfull has-text-align-center section-text-type-2__title is-style-bordered has-decal-h-1" style="line-height:1">Patrimoine des particuliers</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"section-text-type-2__txt__container","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"},"blockGap":"var:preset|spacing|5"}},"layout":{"type":"default"}} -->
