@@ -7,7 +7,9 @@
  * Block Types: core/group
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Media Texte portrait"},"align":"full","className":"media-text-portrait","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
+<!-- wp:group {"metadata":{"name":"media-text-portrait | Container"},"align":"full","className":"media-text-portrait__container","layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull media-text-portrait__container"><!-- wp:group {"metadata":{"name":"media-text-portrait | Wrapper"},"className":"media-text-portrait__wrapper","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group media-text-portrait__wrapper"><!-- wp:group {"metadata":{"name":"Media Texte portrait"},"align":"full","className":"media-text-portrait","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
 <div class="wp-block-group alignfull media-text-portrait"><!-- wp:group {"metadata":{"name":"Media Texte Décalé | Textes"},"className":"is-style-style4 media-text-portrait__txt","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8","left":"var:preset|spacing|8","right":"15rem"},"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-style4 media-text-portrait__txt" style="padding-top:var(--wp--preset--spacing--8);padding-right:15rem;padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)"><!-- wp:heading -->
 <h2 class="wp-block-heading">Thomas Houley</h2>
@@ -26,5 +28,7 @@
 <div class="wp-block-group media-text-portrait__part2"><!-- wp:image {"id":409,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"media-text-portrait__media is-style-400-decal"} -->
 <figure class="wp-block-image size-full media-text-portrait__media is-style-400-decal"><img src="<?php echo home_url(); ?>/wp-content/uploads/2026/01/portrait-Thomas-Houley.jpg" alt="Portrait  de Thomas Houley" class="wp-image-409" style="aspect-ratio:1;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

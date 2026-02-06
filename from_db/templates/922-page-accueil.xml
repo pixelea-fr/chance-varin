@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content site_url="https://chance-varin.local">
+  <id><![CDATA[922]]></id>
+  <slug><![CDATA[page-accueil]]></slug>
+  <type><![CDATA[wp_template]]></type>
+  <status><![CDATA[publish]]></status>
+  <date><![CDATA[2026-02-06 09:09:29]]></date>
+  <date_gmt><![CDATA[2026-02-06 08:09:29]]></date_gmt>
+  <title><![CDATA[page-accueil]]></title>
+  <content><![CDATA[<!-- wp:template-part {"slug":"header","theme":"chance-varin","tagName":"header","className":"fixed is-on-top"} /-->
+
+<!-- wp:cover {"url":"https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4","id":140,"isUserOverlayColor":true,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","gradient":"gradient-1","contentPosition":"bottom center","sizeSlug":"full","metadata":{"name":"Bannière Accueil"},"align":"full","className":"is-style-style5","style":{"spacing":{"blockGap":"var:preset|spacing|2","margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|10"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center is-style-style5" style="margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--10);min-height:100vh"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4" data-object-fit="cover"></video><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient has-gradient-1-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"regular"} -->
+<p class="has-text-align-center has-regular-font-size" style="font-style:normal;font-weight:400">Office Notarial en Normandie</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.28"}},"fontSize":"xxl"} -->
+<h2 class="wp-block-heading has-text-align-center has-xxl-font-size" style="font-style:normal;font-weight:500;line-height:1.28">L’expertise au bon moment,<br> au bon endroit</h2>
+<!-- /wp:heading -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"cover-home-chance-varin is-style-core-button-with-arrows"} -->
+<div class="wp-block-button cover-home-chance-varin is-style-core-button-with-arrows"><a class="wp-block-button__link wp-element-button" href="/contact">Contactez-nous</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Media Texte Décalé"},"align":"full","className":"media-text-decale has-text-style-1 has-width-large","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignfull media-text-decale has-text-style-1 has-width-large"><!-- wp:group {"metadata":{"name":"Media Texte Décalé | Textes"},"className":"is-style-style4 media-text-decale__txt has-padding-l-120 has-padding-r-120","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-style4 media-text-decale__txt has-padding-l-120 has-padding-r-120" style="padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:heading {"className":"gsap-fade-in-up gsap-delay-800 gsap-duration-slower"} -->
+<h2 class="wp-block-heading gsap-fade-in-up gsap-delay-800 gsap-duration-slower">Chancé-Varin &amp; associés</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus. Adipiscing eu faucibus nec massa. Cursus sit dis magna a tellus duis. Tincidunt cursus mi interdum ultrices ultrices malesuada risus dolor non. Pellentesque est sit eget amet pretium. Nam at leo tortor volutpat enim egestas a. Amet mi at vulputate nisi sapien.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus. Adipiscing eu faucibus nec massa. Cursus sit dis magna a tellus duis. Tincidunt cursus mi interdum ultrices ultrices malesuada risus dolor non. Pellentesque est sit eget amet pretium. Nam at leo tortor volutpat enim egestas a. Amet mi at vulputate nisi sapien.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows"} -->
+<div class="wp-block-button is-style-core-button-with-arrows"><a class="wp-block-button__link wp-element-button">Découvrez nos associés</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Media Texte Décalé | part 2"},"className":"media-text-decale__part2","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group media-text-decale__part2"><!-- wp:group {"metadata":{"name":"before-media"},"className":"media-text-decale__before-media","layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group media-text-decale__before-media"><!-- wp:shortcode -->
+[lottie_hover src="logo-chance-varin.json" speed="3" 
+full_width="true"
+persist_end="true" trigger="scroll"]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group -->
+
+<!-- wp:image {"id":154,"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"media-text-decale__media"} -->
+<figure class="wp-block-image size-large media-text-decale__media"><img src="https://chance-varin.local/wp-content/uploads/2025/12/chance-varin-equipe-1024x683.jpg" alt="Equipe Chance et Varin" class="wp-image-154" style="aspect-ratio:16/9;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Media-text | Localisation"},"align":"full","className":"is-style-style2 media-text-localisation has-text-style-1 has-padding-l-120 has-padding-r-120","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1682px"}} -->
+<div class="wp-block-group alignfull is-style-style2 media-text-localisation has-text-style-1 has-padding-l-120 has-padding-r-120" style="padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"40%"} -->
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:image {"id":210,"sizeSlug":"large","linkDestination":"none","className":"media-text-localisation__img"} -->
+<figure class="wp-block-image size-large media-text-localisation__img"><img src="https://chance-varin.local/wp-content/uploads/2025/12/map-chance-varin-localisation.svg" alt="" class="wp-image-210"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"","style":{"spacing":{"blockGap":"var:preset|spacing|5"}}} -->
+<div class="wp-block-column"><!-- wp:heading {"textAlign":"right"} -->
+<h2 class="wp-block-heading has-text-align-right">Texte où on est ?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"right"} -->
+<p class="has-text-align-right">Lorem ipsum dolor sit amet consectetur. Ipsum eu sapien eu mattis fermentum ridiculus ut enim aliquet. Euismod libero vel aliquet volutpat ut nunc. Lacus eu urna commodo pellentesque elit magnis sapien turpis. Porttitor nisi tempor pharetra aenean sapien enim. Facilisis nisl gravida porta etiam dictumst egestas faucibus ullamcorper. Neque et curabitur ut cras non viverra viverra. Arcu sit elit massa vehicula vel faucibus egestas viverra facilisi. Tortor est suspendisse magnis eget adipiscing. Faucibus mattis cras amet sed nullam laoreet commodo. Pretium mi quam arcu odio leo faucibus sed sit. Vulputate lacus id id nec duis turpis pretium. Ac duis facilisis quisque euismod. Commodo congue mauris tortor commodo aliquet.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Section | Double marquee"},"align":"full","className":"section-double-marquee","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull section-double-marquee"><!-- wp:shortcode -->
+[double_marquee line1="LOCATION - ACHAT - VENTE - VIAGER - MAISON - DOMAINE - HARAS - APPARTEMENT" line2="MAISON - DOMAINE - HARAS - APPARTEMENT - LOCATION - ACHAT - VENTE - VIAGER"  speed="30" class="double-marquee" color="var(--wp--preset--color--base-2)" ]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull"><!-- wp:columns {"metadata":{"name":"Media Texte Décalé Type 2"},"align":"wide","className":"media-text-decal-2"} -->
+<div class="wp-block-columns alignwide media-text-decal-2"><!-- wp:column {"width":"60%","className":"media-text-decal-2__col1 is-style-default"} -->
+<div class="wp-block-column media-text-decal-2__col1 is-style-default" style="flex-basis:60%"><!-- wp:group {"className":"is-style-style4 has-padding-l-120 has-padding-r-240","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"right"}} -->
+<div class="wp-block-group is-style-style4 has-padding-l-120 has-padding-r-240" style="padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading -->
+<h2 class="wp-block-heading">Négociation｜Gérance</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus. Adipiscing eu faucibus nec massa. Cursus sit dis magna a tellus duis. Tincidunt cursus mi interdum ultrices ultrices malesuada risus dolor non. Pellentesque est sit eget amet pretium. Nam at leo tortor volutpat enim egestas a. Amet mi at vulputate nisi sapien.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Section mise en avant | page link"},"className":"section-focus-page","style":{"border":{"left":{"color":"var:preset|color|base-2","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|2"},"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-focus-page" style="border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"} -->
+<div class="wp-block-button is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"><a class="wp-block-button__link wp-element-button" href="/genre/location/">Nos locations</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Section mise en avant | page link"},"className":"section-focus-page","style":{"border":{"left":{"color":"var:preset|color|base-2","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|2"},"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-focus-page" style="border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"} -->
+<div class="wp-block-button is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"><a class="wp-block-button__link wp-element-button" href="/genre/vente/">Nos ventes</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Section mise en avant | page link"},"className":"section-focus-page","style":{"border":{"left":{"color":"var:preset|color|base-2","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|2"},"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group section-focus-page" style="border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"} -->
+<div class="wp-block-button is-style-core-button-with-arrows-no-border is-style-with-arrows-no-border"><a class="wp-block-button__link wp-element-button" href="/genre/viager/">Viager</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. Et eu metus tellus eget diam adipiscing feugiat natoque. Posuere mattis libero vulputate commodo purus.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"bottom","className":"media-text-decal-2__col2"} -->
+<div class="wp-block-column is-vertically-aligned-bottom media-text-decal-2__col2"><!-- wp:image {"id":173,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://chance-varin.local/wp-content/uploads/2025/12/enseigne-notaire.jpeg" alt="" class="wp-image-173"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"140px","metadata":{"name":"Espacement | 140"},"className":"is-spacer-140"} -->
+<div style="height:140px" aria-hidden="true" class="wp-block-spacer is-spacer-140"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:template-part {"slug":"footer","theme":"chance-varin"} /-->]]></content>
+  <excerpt><![CDATA[]]></excerpt>
+  <modified><![CDATA[2026-02-06 09:09:29]]></modified>
+  <media>
+    <file type="content" original_id="154">
+      <filename><![CDATA[2025/12/chance-varin-equipe.jpg]]></filename>
+      <title><![CDATA[chance-varin-equipe]]></title>
+      <alt><![CDATA[Equipe Chance et Varin]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="210">
+      <filename><![CDATA[2025/12/map-chance-varin-localisation.svg]]></filename>
+      <title><![CDATA[map chance varin localisation]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/svg+xml]]></mime>
+    </file>
+    <file type="content" original_id="173">
+      <filename><![CDATA[2025/12/enseigne-notaire.jpeg]]></filename>
+      <title><![CDATA[enseigne notaire]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+  </media>
+  <meta>
+    <key name="origin"><![CDATA[theme]]></key>
+  </meta>
+  <taxonomies>
+    <taxonomy name="wp_theme">
+      <term slug="chance-varin"/>
+    </taxonomy>
+  </taxonomies>
+</content>

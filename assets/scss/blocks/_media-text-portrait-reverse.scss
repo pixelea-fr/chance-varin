@@ -1,35 +1,5 @@
-@use "../index"as *;
-
-.media-text-portrait-reverse {
-    --decalage-y: -3.5rem;
+@use "../index" as *;
+.media-text-portrait-reverse{
+	--decalage-y:-3.5rem;
     margin-top: calc(var(--decalage-y) * -1) !important;
-
-    @include m(960) {
-        --decalage-y:0;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    &__txt {
-        @include m(1200) {
-            padding-right: 2.5rem !important;
-            //padding-right: 1rem !important;
-        }
-        @include m(960) {
-            padding-right: var(--clamp-mobitab-4-5-rem) !important;
-            padding-left: var(--clamp-mobitab-4-5-rem) !important;
-        }
-    }
-
-    &__media  {
-        @include m(960) {
-               transform: none !important;
-            img{
-                max-width: 100% !important;
-                transform: none !important;
-                margin-bottom: -5.5rem;
-            }
-        }
-    }
 }

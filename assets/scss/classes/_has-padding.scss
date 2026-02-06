@@ -18,7 +18,7 @@ $padding-sizes: (
     "120": var(--clamp-7-5-rem),
     "160": 10rem,
     "200": 12.5rem,
-    "240": 15rem
+    "240": var(--clamp-15-rem)
 );
 
 @each $slug, $size in $padding-sizes {
