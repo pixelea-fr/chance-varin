@@ -25,8 +25,15 @@ $padding-sizes: (
     .has-padding-l-#{$slug} {
         padding-left: $size ;
     }
+
     .has-padding-r-#{$slug} {
         padding-right: $size;
+    }
+    .has-padding-t-#{$slug} {
+        padding-top: $size ;
+    }
+    .has-padding-b-#{$slug} {
+        padding-bottom: $size;
     }
     @include m(600){
         .has-padding-mobile-l-#{$slug} {
@@ -35,6 +42,12 @@ $padding-sizes: (
         }
         .has-padding-mobile-r-#{$slug} {
             padding-right: $size !important;
+        }
+        .has-padding-mobile-t-#{$slug} {
+            padding-top: $size !important;
+        }
+        .has-padding-mobile-b-#{$slug} {
+            padding-bottom: $size !important;
         }
     }
     
