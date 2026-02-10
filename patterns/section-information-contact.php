@@ -9,11 +9,11 @@
 ?>
 <!-- wp:group {"metadata":{"name":"Section information contact  | Container"},"align":"full","className":"section-information-contact__container has-padding-l-120 has-padding-r-120 is-style-style6 has-margin-t-72 has-margin-b-160","style":{"spacing":{"margin":{"top":"var:preset|spacing|7","bottom":"var:preset|spacing|9"}}},"layout":{"type":"constrained","contentSize":"1680px"}} -->
 <div class="wp-block-group alignfull section-information-contact__container has-padding-l-120 has-padding-r-120 is-style-style6 has-margin-t-72 has-margin-b-160" style="margin-top:var(--wp--preset--spacing--7);margin-bottom:var(--wp--preset--spacing--9)"><!-- wp:group {"metadata":{"name":"Section information contact  | Wrapper"},"className":"section-information-contact__wrapper is-style-default","style":{"spacing":{"blockGap":"4.25rem"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group section-information-contact__wrapper is-style-default"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.25","fontStyle":"normal","fontWeight":"700"}},"fontSize":"xl","fontFamily":"first"} -->
-<h2 class="wp-block-heading has-first-font-family has-xl-font-size" style="font-style:normal;font-weight:700;line-height:1.25">Plus d’informations :   </h2>
-<!-- /wp:heading -->
+<div class="wp-block-group section-information-contact__wrapper is-style-default"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontStyle":"normal","fontWeight":"700"}}} -->
+<p style="font-size:1.5rem;font-style:normal;font-weight:700">Plus d’informations :   </p>
+<!-- /wp:paragraph -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":559,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="<?php echo home_url(); ?>/wp-content/uploads/2026/01/telephone-receiver-material_svgrepo.com_.svg" alt="Icon Téléphone" class="wp-image-559"/></figure>
