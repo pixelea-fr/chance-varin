@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         function handleScroll() {
             const scrollPosition = window.scrollY;
-            const coverHeight = cover.offsetHeight;
+           // const coverHeight = cover.offsetHeight;
+            const coverHeight = 300;
+
             const headerHeight = header.offsetHeight;
 
             // Si le scroll est inférieur à la hauteur du cover (moins la hauteur du header pour transition plus smooth éventuellement, 

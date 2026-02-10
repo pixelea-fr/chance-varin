@@ -1,47 +1,44 @@
 @use "../index" as *;
 
-.section-contact {
-
-	@include m(1280) {
-		.wp-block-media-text.is-stacked-on-mobile {
-			grid-template-columns: 100% !important;
+.section-contact{
+@include m(600){
+ .wp-block-media-text.is-stacked-on-mobile{
+	>.wp-block-media-text__media{
+		grid-row:2;
+	}
+	>.wp-block-media-text__content{
+		grid-row:1;
+	}
+ }
+}
+	.has-image-halph-bg-color-base-4{
+	.wp-block-media-text__media{
+		--pb : 3rem;
+		--pt : 2.5rem;
+		background: linear-gradient(to right, white 60%, var(--wp--preset--color--base-4) 60%);
+		//padding-top: var(--pt);
+		//padding-bottom:var(--pb);
+		padding-left: var(--clamp-7-5-rem-half);
+		padding-right: var(--clamp-7-5-rem-half);
+		//height: calc(100% - var(--pt) - var(--pb));
+		box-sizing:content-box;
+		height: 100%;
+		img{
+			height: 100%;
+			height: calc(100% - var(--pt) - var(--pb));
+				margin-top: var(--pt);
+		margin-bottom:var(--pb);
+		object-fit: cover;
+		@include p(1784){
+		     max-height: 794px;
 		}
-		.wp-block-media-text.is-stacked-on-mobile {
-			>.wp-block-media-text__media {
-				grid-column: 1;
-				grid-row: 2;
-			}
 
-			>.wp-block-media-text__content {
-				grid-column: 1;
-				grid-row: 1;
-			}
 		}
 	}
-
-	.has-image-halph-bg-color-base-4 {
-		.wp-block-media-text__media {
-			--pb: 3rem;
-			--pt: 2.5rem;
-			 background: linear-gradient(to top, white 60%, var(--wp--preset--color--base-4) 60%);
-			@include p(1280){
-			 background: linear-gradient(to right, white 60%, var(--wp--preset--color--base-4) 60%);
-			}
-			padding-top: var(--pt);
-			padding-bottom: var(--pb);
-			padding-left: var(--clamp-7-5-rem-half);
-			padding-right: var(--clamp-7-5-rem-half);
-			height: calc(100% - var(--pt) - var(--pb));
-
-			img {
-				height: 100%;
-			}
-		}
-
-		.wp-block-media-text__content>.wp-block-group {
-
-			padding-left: var(--clamp-7-5-rem-half);
-			padding-right: var(--clamp-7-5-rem-half);
+		.wp-block-media-text__content > .wp-block-group {
+			
+			//padding-left: var(--clamp-7-5-rem-half);
+			//padding-right: var(--clamp-7-5-rem-half);
 		}
 	}
 }

@@ -148,7 +148,7 @@ select
 /* conteneur de chaque champ */
 .with-label-behind.field{
   position:relative;          /* référence pour le label absolute */
-  margin-bottom:1.2rem;
+  //margin-bottom:1.2rem;
 }
 
 /* le champ lui-même */
@@ -205,3 +205,15 @@ textarea:focus,input:focus{
   transform:translateY(1.325rem);
   font-size: .7rem;
 }
+
+.submit-container{
+  position:relative;
+ input[type=submit].wpcf7-submit{
+  margin-top: 0;
+ }
+.wpcf7-spinner{
+  position:absolute;
+  right:0;
+  top: 0;
+}
+} 
