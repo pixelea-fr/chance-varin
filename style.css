@@ -2817,9 +2817,15 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   .is-hidden-mobile {
     display: none !important;
   }
+  .media-is-hidden-mobile .wp-block-media-text__media {
+    display: none !important;
+  }
 }
 @media (max-width: 1024px) {
   .is-hidden-mobitab {
+    display: none !important;
+  }
+  .media-is-hidden-mobitab .wp-block-media-text__media {
     display: none !important;
   }
 }
@@ -2827,9 +2833,15 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   .is-hidden-desktop {
     display: none !important;
   }
+  .media-is-hidden-desktop .wp-block-media-text__media {
+    display: none !important;
+  }
 }
 @media (min-width: 600px) and (max-width: 1024px) {
   .is-hidden-tablet {
+    display: none !important;
+  }
+  .media-is-hidden-tablet .wp-block-media-text__media {
     display: none !important;
   }
 }
