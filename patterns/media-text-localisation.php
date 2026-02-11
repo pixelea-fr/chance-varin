@@ -7,12 +7,19 @@
  * Block Types: core/group
  */
 ?>
+<?php $is_editor = is_admin() || wp_is_json_request() || (function_exists('get_current_screen') && get_current_screen() && get_current_screen()->is_block_editor()); ?>
 <!-- wp:group {"metadata":{"name":"Media-text | Localisation"},"align":"full","className":"is-style-style2 media-text-localisation has-text-style-1 has-padding-l-120 has-padding-r-120","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"1682px"}} -->
 <div class="wp-block-group alignfull is-style-style2 media-text-localisation has-text-style-1 has-padding-l-120 has-padding-r-120" style="padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:image {"id":210,"sizeSlug":"large","linkDestination":"none","className":"media-text-localisation__img"} -->
-<figure class="wp-block-image size-large media-text-localisation__img"><img src="<?php echo home_url(); ?>/wp-content/uploads/2025/12/map-chance-varin-localisation.svg" alt="" class="wp-image-210"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:html -->
+<?php 
+if (!$is_editor) {
+    echo do_shortcode('[map_chance_varin class="media-text-localisation__img"]');
+} else {
+    echo '[map_chance_varin class="media-text-localisation__img"]';
+}
+?>
+<!-- /wp:html --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"","style":{"spacing":{"blockGap":"var:preset|spacing|5"}}} -->
