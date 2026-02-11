@@ -917,14 +917,18 @@ body:not(.wp-admin) .media-text-6 .wp-block-heading {
 }
 body:not(.wp-admin) .media-text-6__columns {
   --decalageY:267px;
-  margin-bottom: var(--decalageY);
-  display: grid !important;
-  grid-template-columns: 2fr 1fr;
 }
-body:not(.wp-admin) .media-text-6__columns .wp-block-image {
-  width: calc(100% + var(--clamp-7-5-rem) * 2);
-  float: right;
-  transform: translateY(var(--decalageY));
+@media (min-width: 1200px) {
+  body:not(.wp-admin) .media-text-6__columns {
+    margin-bottom: var(--decalageY);
+    display: grid !important;
+    grid-template-columns: 2fr 1fr;
+  }
+  body:not(.wp-admin) .media-text-6__columns .wp-block-image {
+    width: calc(100% + var(--clamp-7-5-rem) * 2);
+    float: right;
+    transform: translateY(var(--decalageY));
+  }
 }
 
 .section-double-marquee {
