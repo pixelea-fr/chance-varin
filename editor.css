@@ -1014,7 +1014,7 @@
   width: 100%;
 }
 .has-decal-h-1.has-decal-h1--1line {
-  transform: translateY(-50%);
+  transform: translateY(-50%) !important;
 }
 @media (min-width: 600px) {
   .has-decal-h-1 {
