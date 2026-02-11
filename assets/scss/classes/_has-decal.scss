@@ -86,7 +86,7 @@
      }
  }
 }
-@include m(1200){
+@include b(600,1200){
   .has-decal-media-text-media-2{
       .wp-block-media-text__media{
         transform: translateY(36px);
