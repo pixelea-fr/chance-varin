@@ -1,0 +1,28 @@
+// .has-media-duotone{
+//     .wp-block-media-text__media{
+//         position: relative;
+//         &:before {
+//     content: '';
+//     position: absolute;
+//     inset: 0;
+//     background: var(--wp--preset--color--base-4); /* Couleur 1 */
+//     mix-blend-mode: multiply;
+//     z-index: 1;
+//             width: var(--width);
+// }
+//        &:after {
+//     content: '';
+//     position: absolute;
+//     inset: 0;
+//     background: var(--wp--preset--color--contrast); /* Couleur 2 */
+//     mix-blend-mode: screen;
+//     z-index: 1;
+//             width: var(--width);
+// }
+// img {
+//     filter: grayscale(100%) contrast(120%);
+//     position: relative;
+//     z-index: 0;
+// }
+//     }
+// }
