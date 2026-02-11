@@ -1013,7 +1013,7 @@
   z-index: 3;
   width: 100%;
 }
-.has-decal-h-1.has-decal-h1--1line {
+.has-decal-h-1--1line {
   transform: translateY(-50%) !important;
 }
 @media (min-width: 600px) {

@@ -8,7 +8,7 @@ body:not(.wp-admin){
         &__columns{
             --decalageY:267px;
             margin-bottom: var(--decalageY);
-            background:red;
+   
         display: grid !important;
             grid-template-columns: 2fr 1fr;
 

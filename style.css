@@ -914,7 +914,6 @@ body:not(.wp-admin) .media-text-6 .wp-block-heading {
 body:not(.wp-admin) .media-text-6__columns {
   --decalageY:267px;
   margin-bottom: var(--decalageY);
-  background: red;
   display: grid !important;
   grid-template-columns: 2fr 1fr;
 }
@@ -2022,7 +2021,7 @@ body:not(.wp-admin) .media-text-6__columns .wp-block-image {
   z-index: 3;
   width: 100%;
 }
-.has-decal-h-1.has-decal-h1--1line {
+.has-decal-h-1--1line {
   transform: translateY(-50%) !important;
 }
 @media (min-width: 600px) {

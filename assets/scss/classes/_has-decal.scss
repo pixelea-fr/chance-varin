@@ -11,7 +11,8 @@
     position:absolute;
     top:0;
         right: 0;
-        &.has-decal-h1--1line{
+        &--1line{
+        
              transform: translateY(-50%) !important;
         }
     transform: translateY(calc(-100% + 72px));
