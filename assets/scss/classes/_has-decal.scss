@@ -170,9 +170,9 @@
       --width: calc(100% + var( --clamp-7-5-rem) * 2);
      }
       --decalage-x:calc(var(--width) / -2 );
-     margin-bottom: 300px !important;
+
  @include p(1200){
- 
+      margin-bottom: 300px !important;
      .wp-block-media-text__media{
         //width: var(--width);
          
