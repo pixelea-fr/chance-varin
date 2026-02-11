@@ -977,7 +977,7 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--wp--preset--color--base-4) 50%, var(--wp--preset--color--base-4) 100%);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 200% 100%;
+  background-size: 202% 100%;
   transition: background-position 0.4s ease;
 }
 .is-style-style5 .wp-block-button.is-style-core-button-with-arrows .wp-block-button__link:hover {
@@ -988,7 +988,7 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
   background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--wp--preset--color--base-2) 50%, var(--wp--preset--color--base-2) 100%);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 200% 100%;
+  background-size: 202% 100%;
   transition: background-position 0.4s ease;
 }
 .is-style-style4 .wp-block-button.is-style-core-button-with-arrows .wp-block-button__link:hover {
