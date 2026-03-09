@@ -10,8 +10,8 @@ function up_lottie_hover_shortcode($atts) {
 
   $atts = shortcode_atts([
     'src'      => '',
-    'width'    => '200',
-    'height'   => '200',
+    'width'    => '',
+    'height'   => '',
     'speed'    => '1',
     'reverse'  => 'true',
     'loop'     => 'false',
