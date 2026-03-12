@@ -156,11 +156,11 @@ header.is-on-top:not(.light-colors) .wp-block-navigation .wp-block-navigation-it
 .light-colors header .wp-block-navigation-item.has-child:hover {
   color: var(--wp--preset--color--base-2);
 }
-.wp-block-navigation-item.has-child .wp-block-navigation-submenu {
-  color: var(--wp--preset--color--base) !important;
-}
 .light-colors header .wp-block-navigation-item.has-child .wp-block-navigation-submenu {
   color: var(--wp--preset--color--base-2);
+}
+.wp-block-navigation-item.has-child .wp-block-navigation-submenu {
+  color: var(--wp--preset--color--base) !important;
 }
 .wp-block-navigation-item.has-child .wp-block-navigation-submenu .wp-block-navigation-item:hover {
   color: var(--wp--preset--color--base-2) !important;
@@ -218,14 +218,14 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-bl
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item:not(.has-child) > .wp-block-navigation-item__content:hover:after {
   bottom: 0;
 }
-html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor {
-  position: relative;
-}
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item.has-child:hover:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item.has-child:hover:after, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor.has-child:hover:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor.has-child:hover:after {
   opacity: 0 !important;
 }
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor > .wp-block-navigation-item__content {
   color: var(--wp--preset--color--accent);
+}
+html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor {
+  position: relative;
 }
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item:after, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor:after {
   z-index: 1;

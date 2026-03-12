@@ -91,3 +91,12 @@ html:not(.has-modal-open) {
      position: relative;
     }
 }
+
+
+.wp-block-post-template-is-layout-grid.columns-3 {
+     @include b(600, 1024){
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+     }
+}
