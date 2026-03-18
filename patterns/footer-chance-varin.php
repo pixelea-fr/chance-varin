@@ -11,8 +11,8 @@
 <div class="wp-block-column is-vertically-aligned-top footer-chance-varin__col1 has-align-vertical-tablet-center" style="flex-basis:40%"><!-- wp:group {"className":"has-align-vertical-align-tablet-center","layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center"}} -->
 <div class="wp-block-group has-align-vertical-align-tablet-center"><!-- wp:site-logo {"width":250} /-->
 
-<!-- wp:social-links {"size":"has-normal-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
-<ul class="wp-block-social-links has-normal-icon-size is-style-logos-only"><!-- wp:social-link {"url":"https://fr.linkedin.com/company/chanc%C3%A9-varin-associ%C3%A9s-notaires","service":"linkedin"} /-->
+<!-- wp:social-links {"iconColor":"base-2","iconColorValue":"#F1804C","size":"has-normal-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+<ul class="wp-block-social-links has-normal-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://fr.linkedin.com/company/chanc%C3%A9-varin-associ%C3%A9s-notaires","service":"linkedin"} /-->
 
 <!-- wp:social-link {"url":"https://www.facebook.com/p/Chanc%C3%A9-Varin-61575509511147/","service":"facebook"} /-->
 
