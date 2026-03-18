@@ -940,9 +940,15 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
 .section-media-text-etudes {
   gap: 4.5rem;
 }
-@media (max-width: 1800px) {
+@media (min-width: 1440px) and (max-width: 1800px) {
   .section-media-text-etudes {
     grid-template-columns: 50% auto !important;
+  }
+}
+@media (max-width: 1440px) {
+  .section-media-text-etudes {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 .section-media-text-etudes .wp-block-button.is-style-with-arrows-no-border .wp-block-button__link {

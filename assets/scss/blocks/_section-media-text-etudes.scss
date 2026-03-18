@@ -1,8 +1,13 @@
 @use "../index" as *;
 .section-media-text-etudes{
 	gap:4.5rem;
-	@include m(1800){
+	@include b(1440, 1800){
 	 grid-template-columns: 50% auto !important; 
+	}
+		@include m(1440){
+	 display: flex;
+	 flex-direction: column-reverse;
+
 	}
 	.wp-block-button.is-style-with-arrows-no-border .wp-block-button__link{
 		padding:0;
