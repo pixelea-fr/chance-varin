@@ -363,11 +363,9 @@ html.has-modal-open .wp-block-navigation.is-responsive.is-style-main .has-child 
   padding: 0 !important;
 }
 
-.wp-block-navigation-item a[href="#"],
 .wp-block-navigation-item.has-child:hover a[href="#"] {
   cursor: default;
 }
-.wp-block-navigation-item a[href="#"]:hover,
 .wp-block-navigation-item.has-child:hover a[href="#"]:hover {
   color: var(--wp--preset--color--base-4) !important;
 }
