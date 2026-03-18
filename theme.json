@@ -46,6 +46,17 @@
 			"title": "Page No Title"
 		}
 	],
+    "blockTypes": {
+        "core/cover": {
+            "allowedBlocks": [
+                "core/group",
+                "core/columns",
+                "core/paragraph",
+                "core/heading",
+                "core/buttons"
+            ]
+        }
+    },
     "settings": {
         "custom": {
             "navigation": {
@@ -390,7 +401,7 @@
             },
             "core/list-item": {
                 "typography": {
-                    "fontSize": "var(--wp--preset--font-size--m)",
+                    "fontSize": "var(--wp--preset--font-size--s)",
                     "lineHeight" : "1.25"
                 },
                 "spacing": {
