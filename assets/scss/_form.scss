@@ -53,35 +53,19 @@
   padding:  1rem .5rem 1rem 0;
   border-radius:0;
   font-size: 1.125rem;
-  color : var(--wp--preset--color--contrast);
+  color :inherit;
 }
 
 .section-contact form .wpcf7-list-item{
   margin: .5rem 0 0 0!important;
   label{
+    
     flex-direction: row;
     align-items: center;
     gap: 1rem;
   }
 }
 
- input[type="submit"].wpcf7-submit{
-  // margin-top: .5rem !important;
-  // padding:  1rem !important;
-  // background: transparent !important;
-  // width: fit-content;
-  // color:var(--wp--preset--color--contrast) !important;
-  // border: 1px solid currentColor;
-  // font-size: .8rem;
-  // text-transform: uppercase;
-  // transition:all .5s;
-  // cursor:pointer;
-  // &:hover{
-  //   background-color:var(--wp--preset--color--contrast) !important;
-  //   color: var(--wp--preset--color--base) !important;
-  //   border-color: var(--wp--preset--color--contrast) !important;
-  // }
-}
 
 .form-group{
   padding: 1.5rem;
