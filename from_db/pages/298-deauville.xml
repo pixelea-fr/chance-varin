@@ -7,12 +7,201 @@
   <date><![CDATA[2025-12-19 16:03:20]]></date>
   <date_gmt><![CDATA[2025-12-19 15:03:20]]></date_gmt>
   <title><![CDATA[Deauville]]></title>
-  <content><![CDATA[]]></content>
+  <content><![CDATA[<!-- wp:spacer {"height":"var:preset|spacing|12","metadata":{"name":"Espacement 300 | 18.75rem"},"className":"is-spacer-300 has-height-mobitab-120"} -->
+<div style="height:var(--wp--preset--spacing--12)" aria-hidden="true" class="wp-block-spacer is-spacer-300 has-height-mobitab-120"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"is-style-with-line | Container"},"align":"full","className":"is-style-with-line__container is-style-style1 has-padding-l-120 has-padding-r-120","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull is-style-with-line__container is-style-style1 has-padding-l-120 has-padding-r-120"><!-- wp:group {"metadata":{"name":"is-style-with-line | Wrapper"},"align":"full","className":"is-style-with-line__wrapper","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull is-style-with-line__wrapper"><!-- wp:heading {"placeholder":"Lorem ipsum dolor…","align":"full","className":"is-style-with-line has-padding-l-32 has-padding-r-32","fontSize":"xxl"} -->
+<h2 class="wp-block-heading alignfull is-style-with-line has-padding-l-32 has-padding-r-32 has-xxl-font-size">Deauville</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|5","metadata":{"name":"Espacement 40 | 2.5rem"},"className":"is-spacer-40"} -->
+<div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer is-spacer-40"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Section Texte avec Date"},"align":"full","className":"section-txt-with-date is-style-style4 has-padding-l-120 has-padding-r-120","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"},"margin":{"bottom":"var:preset|spacing|8"}}},"layout":{"type":"constrained","contentSize":"1680px"}} -->
+<div class="wp-block-group alignfull section-txt-with-date is-style-style4 has-padding-l-120 has-padding-r-120" style="margin-bottom:var(--wp--preset--spacing--8);padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:group {"metadata":{"name":"Textes"},"layout":{"type":"constrained","justifyContent":"left","contentSize":"770px"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Idéalement située au coeur du Pays d'Auge, l'Office de Pont L'Eveque conseille une clientèle principalement composée de particuliers,&nbsp;de promoteurs, de collectivités locales, d'entrepreneurs et de sociétés. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A l'instar de tous les Offices du Groupe Chancé-Varin &amp; Associés, l'Office de Pont L'Evêque&nbsp; propose un accompagnement de proximité couvrant l’ensemble des domaines de compétence du Groupe.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"align":"right","metadata":{"name":"Date"},"className":"has-on-bottom-half is-style-bordered section-txt-with-date__date"} -->
+<p class="has-text-align-right has-on-bottom-half is-style-bordered section-txt-with-date__date">2018</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:gallery {"linkTo":"none","align":"full","style":{"spacing":{"blockGap":{"top":"0","left":"0"}}}} -->
+<figure class="wp-block-gallery alignfull has-nested-images columns-default is-cropped"><!-- wp:image {"id":396,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://chance-varin.local/wp-content/uploads/2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1-Grande-1024x683.jpeg" alt="" class="wp-image-396"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":397,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://chance-varin.local/wp-content/uploads/2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1_1-Grande-1024x683.jpeg" alt="" class="wp-image-397"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":398,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://chance-varin.local/wp-content/uploads/2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1_2-Grande-1024x683.jpeg" alt="" class="wp-image-398"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"is-style-with-line | Container"},"align":"full","className":"is-style-with-line__container is-style-style1 has-padding-l-120 has-padding-r-120","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull is-style-with-line__container is-style-style1 has-padding-l-120 has-padding-r-120"><!-- wp:group {"metadata":{"name":"is-style-with-line | Wrapper"},"align":"full","className":"is-style-with-line__wrapper","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull is-style-with-line__wrapper"><!-- wp:heading {"placeholder":"Lorem ipsum dolor…","align":"full","className":"is-style-with-line has-padding-l-32 has-padding-r-32","fontSize":"xxl"} -->
+<h2 class="wp-block-heading alignfull is-style-with-line has-padding-l-32 has-padding-r-32 has-xxl-font-size">Pont l'évèque</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"media-text-portrait | Container"},"align":"full","className":"media-text-portrait__container","layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull media-text-portrait__container"><!-- wp:group {"metadata":{"name":"media-text-portrait | Wrapper"},"className":"media-text-portrait__wrapper","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group media-text-portrait__wrapper"><!-- wp:group {"metadata":{"name":"Media Texte portrait"},"align":"full","className":"media-text-portrait","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignfull media-text-portrait"><!-- wp:group {"metadata":{"name":"Media Texte Décalé | Textes"},"className":"is-style-style4 media-text-portrait__txt","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8","left":"var:preset|spacing|8","right":"15rem"},"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-style4 media-text-portrait__txt" style="padding-top:var(--wp--preset--spacing--8);padding-right:15rem;padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--8)"><!-- wp:heading -->
+<h2 class="wp-block-heading">Thomas Houley</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Notaire associé au sein de l’étude Chancé-Varin &amp; Associés à Pont-l’Évêque depuis 2017, Maître Thomas HOULEY intervient dans tous les domaines du notariat, avec une expertise particulière en immobilier et en promotion immobilière. Il accompagne ses clients dans la réalisation d’opérations complexes, en apportant des solutions adaptées aux enjeux juridiques et financiers de chaque projet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Partenaire de confiance de plusieurs family offices, il conseille ses clients sur les stratégies d’organisation patrimoniale et les accompagne dans leurs acquisitions, tant au niveau local que national. Son expertise s’étend notamment à l’achat et à la gestion de grands domaines et de haras, apportant un savoir-faire précieux à une clientèle exigeante soucieuse d’optimiser et de sécuriser son patrimoine.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Media Texte Décalé | part 2"},"className":"media-text-portrait__part2","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
+<div class="wp-block-group media-text-portrait__part2"><!-- wp:image {"id":409,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"media-text-portrait__media is-style-400-decal"} -->
+<figure class="wp-block-image size-full media-text-portrait__media is-style-400-decal"><img src="https://chance-varin.local/wp-content/uploads/2026/01/portrait-Thomas-Houley.jpg" alt="Portrait  de Thomas Houley" class="wp-image-409" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"metadata":{"name":"Media Texte portrait"},"align":"full","className":"media-text-portrait-reverse","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignfull media-text-portrait-reverse"><!-- wp:group {"metadata":{"name":"Media Texte Décalé | part 2"},"className":"media-text-portrait-reverse__part2","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
+<div class="wp-block-group media-text-portrait-reverse__part2"><!-- wp:image {"id":414,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"media-text-portrait-reverse__media is-style-400-decal-droite"} -->
+<figure class="wp-block-image size-full media-text-portrait-reverse__media is-style-400-decal-droite"><img src="https://chance-varin.local/wp-content/uploads/2026/01/Portrait-de-Claire-Beziau.jpg" alt="Portrait de Claire Béziau" class="wp-image-414" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Media Texte Décalé | Textes"},"className":"media-text-portrait-reverse__txt is-style-style2","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8","left":"15rem","right":"var:preset|spacing|8"},"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group media-text-portrait-reverse__txt is-style-style2" style="padding-top:var(--wp--preset--spacing--8);padding-right:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8);padding-left:15rem"><!-- wp:heading -->
+<h2 class="wp-block-heading">Claire Béziau</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Notaire salariée aux côtés de Thomas Houley</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Maître Claire BEZIAU, notaire au sein de l’Office depuis 2017, supervise le service droit de la famille et ingénierie patrimoniale…</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Section Information"},"align":"full","className":"section-information has-padding-l-120 has-padding-r-120 has-padding-mobile-l-0 has-padding-mobile-r-0","layout":{"type":"constrained","contentSize":"1680px"}} -->
+<div class="wp-block-group alignfull section-information has-padding-l-120 has-padding-r-120 has-padding-mobile-l-0 has-padding-mobile-r-0"><!-- wp:media-text {"align":"","mediaId":420,"mediaLink":"https://chance-varin.local/?attachment_id=420","mediaType":"image","imageFill":true,"className":"is-style-style4 section-information__media-txt"} -->
+<div class="wp-block-media-text is-stacked-on-mobile is-image-fill-element is-style-style4 section-information__media-txt"><figure class="wp-block-media-text__media"><img src="https://chance-varin.local/wp-content/uploads/2026/01/bureau-1024x683.jpg" alt="" class="wp-image-420 size-full" style="object-position:50% 50%"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"className":"is-style-style4 section-information__media-txt__txt","style":{"spacing":{"blockGap":"var:preset|spacing|5","padding":{"top":"var:preset|spacing|5","bottom":"var:preset|spacing|5"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-style4 section-information__media-txt__txt" style="padding-top:var(--wp--preset--spacing--5);padding-bottom:var(--wp--preset--spacing--5)"><!-- wp:heading {"style":{"typography":{"lineHeight":"1.25"}}} -->
+<h2 class="wp-block-heading" style="line-height:1.25">Besoin d’informations ?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"lineHeight":"1"}},"fontSize":"l"} -->
+<h3 class="wp-block-heading has-l-font-size" style="line-height:1">Étude de Pont l’Évêque</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
+<p class="has-xs-font-size" style="line-height:1.87">2 Place Jean Bureau <br>14130 PONT L’EVEQUE <br>02 31 64 00 08</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows"} -->
+<div class="wp-block-button is-style-core-button-with-arrows"><a class="wp-block-button__link wp-element-button" href="https://chance-varin.local/contact/">Contactez-nous</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:media-text --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|9","metadata":{"name":"Espacement 160 | 10rem"},"className":"is-spacer-160"} -->
+<div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
+<!-- /wp:spacer -->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2025-12-19 16:03:45]]></modified>
-  <media/>
+  <modified><![CDATA[2026-03-06 14:00:25]]></modified>
+  <media>
+    <file type="content" original_id="396">
+      <filename><![CDATA[2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1-Grande.jpeg]]></filename>
+      <title><![CDATA[82139266_10220421001545731_753836648155840512_n-600&#215;412 1 &#8211; Grande]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="397">
+      <filename><![CDATA[2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1_1-Grande.jpeg]]></filename>
+      <title><![CDATA[82139266_10220421001545731_753836648155840512_n-600&#215;412 1_1 &#8211; Grande]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="398">
+      <filename><![CDATA[2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1_2-Grande.jpeg]]></filename>
+      <title><![CDATA[82139266_10220421001545731_753836648155840512_n-600&#215;412 1_2 &#8211; Grande]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="409">
+      <filename><![CDATA[2026/01/portrait-Thomas-Houley.jpg]]></filename>
+      <title><![CDATA[portrait Thomas Houley]]></title>
+      <alt><![CDATA[Portrait de Thomas Houley]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="414">
+      <filename><![CDATA[2026/01/Portrait-de-Claire-Beziau.jpg]]></filename>
+      <title><![CDATA[Portrait de Claire Béziau]]></title>
+      <alt><![CDATA[Portrait de Claire Béziau]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="420">
+      <filename><![CDATA[2026/01/bureau-scaled.jpg]]></filename>
+      <title><![CDATA[bureau]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+  </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1766156625:1]]></key>
+    <key name="_edit_lock"><![CDATA[1772802017:1]]></key>
   </meta>
   <taxonomies/>
 </content>

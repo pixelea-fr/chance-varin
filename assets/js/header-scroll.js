@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header.wp-block-template-part');
-    
+
     // On vérifie si le header existe
     if (!header) return;
 
@@ -21,10 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
         function handleScroll() {
             const scrollPosition = window.scrollY;
             const coverHeight = cover.offsetHeight;
-            const headerHeight = header.offsetHeight;
-
+            const headerHeight = 100;
             // Si le scroll est inférieur à la hauteur du cover (moins la hauteur du header pour transition plus smooth)
-            if (scrollPosition < (coverHeight - headerHeight)) {
+           //if (scrollPosition < (coverHeight - headerHeight)) {
+           //    header.classList.add('light-colors');
+           //    header.classList.remove('with-bg');
+           //} else {
+           //    header.classList.remove('light-colors');
+           //    header.classList.add('with-bg');
+           //}
+           if (scrollPosition < 100) {
                 header.classList.add('light-colors');
                 header.classList.remove('with-bg');
             } else {

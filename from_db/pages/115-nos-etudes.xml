@@ -7,12 +7,229 @@
   <date><![CDATA[2025-12-16 14:55:40]]></date>
   <date_gmt><![CDATA[2025-12-16 13:55:40]]></date_gmt>
   <title><![CDATA[Qui sommes-nous ?]]></title>
-  <content><![CDATA[]]></content>
+  <content><![CDATA[<!-- wp:spacer {"height":"var:preset|spacing|12","metadata":{"name":"Espacement 300 | 18.75rem"},"className":"is-spacer-300 has-height-mobitab-120"} -->
+<div style="height:var(--wp--preset--spacing--12)" aria-hidden="true" class="wp-block-spacer is-spacer-300 has-height-mobitab-120"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:cover {"url":"https://chance-varin.local/wp-content/uploads/2026/01/Photo-interieur-1024x683.jpeg","id":316,"alt":"Photo intérieur du cabinet","dimRatio":0,"isUserOverlayColor":true,"focalPoint":{"x":0.48999999999999999,"y":0},"minHeight":600,"isDark":false,"sizeSlug":"large","align":"full","className":"is-style-style5 cover-type-1","style":{"color":{"duotone":"var:preset|duotone|blanc-noir"},"spacing":{"blockGap":"var:preset|spacing|2","padding":{"right":"var:preset|spacing|2","left":"var:preset|spacing|2","top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"}}},"layout":{"type":"constrained","contentSize":"760px"},"allowedBlocks":["core/paragraph","core/heading","core/freeform"]} -->
+<div class="wp-block-cover alignfull is-light is-style-style5 cover-type-1" style="padding-top:var(--wp--preset--spacing--8);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--8);padding-left:var(--wp--preset--spacing--2);min-height:600px"><img class="wp-block-cover__image-background wp-image-316 size-large" alt="Photo intérieur du cabinet" src="https://chance-varin.local/wp-content/uploads/2026/01/Photo-interieur-1024x683.jpeg" style="object-position:49% 0%" data-object-fit="cover" data-object-position="49% 0%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1.25"}},"fontSize":"xxl-b"} /-->
+
+<!-- wp:paragraph {"align":"center","placeholder":"Texte Banière","metadata":{"name":"Intro"}} -->
+<p class="has-text-align-center">Les études du groupe CHANCÉ-VARIN &amp; Associés vous accueillent et vous conseillent avec la même exigence de rigueur et de disponibilité. Chaque office met son expertise au service d’un accompagnement clair, réactif et parfaitement adapté à vos besoins. </p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:spacer {"height":"11.25rem","metadata":{"name":"Espacement 180 | 11.25rem"},"className":"is-spacer-180"} -->
+<div style="height:11.25rem" aria-hidden="true" class="wp-block-spacer is-spacer-180"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"full","className":"section-media-text-etudes__container has-padding-l-120 has-padding-r-120","layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull section-media-text-etudes__container has-padding-l-120 has-padding-r-120"><!-- wp:media-text {"align":"wide","mediaId":154,"mediaLink":"https://chance-varin.local/?attachment_id=154","mediaType":"image","mediaWidth":60,"imageFill":false,"className":"has-padding-content-0 section-media-text-etudes is-stacked-on-mobile\u002d\u002dreverse"} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile has-padding-content-0 section-media-text-etudes is-stacked-on-mobile--reverse" style="grid-template-columns:60% auto"><figure class="wp-block-media-text__media"><img src="https://chance-varin.local/wp-content/uploads/2025/12/chance-varin-equipe-1024x683.jpg" alt="Equipe Chance et Varin" class="wp-image-154 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"className":"is-style-bordered","style":{"typography":{"lineHeight":".67"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontFamily":"second"} -->
+<h2 class="wp-block-heading is-style-bordered has-base-color has-text-color has-link-color has-second-font-family" style="line-height:.67">L'équipe</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lorem ipsum dolor sit amet consectetur. At eget ut sed nunc massa et augue enim. Blandit penatibus et viverra dictum lectus platea ut pellentesque.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|3"}}} -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|3"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Etudes - notaires"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|2"},"margin":{"top":"var:preset|spacing|1","bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|1"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|base-2","width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-link-color" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;margin-top:var(--wp--preset--spacing--1);margin-bottom:var(--wp--preset--spacing--1);padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-2","className":"is-style-with-arrows-no-border","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}}} -->
+<div class="wp-block-button is-style-with-arrows-no-border"><a class="wp-block-button__link has-base-2-color has-text-color has-link-color wp-element-button">Pont l'Évêques</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Thomas&nbsp;Houley, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Claire&nbsp;Béziau, notaire salarié&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Etudes - notaires"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|2"},"margin":{"top":"var:preset|spacing|1","bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|1"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|base-2","width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-link-color" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;margin-top:var(--wp--preset--spacing--1);margin-bottom:var(--wp--preset--spacing--1);padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-2","className":"is-style-with-arrows-no-border","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}}} -->
+<div class="wp-block-button is-style-with-arrows-no-border"><a class="wp-block-button__link has-base-2-color has-text-color has-link-color wp-element-button" href="https://chance-varin.local/nos-etudes/deauville/">Deauville</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Raphaël Fung, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Sandrine&nbsp;Morquin, notaire salarié&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Etudes - notaires"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|2"},"margin":{"top":"var:preset|spacing|1","bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|1"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|base-2","width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-link-color" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;margin-top:var(--wp--preset--spacing--1);margin-bottom:var(--wp--preset--spacing--1);padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-2","className":"is-style-with-arrows-no-border","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}}} -->
+<div class="wp-block-button is-style-with-arrows-no-border"><a class="wp-block-button__link has-base-2-color has-text-color has-link-color wp-element-button">Mézidon Vallée d’Auge </a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Stéphanie Bessin de&nbsp;Joybert, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Carmen&nbsp;Breteaux&nbsp;Tabary, notaire salarié&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Etudes - notaires"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|2"},"margin":{"top":"var:preset|spacing|1","bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|1"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|base-2","width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-link-color" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;margin-top:var(--wp--preset--spacing--1);margin-bottom:var(--wp--preset--spacing--1);padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-2","className":"is-style-with-arrows-no-border","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}}} -->
+<div class="wp-block-button is-style-with-arrows-no-border"><a class="wp-block-button__link has-base-2-color has-text-color has-link-color wp-element-button" href="https://chance-varin.local/nos-etudes/deauville/">Cambremer</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Camille Lemétais, notaire salarié)</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|3"}}} -->
+<div class="wp-block-column"><!-- wp:group {"metadata":{"name":"Etudes - notaires"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|2"},"margin":{"top":"var:preset|spacing|1","bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|1"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|base-2","width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-link-color" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;margin-top:var(--wp--preset--spacing--1);margin-bottom:var(--wp--preset--spacing--1);padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-2","className":"is-style-with-arrows-no-border","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}}} -->
+<div class="wp-block-button is-style-with-arrows-no-border"><a class="wp-block-button__link has-base-2-color has-text-color has-link-color wp-element-button" href="https://chance-varin.local/nos-etudes/lisieux/">Lisieux</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Valérie&nbsp;Outrequin, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Thibaut&nbsp;Bunetel, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Martin&nbsp;Heulin, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Raynald&nbsp;Chancé, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stéphane Chaix-Bryan, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>François&nbsp;Gibourdel, notaire associé&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Jessie Bisson, notaire salarié&nbsp;</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Gilda&nbsp;Abellard, notaire salarié&nbsp;</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|3"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:group {"metadata":{"name":"Etudes - notaires"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|2"},"margin":{"top":"var:preset|spacing|1","bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|1"},"border":{"top":{"width":"0px","style":"none"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"color":"var:preset|color|base-2","width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-link-color" style="border-top-style:none;border-top-width:0px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-color:var(--wp--preset--color--base-2);border-left-width:1px;margin-top:var(--wp--preset--spacing--1);margin-bottom:var(--wp--preset--spacing--1);padding-left:var(--wp--preset--spacing--2)"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-2","className":"is-style-with-arrows-no-border","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}}} -->
+<div class="wp-block-button is-style-with-arrows-no-border"><a class="wp-block-button__link has-base-2-color has-text-color has-link-color wp-element-button" href="https://chance-varin.local/nos-etudes/deauville/">Bonnebosq</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>Martin Heulin, notaire associé</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div></div>
+<!-- /wp:media-text --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10","metadata":{"name":"Espacement 200 | 12.5rem"},"className":"is-spacer-200"} -->
+<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer is-spacer-200"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Media-texte Type 5 | Container"},"align":"full","className":"media-text-type-5__container media-text-type-5\u002d\u002ddate__container","style":{"spacing":{"padding":{"top":"var:preset|spacing|11"}}},"layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull media-text-type-5__container media-text-type-5--date__container" style="padding-top:var(--wp--preset--spacing--11)"><!-- wp:media-text {"mediaPosition":"right","mediaId":316,"mediaLink":"https://chance-varin.local/?attachment_id=316","mediaType":"image","mediaWidth":40,"verticalAlignment":"bottom","className":"media-text-type-5 media-text-type-5\u002d\u002ddate has-gap-0 has-padding-content-0 has-decal-media-text-media-2","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"right":"0","left":"0","top":"0","bottom":"0"}}}} -->
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-bottom media-text-type-5 media-text-type-5--date has-gap-0 has-padding-content-0 has-decal-media-text-media-2" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;grid-template-columns:auto 40%"><div class="wp-block-media-text__content"><!-- wp:group {"className":"is-style-style4 has-z-index-2 has-padding-l-120 has-padding-r-120 has-padding-mobile-l-24 has-padding-mobile-r-24","style":{"spacing":{"padding":{"top":"var:preset|spacing|8","bottom":"var:preset|spacing|8"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-style4 has-z-index-2 has-padding-l-120 has-padding-r-120 has-padding-mobile-l-24 has-padding-mobile-r-24" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--8);padding-bottom:var(--wp--preset--spacing--8)"><!-- wp:heading {"className":"is-style-bordered has-decal-h-1 has-padding-l-8 has-padding-r-0","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<h2 class="wp-block-heading is-style-bordered has-decal-h-1 has-padding-l-8 has-padding-r-0 has-base-color has-text-color has-link-color">La fusion</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Issu de la réunion d’anciennes Études créées au XVIIe siècle, notre Office s’est construit dans la durée au service des familles et des acteurs économiques du Pays d’Auge. Afin de développer des services spécialisés et de répondre toujours mieux aux attentes de nos clients, les Études PETIT-PEYRON-VARIN et CHANCÉ-CHAIX-BRYAN-CHANCÉ, à Lisieux, ont fusionné en 2013, en y joignant les bureaux de Bonnebosq et de Cambremer. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>De nouvelles étapes de croissance ont ensuite renforcé notre maillage territorial avec l’intégration progressive de de Pont-l’Évêque en 2019, Mézidon Vallée d’Auge en 2021 et Deauville en 2024. La complémentarité de nos implantations, alliée à un fort ancrage local et à des outils modernes (dématérialisation sécurisée, échanges à distance), nous permet d’offrir un accompagnement de proximité, réactif et rigoureux, en droit de la famille, immobilier, patrimoine et entreprise. Nous mettons cette organisation au service du suivi de vos dossiers et de la protection de vos intérêts, en toute sécurité et confidentialité.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows"} -->
+<div class="wp-block-button is-style-core-button-with-arrows"><a class="wp-block-button__link wp-element-button">En savoir plus</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div><figure class="wp-block-media-text__media"><img src="https://chance-varin.local/wp-content/uploads/2026/01/Photo-interieur-1024x683.jpeg" alt="Photo intérieur du cabinet" class="wp-image-316 size-full"/></figure></div>
+<!-- /wp:media-text -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"right","className":"is-style-bordered media-text-type-5\u002d\u002ddate__date","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<p class="has-text-align-right is-style-bordered media-text-type-5--date__date has-base-color has-text-color has-link-color">1965</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|11","metadata":{"name":"Espacement 240 | 15rem"},"className":"is-spacer-240"} -->
+<div style="height:var(--wp--preset--spacing--11)" aria-hidden="true" class="wp-block-spacer is-spacer-240"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"full","className":"has-padding-l-120 has-padding-r-120 section-video-etudes is-style-style1","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull has-padding-l-120 has-padding-r-120 section-video-etudes is-style-style1"><!-- wp:image {"id":894,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://chance-varin.local/wp-content/uploads/2026/02/video-longues-cabinet-scaled.jpg" alt="" class="wp-image-894"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"base-4","className":"is-style-core-button-with-arrows","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-4"}}}}} -->
+<div class="wp-block-button is-style-core-button-with-arrows"><a class="wp-block-button__link has-base-4-color has-text-color has-link-color wp-element-button">Contactez-nous</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10","metadata":{"name":"Espacement 200 | 12.5rem"},"className":"is-spacer-200"} -->
+<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer is-spacer-200"></div>
+<!-- /wp:spacer -->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2026-01-14 14:06:39]]></modified>
-  <media/>
+  <modified><![CDATA[2026-03-06 13:44:32]]></modified>
+  <media>
+    <file type="content" original_id="894">
+      <filename><![CDATA[2026/02/video-longues-cabinet-scaled.jpg]]></filename>
+      <title><![CDATA[video-longues cabinet]]></title>
+      <alt><![CDATA[]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+    <file type="content" original_id="154">
+      <filename><![CDATA[2025/12/chance-varin-equipe.jpg]]></filename>
+      <title><![CDATA[chance-varin-equipe]]></title>
+      <alt><![CDATA[Equipe Chance et Varin]]></alt>
+      <mime><![CDATA[image/jpeg]]></mime>
+    </file>
+  </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1768395996:1]]></key>
+    <key name="_edit_lock"><![CDATA[1772801066:1]]></key>
     <key name="_wp_page_template"><![CDATA[page-type-1]]></key>
   </meta>
   <taxonomies/>
