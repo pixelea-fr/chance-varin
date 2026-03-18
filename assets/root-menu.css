@@ -364,6 +364,5 @@ html.has-modal-open .wp-block-navigation.is-responsive.is-style-main .has-child 
 }
 
 .wp-block-navigation-item a[href="#"] {
-  pointer-events: none;
   cursor: default;
 }
