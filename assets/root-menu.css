@@ -133,54 +133,10 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main:not(.is-
   white-space: nowrap;
 }
 
-/* Menu desktop (non burger) */
-.wp-block-navigation:not(.is-responsive) .wp-block-navigation__responsive-container {
-  /* styles desktop */
-}
-
-header.light-colors:not(.is-on-top) .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
-  color: var(--wp--preset--color--base-4);
-}
-
-header.is-on-top:not(.light-colors) .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
-  color: var(--wp--preset--color--base-4);
-}
-
 .wp-block-navigation:not(.has-text-color) .wp-block-navigation__submenu-container {
   color: inherit;
 }
 
-.wp-block-navigation-item.has-child:hover {
-  color: var(--wp--preset--color--base-2);
-}
-.light-colors header .wp-block-navigation-item.has-child:hover {
-  color: var(--wp--preset--color--base-2);
-}
-.light-colors header .wp-block-navigation-item.has-child .wp-block-navigation-submenu {
-  color: var(--wp--preset--color--base-2);
-}
-.wp-block-navigation-item.has-child .wp-block-navigation-submenu {
-  color: var(--wp--preset--color--base) !important;
-}
-.wp-block-navigation-item.has-child .wp-block-navigation-submenu .wp-block-navigation-item:hover {
-  color: var(--wp--preset--color--base-2) !important;
-}
-
-.has-modal-open header .wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open {
-  color: var(--wp--preset--color--base-4) !important;
-}
-
-html:not(.has-modal-open) .light-colors .wp-block-navigation__container.is-style-main > .wp-block-navigation-item:not(.has-child) > .wp-block-navigation-item__content:before,
-html:not(.has-modal-open) .light-colors .wp-block-navigation__container.is-style-main > .wp-block-navigation-item:not(.has-child) > .wp-block-navigation-item__content:after {
-  background: var(--wp--preset--color--base) !important;
-}
-
-html:not(.has-modal-open) header {
-  color: var(--wp--preset--color--base-4);
-}
-html:not(.has-modal-open) header.light-colors {
-  color: var(--wp--preset--color--base);
-}
 html:not(.has-modal-open) header.light-colors img {
   filter: brightness(0) saturate(100%) invert(100%);
 }
@@ -188,16 +144,7 @@ html:not(.has-modal-open) header.light-colors .wp-block-navigation:not(.has-back
   background-color: transparent !important;
   box-shadow: none !important;
 }
-html:not(.has-modal-open) header.with-bg {
-  color: var(--wp--preset--color--base-4);
-}
 
-html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item > .wp-block-navigation-item__content:hover {
-  color: var(--wp--preset--color--base-2);
-}
-html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item:not(.has-child) > .wp-block-navigation-item__content:hover {
-  color: var(--wp--preset--color--base-2);
-}
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item:not(.has-child) > .wp-block-navigation-item__content:hover:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item:not(.has-child) > .wp-block-navigation-item__content:hover:after {
   animation: expand 0.4s forwards;
 }
@@ -221,9 +168,6 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-bl
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item.has-child:hover:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item.has-child:hover:after, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor.has-child:hover:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor.has-child:hover:after {
   opacity: 0 !important;
 }
-html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor > .wp-block-navigation-item__content {
-  color: var(--wp--preset--color--base-2);
-}
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor {
   position: relative;
 }
@@ -244,14 +188,8 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item:after, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor:after {
   bottom: 0;
 }
-html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item .wp-block-navigation-item > .wp-block-navigation-item__content:hover, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor .wp-block-navigation-item > .wp-block-navigation-item__content:hover {
-  color: var(--wp--preset--color--base-2);
-}
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item .wp-block-navigation-item:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-item .wp-block-navigation-item:after, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor .wp-block-navigation-item:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-block-navigation-item.current-menu-ancestor .wp-block-navigation-item:after {
   opacity: 0 !important;
-}
-html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item.current-menu-ancestor:hover {
-  color: var(--wp--preset--color--base-2);
 }
 html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item.current-menu-ancestor:hover:before, html:not(.has-modal-open) .wp-block-navigation__container.is-style-main > .wp-block-navigation-item.current-menu-ancestor:hover:after {
   opacity: 0 !important;
@@ -322,6 +260,7 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main .wp-bloc
 .wp-block-navigation__responsive-container-close {
   top: 2rem;
   right: 2rem;
+  color: var(--wp--preset--color--base-4) !important;
 }
 
 html.has-modal-open .wp-block-site-logo {
@@ -363,9 +302,36 @@ html.has-modal-open .wp-block-navigation.is-responsive.is-style-main .has-child 
   padding: 0 !important;
 }
 
-.wp-block-navigation-item.has-child:hover > a[href="#"] {
+a[href="#"] {
   cursor: default;
 }
-.wp-block-navigation-item.has-child:hover > a[href="#"]:hover {
+
+header.light-colors nav {
+  color: var(--wp--preset--color--base);
+}
+header.light-colors nav a.wp-block-navigation-item__content:not([href="#"]):hover {
+  color: var(--wp--preset--color--base-2) !important;
+}
+header.light-colors nav .current-menu-item > a.wp-block-navigation-item__content {
+  color: var(--wp--preset--color--base-2) !important;
+}
+header.light-colors nav .wp-block-navigation-item__content:hover:before, header.light-colors nav .wp-block-navigation-item__content:hover:after {
+  background: var(--wp--preset--color--base) !important;
+}
+
+header:not(.light-colors) nav {
+  color: var(--wp--preset--color--base-4);
+}
+header:not(.light-colors) nav a.wp-block-navigation-item__content:not([href="#"]):hover {
+  color: var(--wp--preset--color--base-2) !important;
+}
+header:not(.light-colors) nav .current-menu-item > a.wp-block-navigation-item__content {
+  color: var(--wp--preset--color--base-2) !important;
+}
+
+.is-menu-open .wp-block-navigation__container a {
   color: var(--wp--preset--color--base-4) !important;
+}
+.is-menu-open .wp-block-navigation__container a:hover {
+  color: var(--wp--preset--color--base-2) !important;
 }

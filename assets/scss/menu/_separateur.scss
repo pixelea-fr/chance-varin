@@ -1,7 +1,0 @@
-.wp-block-navigation-item.has-child:hover>a[href="#"]{
-  // pointer-events: none;
-    cursor: default;
-    &:hover{
-        color:var(--wp--preset--color--base-4) !important;
-    }
-}
