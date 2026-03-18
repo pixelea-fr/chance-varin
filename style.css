@@ -3296,3 +3296,8 @@ html.has-modal-open .wp-block-navigation__container.is-responsive.is-style-main 
 html.has-modal-open .wp-block-navigation.is-responsive.is-style-main .has-child .wp-block-navigation__submenu-container > .wp-block-navigation-item > .wp-block-navigation-item__content {
   padding: 0 !important;
 }
+
+.wp-block-navigation-item a[href="#"] {
+  pointer-events: none;
+  cursor: default;
+}
