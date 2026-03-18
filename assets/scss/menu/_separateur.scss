@@ -1,7 +1,8 @@
-.wp-block-navigation-item a[href="#"] , .wp-block-navigation-item.has-child:hover a[href="#"]{
+.wp-block-navigation-item a[href="#"] 
+, .wp-block-navigation-item.has-child:hover a[href="#"]{
   // pointer-events: none;
     cursor: default;
     &:hover{
-        color:inherit !important;
+        color:var(--wp--preset--color--base-4) !important;
     }
 }
