@@ -91,25 +91,6 @@ Text Domain: ng1-base
   gap: 1rem;
 }
 
-input[type=submit].wpcf7-submit {
-  margin-top: 0.5rem !important;
-  padding: 1rem !important;
-  background: transparent !important;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: var(--wp--preset--color--contrast) !important;
-  border: 1px solid currentColor;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-input[type=submit].wpcf7-submit:hover {
-  background-color: var(--wp--preset--color--contrast) !important;
-  color: var(--wp--preset--color--base) !important;
-  border-color: var(--wp--preset--color--contrast) !important;
-}
-
 .form-group {
   padding: 1.5rem;
   display: flex;
@@ -318,6 +299,45 @@ html:not(.has-modal-open) .navigation-logo-centered__container {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
+}
+
+a.btn-with-arrow, button[type=submit] {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid var(--wp--preset--color--base-4);
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--wp--preset--color--base-4);
+  background-color: transparent;
+  background-image: linear-gradient(to left, transparent 0%, transparent 50%, var(--wp--preset--color--base-4) 50%, var(--wp--preset--color--base-4) 100%);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 200% 100%;
+  transition: background-position 0.4s ease;
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--wp--preset--font-size--regular);
+  font-weight: 600;
+  line-height: 1.4;
+}
+a.btn-with-arrow:hover, button[type=submit]:hover {
+  background-position: left;
+  color: white;
+}
+a.btn-with-arrow:hover:after, button[type=submit]:hover:after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8'/%3E%3C/svg%3E");
+}
+a.btn-with-arrow:after, button[type=submit]:after {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {

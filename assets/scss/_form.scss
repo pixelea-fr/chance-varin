@@ -66,21 +66,21 @@
 }
 
  input[type="submit"].wpcf7-submit{
-  margin-top: .5rem !important;
-  padding:  1rem !important;
-  background: transparent !important;
-  width: fit-content;
-  color:var(--wp--preset--color--contrast) !important;
-  border: 1px solid currentColor;
-  font-size: .8rem;
-  text-transform: uppercase;
-  transition:all .5s;
-  cursor:pointer;
-  &:hover{
-    background-color:var(--wp--preset--color--contrast) !important;
-    color: var(--wp--preset--color--base) !important;
-    border-color: var(--wp--preset--color--contrast) !important;
-  }
+  // margin-top: .5rem !important;
+  // padding:  1rem !important;
+  // background: transparent !important;
+  // width: fit-content;
+  // color:var(--wp--preset--color--contrast) !important;
+  // border: 1px solid currentColor;
+  // font-size: .8rem;
+  // text-transform: uppercase;
+  // transition:all .5s;
+  // cursor:pointer;
+  // &:hover{
+  //   background-color:var(--wp--preset--color--contrast) !important;
+  //   color: var(--wp--preset--color--base) !important;
+  //   border-color: var(--wp--preset--color--contrast) !important;
+  // }
 }
 
 .form-group{
