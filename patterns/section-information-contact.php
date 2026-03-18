@@ -13,8 +13,8 @@
 <p style="font-size:1.5rem;font-style:normal;font-weight:700">Plus d’informations :   </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
-<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":559,"sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="<?php echo home_url(); ?>/wp-content/uploads/2026/01/telephone-receiver-material_svgrepo.com_.svg" alt="Icon Téléphone" class="wp-image-559"/></figure>
 <!-- /wp:image -->
