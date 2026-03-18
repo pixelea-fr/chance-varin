@@ -1,4 +1,7 @@
 .wp-block-navigation-item a[href="#"] {
   // pointer-events: none;
     cursor: default;
+    &:hover{
+        color:inherit !important;
+    }
 }
