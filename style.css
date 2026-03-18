@@ -340,6 +340,23 @@ a.btn-with-arrow:after, button[type=submit]:after {
   margin-left: 0.5rem;
 }
 
+.noty-banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.noty-banner-content__name {
+  font-size: var(--wp--preset--font-size--xxl-b);
+  font-family: var(--wp--preset--font-family--second);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.noty-banner-content__description {
+  font-size: var(--wp--preset--font-size--regular);
+  line-height: 1.25;
+}
+
 @media (max-width: 600px) {
   .is-style-section {
     color: currentColor;

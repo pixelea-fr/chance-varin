@@ -10,7 +10,7 @@
  */
 ?>
 <!-- wp:pattern {"slug":"ng1-base/spacer-160"} /-->
-<!-- wp:pattern {"slug":"ng1-base/cover-type-1"} /-->
+<!-- wp:pattern {"slug":"ng1-base/cover-type-single"} /-->
 <!-- wp:pattern {"slug":"ng1-base/spacer-072"} /-->
 <!-- wp:pattern {"slug":"ng1-base/data-bien-noty"} /-->
 <!-- wp:pattern {"slug":"ng1-base/spacer-072"} /-->
