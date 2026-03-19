@@ -15,22 +15,32 @@
 	.wp-block-media-text__media{
 		--pb : 3rem;
 		--pt : 2.5rem;
+		--img-space-left:clamp(1.5rem, -0.9306rem + 7.7778vw, 5.875rem);
+		--img-space-right:clamp(1.5rem, -1.4167rem + 9.3333vw, 6.75rem);
 		background: linear-gradient(to right, white 60%, var(--wp--preset--color--base-4) 60%);
 		padding-top: var(--pt);
 		padding-bottom:var(--pb);
-		padding-left: var(--clamp-7-5-rem-half);
-		padding-right: var(--clamp-7-5-rem-half);
+		padding-left:var(--img-space-left);
+		padding-right: var(--img-space-right);
 		height: calc(100% - var(--pt) - var(--pb));
+			@include m(1200){
+			 width: calc(100% - var(--img-space-left) - var(--img-space-right));
+			}
 		img{
 			height: 100%;
 			max-height: 818px;
 			object-fit: cover;
+			
+			@include p(1829){
+			 min-width: 638px;
+			}
+		
 		}
 	}
 		.wp-block-media-text__content > .wp-block-group {
 			
-			padding-left: var(--clamp-7-5-rem-half);
-			padding-right: var(--clamp-7-5-rem-half);
+			padding-left: var(--clamp-2-5-rem-half);
+			padding-right: var(--clamp-2-5-rem-half);
 		}
 	}
 }
