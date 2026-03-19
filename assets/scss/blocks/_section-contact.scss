@@ -23,6 +23,8 @@
 		height: calc(100% - var(--pt) - var(--pb));
 		img{
 			height: 100%;
+			max-height: 818px;
+			object-fit: cover;
 		}
 	}
 		.wp-block-media-text__content > .wp-block-group {

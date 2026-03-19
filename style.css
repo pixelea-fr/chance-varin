@@ -912,6 +912,9 @@ a.btn-with-arrow:after, button[type=submit]:after {
 }
 .section-contact .has-image-halph-bg-color-base-4 .wp-block-media-text__media img {
   height: 100%;
+  max-height: 818px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section-contact .has-image-halph-bg-color-base-4 .wp-block-media-text__content > .wp-block-group {
   padding-left: var(--clamp-7-5-rem-half);
