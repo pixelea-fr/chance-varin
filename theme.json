@@ -238,6 +238,12 @@
                 "fluid": false
             },
             {
+                "slug": "ll",
+                "name": "ll|24",
+                "size": "1.5rem",
+                "fluid": false
+            },
+            {
                 "slug": "xl",
                 "name": "xl|64",
                 "size": "clamp(3rem, 2.4444rem + 1.4815vw, 4rem);",
@@ -294,6 +300,11 @@
                     "slug": "6",
                     "name": "3rem|48",
                     "size": "3rem"
+                },
+                {
+                    "slug": "60",
+                    "name": "3.75rem|60",
+                    "size": "3.75rem"
                 },
                 {
                     "slug": "7",

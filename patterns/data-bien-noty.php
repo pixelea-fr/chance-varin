@@ -8,8 +8,8 @@
  */
 ?>
 <?php $is_editor = is_admin() || wp_is_json_request() || (function_exists('get_current_screen') && get_current_screen() && get_current_screen()->is_block_editor()); ?>
-<!-- wp:group {"metadata":{"name":"Données du bien | container"},"align":"full","className":"data-bien__container","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull data-bien__container"><!-- wp:group {"metadata":{"name":"Données du bien | wrapper"},"className":"data-bien__wrapper","style":{"spacing":{"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Données du bien | container"},"align":"wide","className":"data-bien__container","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide data-bien__container"><!-- wp:group {"metadata":{"name":"Données du bien | wrapper"},"className":"data-bien__wrapper","style":{"spacing":{"blockGap":"var:preset|spacing|1"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group data-bien__wrapper"><!-- wp:shortcode -->
 <?php 
 if (!$is_editor) {
