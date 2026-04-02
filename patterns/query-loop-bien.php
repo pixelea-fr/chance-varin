@@ -17,7 +17,7 @@
 
 <div class="wp-block-query">
 <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
- <!-- wp:pattern {"slug":"ng1-base/card-bien"} /-->
+<!-- wp:noty-broadcast-immo/card /-->
  <!-- /wp:post-template -->
 <!-- wp:query-no-results {"align":"wide"} -->
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|7","bottom":"var:preset|spacing|7","left":"var:preset|spacing|2","right":"var:preset|spacing|2"}}},"layout":{"type":"constrained","contentSize":"700px","wideSize":"890px"}} -->
