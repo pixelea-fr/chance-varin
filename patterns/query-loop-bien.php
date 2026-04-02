@@ -19,6 +19,7 @@
     <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:pattern {"slug":"ng1-base/card-bien"} /-->
 <!-- /wp:post-template -->
+<!-- wp:pattern {"slug":"ng1-base/no-result-bien"} /-->
 <!-- wp:query-pagination {"paginationArrow":"chevron","layout":{"type":"flex","justifyContent":"center"}} -->
 <!-- wp:query-pagination-previous /-->
 <!-- wp:query-pagination-numbers /-->
