@@ -7,6 +7,4 @@
  * Block Types: core/group
  */
 ?>
-<!-- wp:shortcode -->
-[noty_annonce template="card"]
-<!-- /wp:shortcode -->
+<!-- wp:noty-broadcast-immo/card /-->   

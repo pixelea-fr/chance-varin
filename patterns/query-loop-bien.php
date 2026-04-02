@@ -16,9 +16,9 @@
 
 
 <div class="wp-block-query">
-    <!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
-<!-- wp:pattern {"slug":"ng1-base/card-bien"} /-->
-<!-- /wp:post-template -->
+<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
+ <!-- wp:pattern {"slug":"ng1-base/card-bien"} /-->
+ <!-- /wp:post-template -->
 <!-- wp:query-no-results {"align":"wide"} -->
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|7","bottom":"var:preset|spacing|7","left":"var:preset|spacing|2","right":"var:preset|spacing|2"}}},"layout":{"type":"constrained","contentSize":"700px","wideSize":"890px"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--7);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--7);padding-left:var(--wp--preset--spacing--2)"><!-- wp:group {"layout":{"type":"constrained"}} -->
