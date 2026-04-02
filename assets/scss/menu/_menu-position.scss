@@ -7,4 +7,13 @@ header.wp-block-template-part{
         left:0;
         right:0;
     }
+
+}
+
+header.wp-block-template-part{
+
+    &.nav-scroll-down{
+        transition: .5s transform;
+     transform:translateY(-100%) !important;
+    }
 }

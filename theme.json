@@ -433,6 +433,90 @@
                     "blockGap" :"0"
                 }
             },
+                        "core/query-pagination": {
+ "css":"color:var(--wp--preset--color--base-2); font-weight:bold; text-decoration:none",
+                "elements": {
+                   
+                    "link": {
+                            "spacing": {
+                            "padding": {
+                                "top": ".1em",
+                                "bottom": ".1em",
+                                "left": ".1em",
+                                "right": ".1em"
+                            }
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--base-4)"
+                        },
+               
+                        "typography": {
+                            "fontSize": "1rem"
+                        },
+                        ":hover" :{
+                            "color": {
+                                "text": "var(--wp--preset--color--base-2)"
+                            }
+                        }
+                    }
+             
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "2rem"
+                    }
+                }
+            },
+            "core/query-pagination-numbers": {
+                "elements": {
+                    "link": {
+                        "spacing": {
+                            "padding": {
+                                "top": ".1em",
+                                "bottom": ".1em",
+                                "left": ".1em",
+                                "right": ".1em"
+                            }
+                        },
+                        "typography": {
+                            "textDecoration" :"none"
+                        },
+                        "color": {
+                            "text": "var(--wp--preset--color--base-4)",
+                            "background": "transparent"
+                        },
+                        ":hover": {
+                            "color": {
+                                "text": "var(--wp--preset--color--base-4)"
+                            }
+                        }
+                    }
+                }
+            },
+            "core/query-pagination-previous": {
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "inherit"
+                        },
+                        "typography": {
+                            "textDecoration": "none"
+                        }
+                    }
+                }
+            },
+            "core/query-pagination-next": {
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "inherit"
+                        },
+                        "typography": {
+                            "textDecoration": "none"
+                        }
+                    }
+                }
+            },
             "core/button": {
                 "css" : "transition:all .4s",
                 "border":{

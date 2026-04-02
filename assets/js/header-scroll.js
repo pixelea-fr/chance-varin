@@ -4,6 +4,34 @@ document.addEventListener('DOMContentLoaded', function() {
     // On vérifie si le header existe
     if (!header) return;
 
+    // Variables pour suivre le sens du scroll
+    let lastScrollPosition = 0;
+    
+    // Fonction pour gérer le scroll sur tous les headers sans condition
+    function handleGlobalScroll() {
+        const scrollPosition = window.scrollY;
+        const headers = document.querySelectorAll('header.wp-block-template-part');
+        const scrollDifference = Math.abs(scrollPosition - lastScrollPosition);
+        
+        headers.forEach(header => {
+            if (scrollPosition > 100 && scrollPosition > lastScrollPosition) {
+                // Scroll vers le bas et > 100px
+                header.classList.add('nav-scroll-down');
+            } else if (scrollPosition < 100 || (scrollPosition < lastScrollPosition && scrollDifference > 10)) {
+                // Scroll vers le haut avec au moins 30px de différence ou < 100px
+                header.classList.remove('nav-scroll-down');
+            }
+        });
+        
+        lastScrollPosition = scrollPosition;
+    }
+
+    // Écouter le scroll pour tous les headers
+    window.addEventListener('scroll', handleGlobalScroll);
+    
+    // Lancer une fois au chargement
+    handleGlobalScroll();
+
     // On cherche le premier bloc dans entry-content
     const entryContent = document.querySelector('.entry-content');
     if (!entryContent) {

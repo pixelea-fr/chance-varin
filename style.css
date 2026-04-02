@@ -5,7 +5,7 @@ Theme URI:
 Author: GEHIN Nicolas
 Author URI:
 Description: Thème ng1@base pour Chance Varin :)
-Version: 0.1.0.0
+Version: 0.1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ng1-base
@@ -3053,6 +3053,11 @@ header.wp-block-template-part.fixed {
   right: 0;
 }
 
+header.wp-block-template-part.nav-scroll-down {
+  transition: 0.5s transform;
+  transform: translateY(-100%) !important;
+}
+
 html:not(.has-modal-open) button.wp-block-navigation__submenu-icon {
   display: none !important;
 }
@@ -3345,4 +3350,4 @@ header:not(.light-colors) nav .current-menu-item > a.wp-block-navigation-item__c
 }
 .is-menu-open .wp-block-navigation__container a:hover {
   color: var(--wp--preset--color--base-2) !important;
-}
+}/*# sourceMappingURL=style.css.map */
