@@ -20,6 +20,7 @@ add_action( 'wp_enqueue_scripts', 'register_map_chance_varin_assets' );
 function map_chance_varin_shortcode( $atts ) {
     $atts = shortcode_atts( array(
         'class' => '',
+        'link' => '',
     ), $atts );
 
     wp_enqueue_script( 'map-chance-varin-popin' );
@@ -29,6 +30,16 @@ function map_chance_varin_shortcode( $atts ) {
     $svg      = '';
     if ( file_exists( $svg_path ) ) {
         $svg = file_get_contents( $svg_path );
+        
+        // Ajouter data-link sur les groupes SVG si l'attribut link est fourni
+        if ( ! empty( $atts['link'] ) ) {
+            $escaped_link = esc_url( $atts['link'] );
+            $svg = preg_replace(
+                '/(<g[^>]*class="svg-cv-group"[^>]*>)/',
+                '$1 data-link="' . $escaped_link . '"',
+                $svg
+            );
+        }
     }
 
     $wrapper_class = 'map-chance-varin';

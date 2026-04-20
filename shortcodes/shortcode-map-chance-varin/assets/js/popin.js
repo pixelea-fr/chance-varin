@@ -37,6 +37,13 @@
             hideTimer = null;
           }, 1000);
         });
+
+        group.addEventListener('click', function () {
+          var link = group.getAttribute('data-link');
+          if (link) {
+            window.location.href = link;
+          }
+        });
       });
     });
   }
