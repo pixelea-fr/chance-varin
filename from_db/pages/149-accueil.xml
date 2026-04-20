@@ -113,7 +113,7 @@ persist_end="true" trigger="scroll"]
 
 <!-- wp:group {"metadata":{"name":"Section | Double marquee"},"align":"full","className":"section-double-marquee","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull section-double-marquee"><!-- wp:shortcode -->
-[double_marquee line1="LOCATION - ACHAT - VENTE - VIAGER - MAISON - DOMAINE - HARAS - APPARTEMENT" line2="MAISON - DOMAINE - HARAS - APPARTEMENT - LOCATION - ACHAT - VENTE - VIAGER"  speed="30" class="double-marquee" color="var(--wp--preset--color--base-2)" ]
+[double_marquee line1="LOCATION - ACHAT - VENTE - VIAGER - MAISON - DOMAINE - HARAS - APPARTEMENT -&nbsp;" line2=" MAISON - DOMAINE - HARAS - APPARTEMENT - LOCATION - ACHAT - VENTE - VIAGER -&nbsp;"  speed="30" class="double-marquee" color="var(--wp--preset--color--base-2)" ]
 <!-- /wp:shortcode --></div>
 <!-- /wp:group -->
 
@@ -183,7 +183,7 @@ persist_end="true" trigger="scroll"]
 <div style="height:140px" aria-hidden="true" class="wp-block-spacer is-spacer-140"></div>
 <!-- /wp:spacer -->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2026-03-06 13:29:16]]></modified>
+  <modified><![CDATA[2026-04-20 09:15:09]]></modified>
   <media>
     <file type="content" original_id="154">
       <filename><![CDATA[2025/12/chance-varin-equipe.jpg]]></filename>
@@ -199,7 +199,7 @@ persist_end="true" trigger="scroll"]
     </file>
   </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1772800154:1]]></key>
+    <key name="_edit_lock"><![CDATA[1776669307:1]]></key>
     <key name="_wp_page_template"><![CDATA[]]></key>
   </meta>
   <taxonomies/>
