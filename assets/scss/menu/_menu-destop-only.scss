@@ -3,7 +3,7 @@
 :root{
   --before-after-width:220px;
 }
-.wp-block-navigation .wp-block-navigation-item__label{
+html:not(.has-modal-open) .wp-block-navigation .wp-block-navigation-item__label{
   white-space: nowrap;
   }
 

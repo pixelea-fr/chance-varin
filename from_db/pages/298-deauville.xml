@@ -150,7 +150,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-core-button-with-arrows"} -->
-<div class="wp-block-button is-style-core-button-with-arrows"><a class="wp-block-button__link wp-element-button" href="https://chance-varin.local/contact/">Contactez-nous</a></div>
+<div class="wp-block-button is-style-core-button-with-arrows"><a class="wp-block-button__link wp-element-button" href="https://chance-varin.local/contact?cf7_dest=deauville">Contactez-nous</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>
@@ -161,7 +161,7 @@
 <div style="height:var(--wp--preset--spacing--9)" aria-hidden="true" class="wp-block-spacer is-spacer-160"></div>
 <!-- /wp:spacer -->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2026-03-06 14:00:25]]></modified>
+  <modified><![CDATA[2026-04-20 16:20:52]]></modified>
   <media>
     <file type="content" original_id="396">
       <filename><![CDATA[2026/01/82139266_10220421001545731_753836648155840512_n-600x412-1-Grande.jpeg]]></filename>
@@ -201,7 +201,7 @@
     </file>
   </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1772802017:1]]></key>
+    <key name="_edit_lock"><![CDATA[1776694849:1]]></key>
   </meta>
   <taxonomies/>
 </content>
