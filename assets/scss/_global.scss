@@ -266,7 +266,7 @@ a.btn-with-arrow,button[type="submit"]{
     gap: 1.25rem !important;
     margin-top: var(--wp--preset--spacing--9) !important;
     max-width: 100% !important;
-
+padding:0 !important;
     background: var(--wp--preset--color--base-4) !important;
     color: white !important;
     font-family: var(--wp--preset--font-family--base, inherit) !important;
@@ -314,6 +314,7 @@ a.btn-with-arrow,button[type="submit"]{
         position: relative !important;
 
         background: color-mix(in srgb, var(--wp--preset--color--base-4) 92%, white) !important;
+        
         color: white !important;
 
         scroll-snap-align: start !important;
@@ -327,6 +328,9 @@ a.btn-with-arrow,button[type="submit"]{
             background: color-mix(in srgb, var(--wp--preset--color--base-4) 86%, white) !important;
             border-right-color: color-mix(in srgb, white 24%, transparent) !important;
             border-bottom-color: color-mix(in srgb, white 24%, transparent) !important;
+        }
+        >*:not(figure){
+            padding: .5rem !important;
         }
     }
 
