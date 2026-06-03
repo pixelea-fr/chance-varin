@@ -467,14 +467,12 @@ a.btn-with-arrow:after, button[type=submit]:after {
   display: grid !important;
   grid-auto-flow: column !important;
   grid-auto-columns: minmax(19rem, 24rem) !important;
-  gap: 0 !important;
+  gap: 1.5rem !important;
   align-items: stretch !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
   padding-bottom: 0 !important;
   scroll-snap-type: x proximity !important;
-  border-top: 1px solid color-mix(in srgb, white 14%, transparent) !important;
-  border-left: 1px solid color-mix(in srgb, white 14%, transparent) !important;
 }
 .chance-varin-rss__item {
   display: grid !important;
@@ -483,11 +481,8 @@ a.btn-with-arrow:after, button[type=submit]:after {
   height: auto !important;
   min-height: 22rem !important;
   position: relative !important;
-  padding: 1.25rem !important;
   background: color-mix(in srgb, var(--wp--preset--color--base-4) 92%, white) !important;
   color: white !important;
-  border-right: 1px solid color-mix(in srgb, white 14%, transparent) !important;
-  border-bottom: 1px solid color-mix(in srgb, white 14%, transparent) !important;
   scroll-snap-align: start !important;
   overflow: hidden !important;
   opacity: 1 !important;
