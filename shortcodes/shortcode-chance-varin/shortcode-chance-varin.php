@@ -257,7 +257,7 @@ function chance_varin_shortcode_notaire_rss( $atts ) {
 				clickable: true,
 			},
 			breakpoints: {
-				0: { slidesPerView: 1.2, spaceBetween: 16 },
+				0: { slidesPerView: 1, spaceBetween: 16 },
 				480: { slidesPerView: 1.8, spaceBetween: 20 },
 				768: { slidesPerView: 2.5, spaceBetween: 24 },
 				1024: { slidesPerView: 3.5, spaceBetween: 24 },

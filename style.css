@@ -562,19 +562,10 @@ a.btn-with-arrow:after, button[type=submit]:after {
 }
 .chance-varin-rss--swiper .chance-varin-rss__track {
   display: flex !important;
-  grid-auto-flow: initial !important;
-  grid-auto-columns: initial !important;
   gap: 0 !important;
   overflow-x: visible !important;
   overflow-y: visible !important;
   scroll-snap-type: none !important;
-}
-.chance-varin-rss--swiper .chance-varin-rss__item {
-  width: auto !important;
-  min-width: 19rem !important;
-  max-width: 24rem !important;
-  scroll-snap-align: none !important;
-  height: auto !important;
 }
 .chance-varin-rss--swiper .swiper-pagination {
   position: relative !important;
