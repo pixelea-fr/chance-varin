@@ -178,12 +178,14 @@ function chance_varin_shortcode_notaire_rss( $atts ) {
 			'limit' => 20,
 			'title' => 'Actualités Notaires de France',
 			'class' => '',
+			'swiper' => 'false',
 		),
 		$atts
 	);
 
 	$theme = sanitize_key( $atts['theme'] );
 	$limit = max( 1, min( 20, absint( $atts['limit'] ) ) );
+	$use_swiper = filter_var( $atts['swiper'], FILTER_VALIDATE_BOOLEAN );
 
 	$items = chance_varin_fetch_notaire_rss_items( $theme, $limit );
 	if ( empty( $items ) ) {
@@ -194,6 +196,11 @@ function chance_varin_shortcode_notaire_rss( $atts ) {
 	if ( '' !== $atts['class'] ) {
 		$classes .= ' ' . sanitize_html_class( $atts['class'] );
 	}
+	if ( $use_swiper ) {
+		$classes .= ' chance-varin-rss--swiper';
+		wp_enqueue_style( 'swiper-css', 'https://unpkg.com/swiper@11/swiper-bundle.min.css' );
+		wp_enqueue_script( 'swiper-js', 'https://unpkg.com/swiper@11/swiper-bundle.min.js', array(), null, true );
+	}
 
 	ob_start();
 	?>
@@ -201,9 +208,14 @@ function chance_varin_shortcode_notaire_rss( $atts ) {
 		<div class="chance-varin-rss__header">
 			<h2 class="wp-block-heading"><?php echo esc_html( $atts['title'] ); ?></h2>
 		</div>
+		<?php if ( $use_swiper ) : ?>
+		<div class="swiper chance-varin-rss__swiper">
+			<div class="swiper-wrapper chance-varin-rss__track" role="list">
+		<?php else : ?>
 		<div class="chance-varin-rss__track" role="list">
+		<?php endif; ?>
 			<?php foreach ( $items as $item ) : ?>
-				<article class="chance-varin-rss__item" role="listitem">
+				<article class="<?php echo $use_swiper ? 'swiper-slide ' : ''; ?>chance-varin-rss__item" role="listitem">
 					<?php if ( ! empty( $item['image_cached'] ) || ! empty( $item['image'] ) ) : ?>
 						<figure class="chance-varin-rss__media">
 							<img
@@ -225,9 +237,40 @@ function chance_varin_shortcode_notaire_rss( $atts ) {
 					<?php endif; ?>
 				</article>
 			<?php endforeach; ?>
+		<?php if ( $use_swiper ) : ?>
+			</div>
+			<div class="swiper-pagination"></div>
 		</div>
+		<?php else : ?>
+		</div>
+		<?php endif; ?>
 	</section>
 	<?php
+	if ( $use_swiper ) :
+		$swiper_id = uniqid( 'rss-swiper-' );
+	?>
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		new Swiper('.chance-varin-rss--swiper .chance-varin-rss__swiper', {
+			slidesPerView: 'auto',
+			spaceBetween: 24,
+			freeMode: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			breakpoints: {
+				0: { slidesPerView: 1.2, spaceBetween: 16 },
+				480: { slidesPerView: 1.8, spaceBetween: 20 },
+				768: { slidesPerView: 2.5, spaceBetween: 24 },
+				1024: { slidesPerView: 3.5, spaceBetween: 24 },
+				1280: { slidesPerView: 4.5, spaceBetween: 24 },
+			}
+		});
+	});
+	</script>
+	<?php
+	endif;
 
 	return trim( preg_replace( '/\s+/', ' ', ob_get_clean() ) );
 }

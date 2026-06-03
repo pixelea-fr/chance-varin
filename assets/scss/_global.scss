@@ -262,6 +262,7 @@ a.btn-with-arrow,button[type="submit"]{
 }
 
 .chance-varin-rss {
+    max-width:1920px !important;
     display: grid !important;
     gap: 1.25rem !important;
     margin-top: var(--wp--preset--spacing--9) !important;
@@ -330,7 +331,7 @@ padding:0 !important;
             border-bottom-color: color-mix(in srgb, white 24%, transparent) !important;
         }
         >*:not(figure){
-            padding: .5rem !important;
+            padding: 0 .5rem  !important;
         }
     }
 
@@ -401,6 +402,44 @@ padding:0 !important;
 
     &__item:hover &__image {
         transform: scale(1.03) !important;
+    }
+
+    &--swiper {
+        .chance-varin-rss__swiper {
+            overflow: hidden !important;
+        }
+
+        .chance-varin-rss__track {
+            display: flex !important;
+            grid-auto-flow: initial !important;
+            grid-auto-columns: initial !important;
+            gap: 0 !important;
+            overflow-x: visible !important;
+            overflow-y: visible !important;
+            scroll-snap-type: none !important;
+        }
+
+        .chance-varin-rss__item {
+            width: auto !important;
+            min-width: 19rem !important;
+            max-width: 24rem !important;
+            scroll-snap-align: none !important;
+            height: auto !important;
+        }
+
+        .swiper-pagination {
+            position: relative !important;
+            margin-top: 1.5rem !important;
+        }
+
+        .swiper-pagination-bullet {
+            background: rgba(255, 255, 255, 0.5) !important;
+            opacity: 1 !important;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #ffffff !important;
+        }
     }
 }
 

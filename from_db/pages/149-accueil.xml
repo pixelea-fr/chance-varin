@@ -8,11 +8,11 @@
   <date_gmt><![CDATA[2025-12-17 07:37:16]]></date_gmt>
   <title><![CDATA[Accueil]]></title>
   <content><![CDATA[<!-- wp:cover {"url":"https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4","id":140,"isUserOverlayColor":true,"backgroundType":"video","minHeight":100,"minHeightUnit":"vh","gradient":"gradient-1","contentPosition":"bottom center","sizeSlug":"full","metadata":{"name":"Bannière Accueil"},"align":"full","className":"is-style-style5","style":{"spacing":{"blockGap":"var:preset|spacing|2","margin":{"top":"0","bottom":"0"},"padding":{"bottom":"var:preset|spacing|10"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center is-style-style5" style="margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--10);min-height:100vh"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4" data-object-fit="cover"></video><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient has-gradient-1-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"regular"} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-center is-style-style5" style="margin-top:0;margin-bottom:0;padding-bottom:var(--wp--preset--spacing--10);min-height:100vh"><video class="wp-block-cover__video-background intrinsic-ignore" autoplay muted loop playsinline src="https://chance-varin.local/wp-content/uploads/2025/12/AdobeStock_610672967_Video_HD_Preview.mp4" data-object-fit="cover"></video><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient has-gradient-1-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400","textAlign":"center"}},"fontSize":"regular"} -->
 <p class="has-text-align-center has-regular-font-size" style="font-style:normal;font-weight:400">Office Notarial en Normandie</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.28"}},"fontSize":"xxl"} -->
+<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.28","textAlign":"center"}},"fontSize":"xxl"} -->
 <h2 class="wp-block-heading has-text-align-center has-xxl-font-size" style="font-style:normal;font-weight:500;line-height:1.28">L’expertise au bon moment,<br> au bon endroit</h2>
 <!-- /wp:heading -->
 
@@ -84,11 +84,11 @@ persist_end="true" trigger="scroll"]
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"","style":{"spacing":{"blockGap":"var:preset|spacing|5"}}} -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"right"} -->
+<div class="wp-block-column"><!-- wp:heading {"style":{"typography":{"textAlign":"right"}}} -->
 <h2 class="wp-block-heading has-text-align-right"> Où sommes-nous ?</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left"} -->
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"left"}}} -->
 <p class="has-text-align-left">Le groupe CHANCÉ-VARIN &amp; Associés est implanté sur six sites en Normandie et bénéficie d’un positionnement stratégique à proximité immédiate de Paris, permettant d’assurer une présence de proximité et une réactivité importante.&nbsp;</p>
 <!-- /wp:paragraph -->
 
@@ -100,7 +100,7 @@ persist_end="true" trigger="scroll"]
 <p>Cette présence territoriale renforcée nous permet d’intervenir efficacement en Normandie, en Île-de-France et plus globalement sur l’ensemble du territoire national.&nbsp;</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"right"} -->
+<!-- wp:paragraph {"style":{"typography":{"textAlign":"right"}}} -->
 <p class="has-text-align-right"> &nbsp;</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
@@ -181,9 +181,15 @@ persist_end="true" trigger="scroll"]
 
 <!-- wp:spacer {"height":"140px","metadata":{"name":"Espacement | 140"},"className":"is-spacer-140"} -->
 <div style="height:140px" aria-hidden="true" class="wp-block-spacer is-spacer-140"></div>
-<!-- /wp:spacer -->]]></content>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"full","className":"is-style-style4","style":{"spacing":{"padding":{"right":"var:preset|spacing|clamp75","left":"var:preset|spacing|clamp75"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-style4" style="padding-right:var(--wp--preset--spacing--clamp-75);padding-left:var(--wp--preset--spacing--clamp-75)"><!-- wp:shortcode -->
+[chance_varin_notaire_rss theme="news" swiper="true" limit="10" title="Actualités | Notaires de France"]
+<!-- /wp:shortcode --></div>
+<!-- /wp:group -->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2026-04-20 09:15:09]]></modified>
+  <modified><![CDATA[2026-06-03 14:57:52]]></modified>
   <media>
     <file type="content" original_id="154">
       <filename><![CDATA[2025/12/chance-varin-equipe.jpg]]></filename>
@@ -199,7 +205,7 @@ persist_end="true" trigger="scroll"]
     </file>
   </media>
   <meta>
-    <key name="_edit_lock"><![CDATA[1776669307:1]]></key>
+    <key name="_edit_lock"><![CDATA[1780491467:1]]></key>
     <key name="_wp_page_template"><![CDATA[]]></key>
   </meta>
   <taxonomies/>
