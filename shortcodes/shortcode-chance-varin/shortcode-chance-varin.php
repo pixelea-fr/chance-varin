@@ -205,9 +205,6 @@ function chance_varin_shortcode_notaire_rss( $atts ) {
 	ob_start();
 	?>
 	<section class="<?php echo esc_attr( $classes ); ?>">
-		<div class="chance-varin-rss__header">
-			<h2 class="wp-block-heading"><?php echo esc_html( $atts['title'] ); ?></h2>
-		</div>
 		<?php if ( $use_swiper ) : ?>
 		<div class="swiper chance-varin-rss__swiper">
 			<div class="swiper-wrapper chance-varin-rss__track" role="list">
