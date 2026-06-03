@@ -1092,7 +1092,6 @@ a.btn-with-arrow:after, button[type=submit]:after {
   position: relative;
 }
 .media-text-decale__txt {
-  box-sizing: content-box;
   width: 100%;
 }
 @media (min-width: 1200px) {
