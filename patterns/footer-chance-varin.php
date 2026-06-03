@@ -4,6 +4,8 @@
  * Slug: ng1-base/footer-chance-varin
  * Block Types: core/template-part/footer
  */
+
+$offices = chance_varin_get_offices();
 ?>
 <!-- wp:group {"metadata":{"name":"Footer | Chance Varin"},"align":"full","className":"footer-chance-varin","style":{"spacing":{"padding":{"right":"var:preset|spacing|4","left":"var:preset|spacing|4","top":"13.8rem"}}},"layout":{"type":"constrained","contentSize":"1420px","wideSize":"1856px"}} -->
 <div class="wp-block-group alignfull footer-chance-varin" style="padding-top:13.8rem;padding-right:var(--wp--preset--spacing--4);padding-left:var(--wp--preset--spacing--4)"><!-- wp:columns {"align":"wide","className":"footer-chance-varin__wrapper"} -->
@@ -18,72 +20,28 @@
 
 <!-- wp:social-link {"url":"https://www.instagram.com/chance_varin_notaires/","service":"instagram"} /-->
 
-<!-- wp:social-link {"service":"mail"} /--></ul>
+<!-- wp:social-link {"url":"mailto:<?php echo esc_attr( chance_varin_get_general_email() ); ?>","service":"mail"} /--></ul>
 <!-- /wp:social-links --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"","metadata":{"name":"Colonne 2"},"className":"is-style-style1 footer-chance-varin__col2"} -->
 <div class="wp-block-column is-style-style1 footer-chance-varin__col2"><!-- wp:group {"metadata":{"name":"footer-chance-varin__grid"},"className":"footer-chance-varin__grid","layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
-<div class="wp-block-group footer-chance-varin__grid"><!-- wp:group {"metadata":{"name":"Fiche Cabinet","categories":["featured"],"patternName":"core/block/263"},"className":"footer-fiche","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group footer-fiche"><!-- wp:heading {"level":3,"placeholder":"Etude de ville","className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
-<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1">Étude de Lisieux</h3>
-<!-- /wp:heading -->
+<div class="wp-block-group footer-chance-varin__grid">
+<?php foreach ( $offices as $office ) : ?>
+	<!-- wp:group {"className":"footer-fiche chance-varin-office chance-varin-office--footer","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group footer-fiche chance-varin-office chance-varin-office--footer">
+		<!-- wp:heading {"level":3,"className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
+		<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1"><?php echo esc_html( $office['name'] ); ?></h3>
+		<!-- /wp:heading -->
 
-<!-- wp:paragraph {"placeholder":"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…","className":"footer-fiche","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="footer-fiche has-xs-font-size" style="line-height:1.87">Siège social <br>18 Place François Mitterrand <br>14100 LISIEUX <br><a href="tel:0231622022">02 31 62 20 22 </a><br><a href="mailto:chance-varin@notaires.fr">chance-varin@notaires.fr</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Fiche Cabinet","categories":["featured"],"patternName":"core/block/263"},"className":"footer-fiche","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group footer-fiche"><!-- wp:heading {"level":3,"placeholder":"Etude de ville","className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
-<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1">Étude de Pont l’Évêque</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"placeholder":"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…","className":"footer-fiche","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="footer-fiche has-xs-font-size" style="line-height:1.87">2 Place Jean Bureau <br>14130 PONT L’EVEQUE <br><a href="tel:0231640008">02 31 64 00 08</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Fiche Cabinet","categories":["featured"],"patternName":"core/block/263"},"className":"footer-fiche","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group footer-fiche"><!-- wp:heading {"level":3,"placeholder":"Etude de ville","className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
-<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1">Étude de Cambremer</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"placeholder":"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…","className":"footer-fiche","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="footer-fiche has-xs-font-size" style="line-height:1.87">18 Rue de Verdun <br>14340 CAMBREMER <br><a href="tel:0231630303">02 31 63 03 03</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Fiche Cabinet","categories":["featured"],"patternName":"core/block/263"},"className":"footer-fiche","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group footer-fiche"><!-- wp:heading {"level":3,"placeholder":"Etude de ville","className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
-<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1">Étude de Deauville</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"placeholder":"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…","className":"footer-fiche","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="footer-fiche has-xs-font-size" style="line-height:1.87">34 rue Olliffe <br>14800 DEAUVILLE <br><a href="tel:0261820102">02 61 82 01 02</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Fiche Cabinet","categories":["featured"],"patternName":"core/block/263"},"className":"footer-fiche","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group footer-fiche"><!-- wp:heading {"level":3,"placeholder":"Etude de ville","className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
-<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1">Étude de Mézidon </h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"placeholder":"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…","className":"footer-fiche","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="footer-fiche has-xs-font-size" style="line-height:1.87">37 Avenue Jean Jaurès <br>14270 MEZIDON CANON<br><a href="tel:0231200411">02 31 20 04 11</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"metadata":{"name":"Fiche Cabinet","categories":["featured"],"patternName":"core/block/263"},"className":"footer-fiche","style":{"spacing":{"blockGap":"0.63rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group footer-fiche"><!-- wp:heading {"level":3,"placeholder":"Etude de ville","className":"fiche-footer","style":{"typography":{"fontSize":"21px","lineHeight":"1","fontStyle":"normal","fontWeight":"400"}}} -->
-<h3 class="wp-block-heading fiche-footer" style="font-size:21px;font-style:normal;font-weight:400;line-height:1">Étude de Bonnebosq</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"placeholder":"Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut…","className":"footer-fiche","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
-<p class="footer-fiche has-xs-font-size" style="line-height:1.87">32 Rue du Centre <br>14340 BONNEBOSQ <br><a href="tel:0231650954">02 31 65 09 54</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+		<!-- wp:paragraph {"className":"footer-fiche has-xs-font-size chance-varin-office__meta","style":{"typography":{"lineHeight":"1.87"}},"fontSize":"xs"} -->
+		<p class="footer-fiche has-xs-font-size chance-varin-office__meta" style="line-height:1.87"><?php echo wp_kses_post( chance_varin_render_office_meta_lines( $office, 'footer' ) ); ?></p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
+<?php endforeach; ?>
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

@@ -1,48 +1,87 @@
 <?php
 /**
- * Title: Query loop bien
+ * Title: Query Loop Bien
  * Slug: ng1-base/query-loop-bien
- * Categories: layout
- * Keywords: query, bien
+ * Categories: query
  * Block Types: core/query
+ * Description: Query loop pour les biens
+ *
+ * @package WordPress
+ * @subpackage ng1-base
+ * @since ng1-base 1.0
  */
+
 ?>
-<!-- wp:up/mobile-toggle {"targetId":"filtres","displayMode":"sticky","position":"bottom-center","variant":"pill","label":"Filtres","icon":"plus","useOverlay":true} /-->
+<!-- wp:query {"queryId":0,"query":{"inherit":true,"perPage":12,"pages":0,"offset":0,"postType":"noty_annonce","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","taxQuery":null},"className":"chance-varin-query"} -->
+<div class="wp-block-query chance-varin-query">
+	<!-- wp:group {"className":"chance-varin-query__intro","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group chance-varin-query__intro">
+		<!-- wp:paragraph {"className":"chance-varin-query__cta"} -->
+		<p class="chance-varin-query__cta">Besoin d’estimer vos frais ou votre financement ? <a href="/immobilier/tarifs-et-outils-pratiques/">Découvrir nos tarifs et outils pratiques</a></p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
 
-<!-- wp:query {"queryId":0,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"format":[]}} -->
-<div class="wp-block-query"><!-- wp:group {"className":"is-style-style3","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"},"anchor":"filtres"} -->
-<div id="filtres" class="wp-block-group is-style-style3"><!-- wp:query-filter/taxonomy {"taxonomy":"noty_nature","emptyLabel":"Tout type de bien","label":"Nature du bien","filterType":"checkbox","options":[{"value":"terrain","label":"Label"}]} /-->
+	<!-- wp:group {"className":"chance-varin-query__filters","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group chance-varin-query__filters">
+		<!-- wp:columns {"verticalAlignment":"top","className":"chance-varin-query__filters-grid"} -->
+		<div class="wp-block-columns are-vertically-aligned-top chance-varin-query__filters-grid">
+			<!-- wp:column {"verticalAlignment":"top"} -->
+			<div class="wp-block-column is-vertically-aligned-top">
+				<!-- wp:query-filter/meta {"metaKey":"up_transaction_type","label":"Vente / Location","filterType":"select","showLabel":true,"emptyLabel":"Toutes les annonces","options":[{"value":"vente_traditionnelle","label":"Vente"},{"value":"location","label":"Location"}]} /-->
+			</div>
+			<!-- /wp:column -->
 
-<!-- wp:query-filter/taxonomy {"taxonomy":"noty_transaction","emptyLabel":"Tous les types","label":"Type de transaction"} /-->
+			<!-- wp:column {"verticalAlignment":"top"} -->
+			<div class="wp-block-column is-vertically-aligned-top">
+				<!-- wp:query-filter/meta {"metaKey":"up_nature","label":"Types de biens","filterType":"checkbox","showLabel":true,"options":[{"value":"Appartement","label":"Appartement"},{"value":"Maison","label":"Maison"},{"value":"Locaux professionnels","label":"Locaux professionnels"},{"value":"Terrain à bâtir","label":"Terrain à bâtir"}]} /-->
+			</div>
+			<!-- /wp:column -->
 
-<!-- wp:query-filter/taxonomy {"taxonomy":"noty_ville","emptyLabel":"Toutes les villes","label":"Ville"} /-->
+			<!-- wp:column {"verticalAlignment":"top"} -->
+			<div class="wp-block-column is-vertically-aligned-top">
+				<!-- wp:query-filter/meta {"metaKey":"up_prix","label":"Budget","filterType":"range","comparison":"range","isNumeric":true,"showLabel":true,"placeholder":"Prix minimum","step":"1000"} /-->
+			</div>
+			<!-- /wp:column -->
 
-<!-- wp:query-filter/meta {"metaKey":"up_prix_hni","label":"Prix","filterType":"range","comparison":"range","isNumeric":true,"minBound":"50000","maxBound":"300000"} /--></div>
-<!-- /wp:group -->
+			<!-- wp:column {"verticalAlignment":"top"} -->
+			<div class="wp-block-column is-vertically-aligned-top">
+				<!-- wp:query-filter/meta {"metaKey":"up_ville","label":"Communes","filterType":"checkbox","showLabel":true} /-->
+			</div>
+			<!-- /wp:column -->
+		</div>
+		<!-- /wp:columns -->
 
-<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
-<!-- wp:noty-broadcast-immo/card /-->
-<!-- /wp:post-template -->
+		<!-- wp:query-filter/apply-button {"label":"Appliquer les filtres","resetLabel":"Réinitialiser","showReset":true} /-->
+	</div>
+	<!-- /wp:group -->
 
-<!-- wp:query-no-results {"align":"wide"} -->
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|7","bottom":"var:preset|spacing|7","left":"var:preset|spacing|2","right":"var:preset|spacing|2"}}},"layout":{"type":"constrained","contentSize":"700px","wideSize":"890px"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--7);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--7);padding-left:var(--wp--preset--spacing--2)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"textAlign":"center"}},"fontSize":"xl"} -->
-<h3 class="wp-block-heading has-text-align-center has-xl-font-size"><strong>Aucun Bien </strong></h3>
-<!-- /wp:heading -->
+	<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"grid","columnCount":3}} -->
+	<!-- wp:noty-broadcast-immo/card /-->
+	<!-- /wp:post-template -->
 
-<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-<p class="has-text-align-center">Aucun bien n'est disponible pour le moment.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-<!-- /wp:query-no-results -->
+	<!-- wp:query-no-results {"align":"wide"} -->
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|7","bottom":"var:preset|spacing|7","left":"var:preset|spacing|2","right":"var:preset|spacing|2"}}},"layout":{"type":"constrained","contentSize":"700px","wideSize":"890px"}} -->
+	<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--7);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--7);padding-left:var(--wp--preset--spacing--2)">
+		<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group">
+			<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
+			<h3 class="wp-block-heading has-text-align-center has-xl-font-size"><strong>Aucune annonce</strong></h3>
+			<!-- /wp:heading -->
 
-<!-- wp:query-pagination {"paginationArrow":"chevron","layout":{"type":"flex","justifyContent":"center"}} -->
-<!-- wp:query-pagination-previous /-->
+			<!-- wp:paragraph {"align":"center"} -->
+			<p class="has-text-align-center">Aucune annonce ne correspond aux critères sélectionnés.</p>
+			<!-- /wp:paragraph -->
+		</div>
+		<!-- /wp:group -->
+	</div>
+	<!-- /wp:group -->
+	<!-- /wp:query-no-results -->
 
-<!-- wp:query-pagination-numbers /-->
-
-<!-- wp:query-pagination-next /-->
-<!-- /wp:query-pagination --></div>
+	<!-- wp:query-pagination {"paginationArrow":"chevron","layout":{"type":"flex","justifyContent":"center"}} -->
+	<!-- wp:query-pagination-previous /-->
+	<!-- wp:query-pagination-numbers /-->
+	<!-- wp:query-pagination-next /-->
+	<!-- /wp:query-pagination -->
+</div>
 <!-- /wp:query -->

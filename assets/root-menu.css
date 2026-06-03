@@ -42,6 +42,11 @@ header.wp-block-template-part.fixed {
   right: 0;
 }
 
+header.wp-block-template-part.nav-scroll-down {
+  transition: 0.5s transform;
+  transform: translateY(-100%) !important;
+}
+
 html:not(.has-modal-open) button.wp-block-navigation__submenu-icon {
   display: none !important;
 }

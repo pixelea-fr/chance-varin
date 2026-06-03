@@ -11,6 +11,7 @@ include_once 'functions/load-patterns-json.php';
 include_once 'functions/register-block-styles.php';
 //include_once 'functions/load-patterns-json-like-variations.php';
 include_once 'functions/no-cache.php';
+include_once 'functions/chance-varin-site.php';
 
 include_once "functions/register-shortcodes.php";
 

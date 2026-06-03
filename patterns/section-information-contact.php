@@ -22,10 +22,6 @@
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"s"} -->
 <p class="has-s-font-size">Tel : <a href="tel:0231485700">02 31 48 57 00</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"s"} -->
-<p class="has-s-font-size">Fax : <a href="tel:0231310655">02 31 31 06 55</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -44,13 +40,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|2"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.25"}},"fontSize":"s"} -->
-<p class="has-s-font-size" style="line-height:1.25">L'étude est ouverte :&nbsp;le lundi de 14H à 18H, du mardi au vendredi de 8H45 à 12H30, et de 13H45 à 18H et le samedi de 9H à 12H.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"fontSize":"s"} -->
-<p class="has-s-font-size">Parking réservé à la clientèle en arrière de l'étude avec accès par le 1 rue Condorcet.</p>
-<!-- /wp:paragraph --></div>
+<div class="wp-block-group"><!-- wp:html -->
+<?php echo do_shortcode('[chance_varin_office_details office="lisieux" context="detail"]'); ?>
+<!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
