@@ -317,6 +317,11 @@
                     "size": "7.5rem"
                 },
                 {
+                    "slug": "clamp75",
+                    "name": "1.5->7.5rem",
+                    "size": "clamp(1.5rem, -1.8333rem + 10.6667vw, 7.5rem)"
+                },
+                {
                     "slug": "9",
                     "name": "10rem|160",
                     "size": "10rem"
