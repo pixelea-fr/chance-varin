@@ -27,7 +27,7 @@
 <!-- wp:navigation-link {"label":"Patrimoines des professionnels","type":"page","id":912,"url":"https://chance-varin.local/nos-competences/patrimoines-des-professionnels/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
 <!-- /wp:navigation-submenu -->
 
-<!-- wp:site-logo {"width":150,"shouldSyncIcon":true} /-->
+<!-- wp:site-logo {"width":150,"shouldSyncIcon":true,"className":"only-desktop"} /-->
 
 <!-- wp:navigation-submenu {"label":"Négociation | Gérance","type":"page","url":"#","kind":"post-type"} -->
 <!-- wp:navigation-link {"label":"Patrimoines des professionnels","type":"page","id":912,"url":"https://chance-varin.local/nos-competences/patrimoines-des-professionnels/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->
@@ -35,7 +35,7 @@
 
 <!-- wp:navigation-link {"label":"Contactez-nous","type":"page","id":119,"url":"https://chance-varin.local/contact/","kind":"post-type","metadata":{"bindings":{"url":{"source":"core/post-data","args":{"field":"link"}}}}} /-->]]></content>
   <excerpt><![CDATA[]]></excerpt>
-  <modified><![CDATA[2026-03-18 13:57:34]]></modified>
+  <modified><![CDATA[2026-06-11 17:06:50]]></modified>
   <media/>
   <meta>
     <key name="_wp_old_date"><![CDATA[2025-12-16]]></key>

@@ -2,3 +2,5 @@
 .DS_Store
 node_modules
 *.xml
+/from_db
+/parts_old
