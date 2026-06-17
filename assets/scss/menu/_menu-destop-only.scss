@@ -3,6 +3,9 @@
 :root{
   --before-after-width:220px;
 }
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{
+  background: var(--wp--preset--color--base);
+}
 html:not(.has-modal-open) .wp-block-navigation .wp-block-navigation-item__label{
   white-space: nowrap;
   }
@@ -195,3 +198,37 @@ html:not(.has-modal-open) .wp-block-navigation__container.is-style-main {
     width: 100%;
   }
 }
+
+
+
+    header.with-bg{
+        .navigation-logo-centered__container {
+            background: var(--wp--preset--color--base) !important;
+        }
+    }
+    .navigation-logo-centered__container {
+        padding-top: .5rem !important;
+        padding-bottom: .5rem !important;
+
+        @include m($breakpoint-mobitab) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .wp-block-site-logo {
+                margin: 0 !important;
+            }
+
+            .wp-block-navigation {
+                margin: 0 !important;
+            }
+
+            .wp-block-site-logo.is-default-size img {
+                width: 76px;
+            }
+
+            .navigation-logo-centered {
+                min-height: auto !important;
+            }
+        }
+    }

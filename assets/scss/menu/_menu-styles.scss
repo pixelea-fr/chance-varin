@@ -55,7 +55,7 @@ html:not(.has-modal-open) {
                   &:before,
                  &:after {
                     // couleur des bar de sous menu
-                     background: white !important;
+                     background: var(--wp--preset--color--base) !important;
                  }
              }
         }

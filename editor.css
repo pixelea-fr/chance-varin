@@ -1920,7 +1920,7 @@
 }
 
 .is-style-with-line.wp-block-heading, .is-style-with-line.wp-block-post-title {
-  background: white !important;
+  background: var(--wp--preset--color--base) !important;
   display: inline-flex;
   position: relative;
   z-index: 2;

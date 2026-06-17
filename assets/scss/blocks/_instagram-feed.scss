@@ -1,6 +1,6 @@
 #sb_instagram {
   .sbi_photo_wrap:hover .sbi_hover_caption_wrap span {
-    color: #fff !important;
+    color: var(--wp--preset--color--base) !important;
   }
 
   .sbi_meta {

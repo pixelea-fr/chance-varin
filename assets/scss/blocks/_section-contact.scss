@@ -17,7 +17,7 @@
 		--pt : 2.5rem;
 		--img-space-left:clamp(1.5rem, -0.9306rem + 7.7778vw, 5.875rem);
 		--img-space-right:clamp(1.5rem, -1.4167rem + 9.3333vw, 6.75rem);
-		background: linear-gradient(to right, white 60%, var(--wp--preset--color--base-4) 60%);
+		background: linear-gradient(to right, var(--wp--preset--color--base) 60%, var(--wp--preset--color--base-4) 60%);
 		padding-top: var(--pt);
 		padding-bottom:var(--pb);
 		padding-left:var(--img-space-left);

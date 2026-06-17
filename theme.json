@@ -122,7 +122,7 @@
                 {
                     "slug": "base",
                     "name": "Base",
-                    "color": "#FFFFFF"
+                    "color": "#F0F0F0"
                 },
                 {
                     "slug": "base-2",
@@ -132,7 +132,7 @@
                 {
                     "slug": "base-3",
                     "name": "Base 3",
-                    "color": "#F5F6F9"
+                    "color": "#F0F0F0"
                 },
                 {
                     "slug": "base-4",

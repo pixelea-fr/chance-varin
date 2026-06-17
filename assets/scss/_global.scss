@@ -1,6 +1,8 @@
 @use 'index'as *;
 
-
+html{
+    background: var(--wp--preset--color--base);
+}
 .nowrap {
     white-space: nowrap;
 }
@@ -32,39 +34,7 @@
     overflow-x: clip;
 }
 
-html:not(.has-modal-open) {
-    header.with-bg{
-        .navigation-logo-centered__container {
-            background: var(--wp--preset--color--base) !important;
-        }
-    }
-    .navigation-logo-centered__container {
-        padding-top: .5rem !important;
-        padding-bottom: .5rem !important;
 
-        @include m($breakpoint-mobitab) {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            .wp-block-site-logo {
-                margin: 0 !important;
-            }
-
-            .wp-block-navigation {
-                margin: 0 !important;
-            }
-
-            .wp-block-site-logo.is-default-size img {
-                width: 76px;
-            }
-
-            .navigation-logo-centered {
-                min-height: auto !important;
-            }
-        }
-    }
-}
 
 :root{
     @include b(900,1680){
@@ -125,9 +95,9 @@ a.btn-with-arrow,button[type="submit"]{
     line-height: 1.4;
     &:hover{
         background-position: left;
-        color:white;
+        color:var(--wp--preset--color--base);
         &:after{
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8'/%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='var(--wp--preset--color--base)' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8'/%3E%3C/svg%3E");
         }
     }
     &:after{
@@ -246,7 +216,7 @@ a.btn-with-arrow,button[type="submit"]{
         gap: .75rem;
         padding: 1.5rem;
         border: 1px solid var(--wp--preset--color--base-4);
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 6%, white);
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 6%, var(--wp--preset--color--base));
     }
 
     &__source {
@@ -266,7 +236,7 @@ a.btn-with-arrow,button[type="submit"]{
     max-width: 100% !important;
     padding:0 !important;
     background: var(--wp--preset--color--base-4) !important;
-    color: white !important;
+    color: var(--wp--preset--color--base) !important;
     font-family: var(--wp--preset--font-family--base, inherit) !important;
     opacity: 1 !important;
     visibility: visible !important;
@@ -280,7 +250,7 @@ a.btn-with-arrow,button[type="submit"]{
 
     &__header,
     &__header * {
-        color: white !important;
+        color: var(--wp--preset--color--base) !important;
         opacity: 1 !important;
         visibility: visible !important;
     }
@@ -311,9 +281,9 @@ a.btn-with-arrow,button[type="submit"]{
         min-height: 22rem !important;
         position: relative !important;
 
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 92%, white) !important;
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 92%, var(--wp--preset--color--base)) !important;
         
-        color: white !important;
+        color: var(--wp--preset--color--base) !important;
 
         scroll-snap-align: start !important;
         overflow: hidden !important;
@@ -323,9 +293,9 @@ a.btn-with-arrow,button[type="submit"]{
 
         &:hover {
             transform: translateY(-2px) !important;
-            background: color-mix(in srgb, var(--wp--preset--color--base-4) 86%, white) !important;
-            border-right-color: color-mix(in srgb, white 24%, transparent) !important;
-            border-bottom-color: color-mix(in srgb, white 24%, transparent) !important;
+            background: color-mix(in srgb, var(--wp--preset--color--base-4) 86%, var(--wp--preset--color--base)) !important;
+            border-right-color: color-mix(in srgb, var(--wp--preset--color--base) 24%, transparent) !important;
+            border-bottom-color: color-mix(in srgb, var(--wp--preset--color--base) 24%, transparent) !important;
         }
         >*:not(figure){
             padding: 0 .5rem  !important;
@@ -347,13 +317,13 @@ a.btn-with-arrow,button[type="submit"]{
         font-size: clamp(1rem, 1.2vw, 1.15rem) !important;
         font-weight: 700 !important;
         line-height: 1.18 !important;
-        color: white !important;
+        color: var(--wp--preset--color--base) !important;
         opacity: 1 !important;
         visibility: visible !important;
     }
 
     &__item-title a {
-        color: white !important;
+        color: var(--wp--preset--color--base) !important;
         text-decoration: none !important;
         font-family: "Poppins", sans-serif !important;
         font-weight: 500 !important;
@@ -372,7 +342,7 @@ a.btn-with-arrow,button[type="submit"]{
     }
 
     &__item-title a:hover {
-        color: white !important;
+        color: var(--wp--preset--color--base) !important;
     }
 
     &__excerpt {
@@ -428,7 +398,7 @@ a.btn-with-arrow,button[type="submit"]{
         }
 
         .swiper-pagination-bullet-active {
-            background: #ffffff !important;
+            background: var(--wp--preset--color--base) !important;
         }
     }
 }
@@ -444,8 +414,8 @@ a.btn-with-arrow,button[type="submit"]{
 
     &__filters {
         padding: 1.75rem;
-        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 18%, white);
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 6%, white);
+        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 18%, var(--wp--preset--color--base));
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 6%, var(--wp--preset--color--base));
     }
 
     &__filters-grid {
@@ -459,7 +429,7 @@ a.btn-with-arrow,button[type="submit"]{
         margin: 0;
         padding: 1rem 1.25rem;
         border-left: 4px solid var(--wp--preset--color--base-2);
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 10%, white);
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 10%, var(--wp--preset--color--base));
     }
 
     &__cta a {
@@ -472,7 +442,7 @@ a.btn-with-arrow,button[type="submit"]{
         height: stretch;
         padding: 1rem;
         border: 0;
-        background: white;
+        background: var(--wp--preset--color--base);
     }
 
     .wp-block-query-filter__range,
@@ -501,21 +471,21 @@ a.btn-with-arrow,button[type="submit"]{
     .wp-block-query-filter__input {
         width: 100%;
         padding: .75rem .9rem;
-        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 30%, white);
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 4%, white);
+        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 30%, var(--wp--preset--color--base));
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 4%, var(--wp--preset--color--base));
         color: var(--wp--preset--color--base-4);
         font-size: var(--wp--preset--font-size--s);
     }
 
     .wp-block-query-filter-meta__input {
-        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 30%, white);
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 4%, white);
+        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 30%, var(--wp--preset--color--base));
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 4%, var(--wp--preset--color--base));
     }
 
     input.wp-block-query-filter-meta__input.wp-block-query-filter__input[type="number"] {
         padding: .5rem 1rem .3rem 1rem !important;
-        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 30%, white) !important;
-        background: color-mix(in srgb, var(--wp--preset--color--base-4) 4%, white) !important;
+        border: 1px solid color-mix(in srgb, var(--wp--preset--color--base-4) 30%, var(--wp--preset--color--base)) !important;
+        background: color-mix(in srgb, var(--wp--preset--color--base-4) 4%, var(--wp--preset--color--base)) !important;
     }
 
     .wp-block-query-filter__checkboxes {
@@ -562,7 +532,7 @@ a.btn-with-arrow,button[type="submit"]{
     }
 
     .wp-block-query-filter-meta:has(.wp-block-query-filter__range) {
-        background: white;
+        background: var(--wp--preset--color--base);
     }
 
     .wp-block-query-filter__submit,
@@ -582,7 +552,7 @@ a.btn-with-arrow,button[type="submit"]{
     .wp-block-query-filter-apply__button:hover,
     .wp-block-query-filter-apply__reset:hover {
         background: var(--wp--preset--color--base-4);
-        color: white;
+        color: var(--wp--preset--color--base);
     }
 
     .wp-block-query-filter-apply {
@@ -602,7 +572,7 @@ a.btn-with-arrow,button[type="submit"]{
 
 .chance-varin-query .wp-block-query-filter-apply__button {
     background: var(--wp--preset--color--base-4);
-    color: white;
+    color: var(--wp--preset--color--base);
 }
 
 .chance-varin-query .wp-block-query-filter-apply__button:hover {

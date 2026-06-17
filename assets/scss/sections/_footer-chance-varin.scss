@@ -10,7 +10,7 @@ footer{
 .footer-chance-varin{
     background-image:linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.80) 41.35%,
+      color-mix(in srgb, var(--wp--preset--color--base) 80%, transparent) 41.35%,
       rgba(255, 255, 255, 0.24) 100%
     ),url("./assets/images/footer-bg.svg");
     background-repeat: no-repeat;
